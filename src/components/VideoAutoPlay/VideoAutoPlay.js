@@ -1,10 +1,13 @@
 import { useEffect, useState, useRef } from "react";
 
-const videoIntro = "https://www.w3schools.com/tags/movie.mp4";
-const videoLoop =
-  "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
+// 
+// TOUT LE AUTOPLAY DE https://stackoverflow.com/a/72444123
+// 
 
-function App() {
+// const videoIntro = "https://www.w3schools.com/tags/movie.mp4";
+// const videoLoop = "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
+
+function VideoAutoPlay({videoIntro, videoLoop}) {
   const [vidIndex, setVidIndex] = useState(0);
   const ref = useRef(null);
   useEffect(() => {
@@ -19,15 +22,21 @@ function App() {
         src={videoIntro}
         autoPlay
         muted
+        controls
         onEnded={() => setVidIndex((idx) => idx + 1)}
+        type="video/mp4"
       />
       <video
         style={{ display: vidIndex === 0 ? "none" : "block" }}
         src={videoLoop}
         muted
         loop
+        controls
         ref={ref}
+        type="video/mp4"
       />
     </div>
   );
 }
+
+export default VideoAutoPlay
