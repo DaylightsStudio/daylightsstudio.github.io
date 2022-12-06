@@ -2,23 +2,40 @@ import './App.css';
 import Daylights from './pages/daylights/daylights'
 import Potter from './pages/potter/potter'
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Root from './routes';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root/>,
+  },
+  {
+    path: "/daylights",
+    element: <Daylights/>,
+  },
+  {
+    path: "/potter",
+    element: <Potter/>,
+  },
+]);
 
 function App() {
   return (
     <div className="App">
 
-    <header className="App-header">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/">
-          <Route index element={<App />} />
-          <Route path="potter" element={<Potter />} />
-          <Route path="daylights" element={<Daylights />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    </header>
+      <header className="App-header"> 
+        <React.StrictMode>
+          <RouterProvider router={router} />
+        </React.StrictMode>
+      </header>
     </div>
   );
 }
