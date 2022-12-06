@@ -1,3 +1,51 @@
+.parallax-effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vmin;
+  height: 40vmin;
+  background: url(./assets/background-2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+
+  transform-style: preserve-3d;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48vmin;
+  height: 48vmin;
+  background: url(./assets/background.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+
+  transform-style: preserve-3d;
+}
+
+.middleground {
+  transform: translateZ(15px) scale(1.2);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.foreground {
+  transform: translateZ(40px) translateY(-25px) scale(1.1);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .App {
   text-align: center;
 }
