@@ -11,7 +11,8 @@ function Potter() {
             fg={foreground}
             mg={middleground} 
             bg={background}
-            width={ConstantsPageCarte.TiltCardWidget_width}/> 
+            width="32vmin"
+            /> 
     );
 }
 
