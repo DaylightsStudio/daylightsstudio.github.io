@@ -11,7 +11,7 @@ function Daylights() {
             fg={foreground}
             mg={middleground} 
             bg={background}
-            width={ConstantsPageCarte.TiltCardWidget_width}/> 
+            width={ConstantsPageCarte.TiltCardWidget_width} /> 
     );
 }
 

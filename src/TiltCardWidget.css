@@ -8,21 +8,18 @@
 }
 
 .background {
-    transform: translateZ(0px);
     position:absolute;
     top: 0px;
     left: 0px;
 }
 
 .middleground {
-    transform: translateZ(25px) scale(1.2);
     position:absolute;
     top: 0px;
     left: 0px;
 }
 
 .foreground {
-    transform: translateZ(40px) translateY(-25px) scale(1.1);
     position:absolute;
     top: 0px;
     left: 0px;
