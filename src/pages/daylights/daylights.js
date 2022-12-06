@@ -7,7 +7,7 @@ import background from './assets/background.png';
 
 function Daylights() {
     return (
-        <TiltCardWidget fg={foreground} mg={middleground}/> 
+        <TiltCardWidget fg={foreground} mg={middleground} bg={background}/> 
     );
 }
 

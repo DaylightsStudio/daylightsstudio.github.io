@@ -1,6 +1,4 @@
 import './App.css';
-import Tilt from 'react-parallax-tilt';
-import TiltCardWidget from './TiltCardWidget';
 import Daylights from './pages/daylights/daylights'
 import Potter from './pages/potter/potter'
 
@@ -11,9 +9,7 @@ function App() {
     <div className="App">
 
     <header className="App-header">
-       
-
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/">
           <Route index element={<App />} />
