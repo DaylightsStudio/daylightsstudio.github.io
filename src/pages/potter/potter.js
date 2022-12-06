@@ -7,7 +7,7 @@ import background from './assets/background.png';
 
 function Potter() {
     return (
-        <TiltCardWidget text="potter" fg={foreground} mg={middleground}/> 
+        <TiltCardWidget fg={foreground} mg={middleground}/> 
     );
 }
 

@@ -4,7 +4,6 @@ import Tilt from 'react-parallax-tilt';
 function TiltCardWidget(props) {
       return (
         <div>
-            <h1> bonjour je suis {props.text}</h1>
             <Tilt
                 className="background"
                 tiltMaxAngleX={20}
