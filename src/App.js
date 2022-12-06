@@ -1,16 +1,27 @@
 import './App.css';
 import Tilt from 'react-parallax-tilt';
 import TiltCardWidget from './TiltCardWidget';
-import foreground from './assets/foreground.png';
-import middleground from './assets/middleground.png';
-import background from './assets/background.png';
+import Daylights from './pages/daylights/daylights'
+import Potter from './pages/potter/potter'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
 
     <header className="App-header">
-      <TiltCardWidget />  
+       
+
+      <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<App />} />
+          <Route path="potter" element={<Potter />} />
+          <Route path="daylights" element={<Daylights />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </header>
     </div>
   );
