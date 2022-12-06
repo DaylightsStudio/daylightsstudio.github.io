@@ -45,3 +45,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* ====================================================================== */
+/* ========================= ADAPTATIONS MOBILE ========================= */
+/* ====================================================================== */
+
+/* si la largeur d'écran est d'au moins 601px, ordinateur */
+@media screen and (min-width: 601px) {
+
+}
+
+/* si la taille d'écran est moins de 600px, mobile */
+@media screen and (max-width: 600px) {
+	.background {
+    transform: translateY(-15px);
+  }
+}
