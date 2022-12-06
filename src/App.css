@@ -1,22 +1,23 @@
-.background {
+.parallax-tilt {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 48vmin;
   height: 48vmin;
-  background: url(./assets/background.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
 
   transform-style: preserve-3d;
 }
 
+.background {
+  transform: translateZ(0px);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .middleground {
-  transform: translateZ(15px) scale(1.2);
+  transform: translateZ(25px) scale(1.2);
   position:absolute;
   top: 0px;
   left: 0px;

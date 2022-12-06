@@ -5,7 +5,7 @@ function TiltCardWidget(props) {
       return (
         <div>
             <Tilt
-                className="background"
+                className="parallax-tilt"
                 tiltMaxAngleX={20}
                 tiltMaxAngleY={10}
                 tiltReverse={true}
@@ -16,6 +16,7 @@ function TiltCardWidget(props) {
 
                 <img src={props.fg} style={{height: "auto", width: "48vmin"}} className="foreground" alt="pic" />
                 <img src={props.mg} style={{height: "auto", width: "48vmin"}} className="middleground" alt="pic" />
+                <img src={props.bg} style={{height: "auto", width: "48vmin"}} className="background" alt="pic" />
             </Tilt> 
         </div>
     ); 
