@@ -11,7 +11,7 @@ function TiltCardWidget({
     maxTiltAngleY = 10,
     foregroundTransformCSS = "translateZ(40px) translateY(-25px) scale(1.1)",
     middlegroundTransformCSS = "translateZ(25px) scale(1.2)",
-    backgroundTransformCSS = "translateZ(0px)",
+    backgroundTransformCSS = "translateZ(0px) translateY(-20px) scale(1.2)",
  }) {
       return (
         <div>

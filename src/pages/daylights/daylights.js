@@ -11,7 +11,8 @@ function Daylights() {
             fg={foreground}
             mg={middleground} 
             bg={background}
-            width={ConstantsPageCarte.TiltCardWidget_width} /> 
+            width={ConstantsPageCarte.TiltCardWidget_width} 
+            backgroundTransformCSS="translateZ(0px) scale(1.2)"/> 
     );
 }
 
