@@ -1,10 +1,9 @@
 import React from 'react';
 import TiltCardWidget from '../../TiltCardWidget';
-import Tilt from 'react-parallax-tilt';
 import foreground from './assets/foreground.png';
 import middleground from './assets/middleground.png';
 import background from './assets/background.png';
-import Constants from '../../constants'
+import ConstantsPageCarte from '../../constants'
 
 function Daylights() {
     return (
@@ -12,7 +11,7 @@ function Daylights() {
             fg={foreground}
             mg={middleground} 
             bg={background}
-            width={Constants.TiltCardWidget_width}/> 
+            width={ConstantsPageCarte.TiltCardWidget_width}/> 
     );
 }
 

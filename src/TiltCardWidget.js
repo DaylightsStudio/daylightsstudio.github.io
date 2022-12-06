@@ -7,7 +7,7 @@ function TiltCardWidget({ fg, mg, bg, width }) {
         <div>
             <Tilt
                 className="parallax-tilt"
-                tiltMaxAngleX={20}
+                tiltMaxAngleX={10}
                 tiltMaxAngleY={10}
                 tiltReverse={true}
                 perspective={1000}
@@ -16,9 +16,9 @@ function TiltCardWidget({ fg, mg, bg, width }) {
                 gyroscope={true} 
                 style={{height: width, width: width}}>
 
-                <img src={fg} style={{height: "auto", width: width}} className="foreground" alt="pic" />
-                <img src={mg} style={{height: "auto", width: width}} className="middleground" alt="pic" />
-                <img src={bg} style={{height: "auto", width: width}} className="background" alt="pic" />
+                <img src={fg} style={{width: width}} className="foreground" alt="pic" />
+                <img src={mg} style={{width: width}} className="middleground" alt="pic" />
+                <img src={bg} style={{width: width}} className="background" alt="pic" />
             </Tilt> 
         </div>
     ); 
