@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import './TiltCardWidget.css'
 
-function TiltCardWidget(props) {
+function TiltCardWidget({ fg, mg, bg, width }) {
       return (
         <div>
             <Tilt
@@ -13,11 +13,12 @@ function TiltCardWidget(props) {
                 perspective={1000}
                 transitionSpeed={1500}
                 scale={1.1}
-                gyroscope={true} >
+                gyroscope={true} 
+                style={{height: width, width: width}}>
 
-                <img src={props.fg} style={{height: "auto", width: "48vmin"}} className="foreground" alt="pic" />
-                <img src={props.mg} style={{height: "auto", width: "48vmin"}} className="middleground" alt="pic" />
-                <img src={props.bg} style={{height: "auto", width: "48vmin"}} className="background" alt="pic" />
+                <img src={fg} style={{height: "auto", width: width}} className="foreground" alt="pic" />
+                <img src={mg} style={{height: "auto", width: width}} className="middleground" alt="pic" />
+                <img src={bg} style={{height: "auto", width: width}} className="background" alt="pic" />
             </Tilt> 
         </div>
     ); 
