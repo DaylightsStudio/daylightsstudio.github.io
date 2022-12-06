@@ -5,11 +5,16 @@ export default function Root() {
           <h1>Router</h1>
           <nav>
             <ul>
+              {/* Faire en sorte que la liste se charge automatiquement ici!! */}
               <li>
-                <a href={`potter`} color="white">Potter</a>
+                <button>
+                  <a href={`potter`}>Potter</a>
+                </button>
               </li>
               <li>
-                <a href={`daylights`} color="white">Daylights</a>
+                <button>
+                  <a href={`daylights`}>Daylights</a>
+                </button>
               </li>
             </ul>
           </nav>
