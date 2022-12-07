@@ -24,16 +24,18 @@ def list_files(dir):
             # gather all files
             allfiles = os.listdir(source)
             
+            os.makedirs(nouvelEmplacement)
+
             # iterate on all files to move them to destination folder
             for f in allfiles:
                 src_path = os.path.join(source, f)
                 dst_path = os.path.join(destination, f)
                 shutil.move(src_path, dst_path)
 
-            os.makedirs(nouvelEmplacement)
+            
             # os.rename(ancienEmplacement, nouvelEmplacement)
 
-            f = open(f"{nomCarte}.js", "x")
+            f = open(f"./src/pages/{nomCarte}/{nomCarte}.js", "x")
             f.write("""
                 import React from 'react';
                 import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
