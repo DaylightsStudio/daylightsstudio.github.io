@@ -13,10 +13,10 @@ def list_files(dir):
             nomCarteCap = nomCarte.capitalize()
 
             ancienEmplacement = str(f"./src/pages/{d}/")
-            print(ancienEmplacement)
+            # print(ancienEmplacement)
 
             nouvelEmplacement = str(f"./src/pages/{nomCarte}/assets/")
-            print(nouvelEmplacement)
+            # print(nouvelEmplacement)
 
             source = ancienEmplacement
             destination = nouvelEmplacement
@@ -56,7 +56,6 @@ def list_files(dir):
             """)
             f.close()
 
-            print("\n\n\n")
             print(f"import {nomCarteCap} from './pages/{nomCarte}/{nomCarte}'")
 
 list_files("src/pages")
