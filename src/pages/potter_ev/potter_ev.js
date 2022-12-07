@@ -10,7 +10,9 @@ function Potter_ev() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} /> 
+            bg={background} 
+            backgroundTransformCSS="translateZ(0px) translateY(-10px) translateX(60px) scale(1.2)"
+            middlegroundTransformCSS = "translateZ(25px) scale(1.15)"/> 
     );
 }
 
