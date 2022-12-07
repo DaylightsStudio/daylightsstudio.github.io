@@ -72,6 +72,11 @@ import Root from './routes';
 
 
 const router = createBrowserRouter([
+
+  {
+    path: "/",
+    element: <Root/>,
+  },
   {path: '/liqueur', element: <Liqueur />,},
   {path: '/recruit', element: <Recruit />,},
   {path: '/dcriss', element: <Dcriss />,},
