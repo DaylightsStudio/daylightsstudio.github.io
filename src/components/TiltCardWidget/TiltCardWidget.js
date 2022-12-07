@@ -6,7 +6,7 @@ function TiltCardWidget({
     fg,
     mg,
     bg,
-    width,
+    width = "48vmin",
     maxTiltAngleX = 10,
     maxTiltAngleY = 10,
     foregroundTransformCSS = "translateZ(40px) translateY(-25px) scale(1.1)",

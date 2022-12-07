@@ -11,7 +11,6 @@ function Potter() {
             fg={foreground}
             mg={middleground} 
             bg={background}
-            width="32vmin"
             /> 
     );
 }
