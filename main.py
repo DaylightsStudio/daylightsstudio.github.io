@@ -43,7 +43,7 @@ def list_files(dir):
                 import middleground from './assets/middleground.png';
                 import background from './assets/background.png';
 
-                function {nomCarteCap}() {
+                function """ + nomCarteCap + """() {
                     return (
                         <TiltCardWidget 
                             fg={foreground}
@@ -52,9 +52,11 @@ def list_files(dir):
                     );
                 }
 
-                export default {nomCarteCap}};
+                export default """ + nomCarteCap + """;
             """)
-            
             f.close()
+
+            print("\n\n\n")
+            print(f"import {nomCarteCap} from './pages/{nomCarte}/{nomCarte}'")
 
 list_files("src/pages")
