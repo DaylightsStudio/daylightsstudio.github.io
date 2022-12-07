@@ -1,7 +1,7 @@
 import shutil
 import os
 
-def list_files(dir):
+def deplacerFichiers(dir):
 
     foreground = "{foreground}"
     middleground = "{middleground}"
@@ -37,25 +37,49 @@ def list_files(dir):
 
             f = open(f"./src/pages/{nomCarte}/{nomCarte}.js", "x")
             f.write("""
-                import React from 'react';
-                import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
-                import foreground from './assets/foreground.png';
-                import middleground from './assets/middleground.png';
-                import background from './assets/background.png';
+import React from 'react';
+import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
+import foreground from './assets/foreground.png';
+import middleground from './assets/middleground.png';
+import background from './assets/background.png';
 
-                function """ + nomCarteCap + """() {
-                    return (
-                        <TiltCardWidget 
-                            fg={foreground}
-                            mg={middleground} 
-                            bg={background} /> 
-                    );
-                }
+function """ + nomCarteCap + """() {
+    return (
+        <TiltCardWidget 
+            fg={foreground}
+            mg={middleground} 
+            bg={background} /> 
+    );
+}
 
-                export default """ + nomCarteCap + """;
+export default """ + nomCarteCap + """;
             """)
             f.close()
 
+
+            
+
+def afficherImports(dir):
+    for root, dirs, files in os.walk(dir):
+        for d in dirs:
+
+            nomCarte = d[3:].replace(" ", "_").lower()
+            nomCarteCap = nomCarte.capitalize()
+
             print(f"import {nomCarteCap} from './pages/{nomCarte}/{nomCarte}'")
 
-list_files("src/pages")
+def afficherRoutes(dir):
+    for root, dirs, files in os.walk(dir):
+        for d in dirs:
+
+            nomCarte = d[3:].replace(" ", "_").lower()
+            nomCarteCap = nomCarte.capitalize()
+            
+            print("{path: '/" + nomCarte + "', element: <" + nomCarteCap + " />,},")
+
+
+# deplacerFichiers("src/pages")
+
+afficherImports("src/pages")
+print()
+afficherRoutes("src/pages")
