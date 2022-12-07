@@ -78,7 +78,7 @@ def afficherRoutes(dir):
             print("{path: '/" + nomCarte + "', element: <" + nomCarteCap + " />,},")
 
 
-# deplacerFichiers("src/pages")
+deplacerFichiers("src/pages")
 
 afficherImports("src/pages")
 print()
