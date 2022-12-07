@@ -15,11 +15,23 @@ def list_files(dir):
             ancienEmplacement = str(f"./src/pages/{d}/")
             print(ancienEmplacement)
 
-            nouvelEmplacement = str(f"./src/pages/{nomCarte}/assets")
+            nouvelEmplacement = str(f"./src/pages/{nomCarte}/assets/")
             print(nouvelEmplacement)
 
+            source = ancienEmplacement
+            destination = nouvelEmplacement
+            
+            # gather all files
+            allfiles = os.listdir(source)
+            
+            # iterate on all files to move them to destination folder
+            for f in allfiles:
+                src_path = os.path.join(source, f)
+                dst_path = os.path.join(destination, f)
+                shutil.move(src_path, dst_path)
+
             os.makedirs(nouvelEmplacement)
-            os.rename(ancienEmplacement, nouvelEmplacement)
+            # os.rename(ancienEmplacement, nouvelEmplacement)
 
             f = open(f"{nomCarte}.js", "x")
             f.write("""
