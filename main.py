@@ -77,9 +77,21 @@ def afficherRoutes(dir):
             
             print("{path: '/" + nomCarte + "', element: <" + nomCarteCap + " />,},")
 
+def afficherBoutonsRouter(dir):
+    for root, dirs, files in os.walk(dir):
+        for d in dirs:
 
-deplacerFichiers("src/pages")
+            nomCarte = d.replace(" ", "_").lower()
+            nomCarteCap = nomCarte.capitalize()
+            
+            print("<li><button><a href={`" + nomCarte + "`}>" + nomCarteCap + "</a></button></li>")
 
-afficherImports("src/pages")
+
+#deplacerFichiers("src/pages")
+
+#afficherImports("src/pages")
 print()
-afficherRoutes("src/pages")
+#afficherRoutes("src/pages")
+
+afficherBoutonsRouter("src/pages")
+
