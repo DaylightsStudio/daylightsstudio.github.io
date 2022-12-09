@@ -10,7 +10,8 @@ function Bat_titan() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} /> 
+            bg={background} 
+            middlegroundTransformCSS = "translateZ(25px) translateY(-15px) scale(1.1)"/> 
     );
 }
 
