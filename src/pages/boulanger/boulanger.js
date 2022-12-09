@@ -10,7 +10,8 @@ function Boulanger() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} /> 
+            bg={background} 
+            backgroundTransformCSS="translateZ(0px) translateY(60px) translateX(-45px) scale(1.2)"/> 
     );
 }
 
