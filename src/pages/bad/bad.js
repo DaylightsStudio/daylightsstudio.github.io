@@ -10,7 +10,8 @@ function Bad() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} /> 
+            bg={background} 
+            middlegroundTransformCSS = "translateZ(25px) translateY(-45px) translateX(15px) scale(1.1)"/> 
     );
 }
 
