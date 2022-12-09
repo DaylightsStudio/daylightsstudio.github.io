@@ -11,7 +11,7 @@ function Lucyfer_ev() {
             fg={foreground}
             mg={middleground} 
             bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-100px) translateX(-20px) scale(1.05)"
+            middlegroundTransformCSS = "translateZ(25px) translateY(-90px) translateX(-20px) scale(1.05)"
             backgroundTransformCSS="translateZ(0px) translateY(0px) scale(1.2)" /> 
     );
 }
