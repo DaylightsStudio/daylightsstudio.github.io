@@ -10,7 +10,8 @@ function Nightshadows() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} /> 
+            bg={background}
+            backgroundTransformCSS="translateZ(0px) translateY(0px) scale(1.2)"/> 
     );
 }
 
