@@ -1,15 +1,15 @@
+import * as React from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+} from "react-router-dom";
+import CarteLayout from "../layout/carteLayout";
+
 export default function Carte() {
     return (
-      <>
-        <div>
-          <h1>Router</h1>
-          <nav>
-            <ul>
-              {}
-              <li><button><a href={`liqueur`}>Liqueur</a></button></li>
-            </ul>
-          </nav>
-        </div>
-      </>
+        <CarteLayout>
+            <h1>My App</h1>
+        </CarteLayout>
     );
-  }
+}

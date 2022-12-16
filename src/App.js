@@ -60,6 +60,7 @@ import Max_the_james from './pages/max_the_james/max_the_james'
 import Liqueur_anti_t from './pages/liqueur_anti_t/liqueur_anti_t'
 
 
+
 import './App.css';
 import {
   createBrowserRouter,
@@ -69,6 +70,8 @@ import {
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Root from './routes';
+import Carte from './routes';
+import CarteLayout from './layout/carteLayout'
 
 
 const router = createBrowserRouter([
@@ -76,6 +79,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
+  },
+  {
+    path: '/carte', 
+    element: <Carte />,
   },
   {path: '/adaoh', element: <Adaoh />,},
   {path: '/aska', element: <Aska />,},

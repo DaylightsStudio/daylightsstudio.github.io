@@ -6,6 +6,7 @@ export default function Root() {
           <nav>
             <ul>
               {/* Faire en sorte que la liste se charge automatiquement ici!! */}
+                <li><button><a href={`carte`}>Test Carte</a></button></li>
                 <li><button><a href={`adaoh`}>Adaoh</a></button></li>
                 <li><button><a href={`aska`}>Aska</a></button></li>
                 <li><button><a href={`bad_casino`}>Bad_casino</a></button></li>
