@@ -3,6 +3,7 @@ import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
 import foreground from './assets/foreground.png';
 import middleground from './assets/middleground.png';
 import background from './assets/background.png';
+import '../../components/pageCarte.css'
 
 
 const jsonData = {
@@ -38,19 +39,43 @@ const jsonData = {
     }
 }
 
+
 function Adaoh() {
+    
+    console.log(jsonData)
+
     return (
-        <div className="content">
-            <h1>{jsonData["adaoh"]["nom"]}</h1>
 
-            
+        <div>
+            <h1 id='nomCarte'>{jsonData["adaoh"]["nom"]}</h1>
+            <p>{jsonData["adaoh"]["description"]["bio"]}</p>
+            <div className="container">
+                <div className="item" id="carte">
+                    <TiltCardWidget
+                        fg={foreground}
+                        mg={middleground}
+                        bg={background}
+                        middlegroundTransformCSS = "translateZ(25px) translateY(-25px) scale(1.1)" />
+                </div>
 
-            <TiltCardWidget
-                fg={foreground}
-                mg={middleground}
-                bg={background}
-                middlegroundTransformCSS = "translateZ(25px) translateY(-25px) scale(1.1)" />
-
+                <div className="item" id="description">
+                    <table>
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
         </div>
     );
 }

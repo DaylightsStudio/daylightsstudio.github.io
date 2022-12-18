@@ -1,0 +1,27 @@
+body {
+    background-color: #24002f;
+    color: #FAEBFF;
+    text-align: center;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    transition: 0.3s;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+}
+
+.item {
+
+    width: 50%;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FAEBFF;
+        color: #24002f;
+        transition: 0.3s;
+    }
+
+}
