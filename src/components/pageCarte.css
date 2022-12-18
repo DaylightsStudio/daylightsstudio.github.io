@@ -7,6 +7,11 @@ body {
     transition: 0.3s;
 }
 
+::selection {
+    background: #e597ff;
+    color: #24002f;
+}
+
 .container {
     margin-top: 100px;
     display: flex;
@@ -24,4 +29,8 @@ body {
         transition: 0.3s;
     }
 
+    ::selection {
+        background: #590076;
+        color: #FAEBFF;
+    }
 }
