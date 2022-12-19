@@ -58,6 +58,7 @@ import Daylights from '../cartes/daylights/daylights'
 import Potter from '../cartes/potter/potter'
 import Max_the_james from '../cartes/max_the_james/max_the_james'
 import Liqueur_anti_t from '../cartes/liqueur_anti_t/liqueur_anti_t'
+import NotFound from '../cartes/not_found/not_found'
 
 
 import {
