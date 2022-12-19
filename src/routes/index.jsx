@@ -8,6 +8,7 @@ export default function Root() {
               {/* Faire en sorte que la liste se charge automatiquement ici!! */}
                 <li><button><a href={`carte`}>Test Carte</a></button></li>
                 <li><button><a href={`adaoh`}>Adaoh</a></button></li>
+                <li><button><a href={`carte?n=adaoh`}>Adaoh EN PARAMS!!!</a></button></li>
                 <li><button><a href={`aska`}>Aska</a></button></li>
                 <li><button><a href={`bad_casino`}>Bad_casino</a></button></li>
                 <li><button><a href={`bad_ev`}>Bad_ev</a></button></li>

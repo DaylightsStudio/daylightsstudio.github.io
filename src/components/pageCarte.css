@@ -3,7 +3,7 @@ body {
     color: #FAEBFF;
     text-align: center;
     justify-content: left;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
     transition: 0.3s;
 }
 
@@ -15,11 +15,15 @@ body {
 .container {
     margin-top: 100px;
     display: flex;
+    align-items: center;
 }
 
 .item {
-
     width: 50%;
+}
+
+#carte {
+    margin-left: 100px;
 }
 
 @media (prefers-color-scheme: light) {
