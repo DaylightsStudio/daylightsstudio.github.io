@@ -80,7 +80,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/carte",
-        element: <Carte/>,
+        element: <CarteLayout/>,
     },
     {path: '/adaoh', element: <Adaoh />,},
     {path: '/aska', element: <Aska />,},
