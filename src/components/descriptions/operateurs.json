@@ -1,30 +1,11 @@
 {
-    "NotFound" : {
+    "not_found" : {
         "nom" : "Erreur!",
         "description" : {
-            "bio" : "La carte demandée est introuvable.",
-            "chaine" : ""
+            "bio" : "La carte demandée est introuvable."
         },
         "carte" : {
-            "numero" : 0,
-            "categorie" : "NotFound",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "",
-                    "numero" : "",
-                    "sous_titre" : "",
-                    "description" : "",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "",
-                    "numero": "",
-                    "sous_titre" : "",
-                    "description" : "",
-                    "reference" : ""
-                }
-            }
+            "categorie" : "not_found"
         }        
     },
 
@@ -55,5 +36,25 @@
                 }
             }
         }        
+    },
+    
+    "crate" : {
+        "nom" : "Nom complet de la carte avec espaces et majuscules",
+        "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
+        "carte" : {
+            "numero" : 37,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "nom du bonus avec espaces et majuscules comme il faut",
+                "avantage": {
+                    "universel" : "avantage de la carte pour tout le monde, ex: +30PV",
+                    "specifique" : {
+                        "cible" : "nom de la carte sans espaces, comme la premiere ligne. supprimer categorie cible si inutile",
+                        "avantage" : "avantage pour la carte cible, comme la carte OS pour Kayla, double"
+                    }
+                }   
+            }
+        }        
     }
+    
 }
