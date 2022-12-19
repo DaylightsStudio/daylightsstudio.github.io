@@ -3,15 +3,35 @@ import Carte from '../pages/Carte';
 
 const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
-const nomCarte = params.get('n');
+const nomCarte = carteExiste();
+
+function carteExiste() {
+    let isCarteExiste = false
+
+    Object.entries(jsonData).forEach(elem => {
+        if (elem[0] == params.get('n')) {
+            isCarteExiste = true;
+        }
+    });
+    
+
+    if (isCarteExiste) {
+        return params.get('n');
+    } else {
+        console.log("not found ?")
+        return "NotFound"
+    }
+}
+
+
 
 function CarteLayout() {
     return (
         <div>
             <Carte nomCarte={nomCarte} />
             <div>
-                <h1 id='nomCarte'>{jsonData["adaoh"]["nom"]}</h1>
-                <p>{jsonData["adaoh"]["description"]["bio"]}</p>
+                <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
+                <p>{jsonData[nomCarte]["description"]["bio"]}</p>
                 <div className="container">
                     <div className="item" id="carte">
 

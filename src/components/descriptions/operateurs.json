@@ -1,4 +1,33 @@
 {
+    "NotFound" : {
+        "nom" : "Erreur!",
+        "description" : {
+            "bio" : "La carte demandée est introuvable.",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 0,
+            "categorie" : "NotFound",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "",
+                    "numero" : "",
+                    "sous_titre" : "",
+                    "description" : "",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "",
+                    "numero": "",
+                    "sous_titre" : "",
+                    "description" : "",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "adaoh" : {
         "nom" : "Adaoh",
         "description" : {

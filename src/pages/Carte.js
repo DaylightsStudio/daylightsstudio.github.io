@@ -77,7 +77,7 @@ const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_e
 
 function getCardComponent(nomCarte) {
     for (let i = 0; i < listeCartes.length; i++) {
-        console.log(listeCartes[i].name.toLowerCase())
+        // console.log(listeCartes[i].name.toLowerCase())
         if (listeCartes[i].name.toLowerCase() === nomCarte) {
             return listeCartes[i];
         }
