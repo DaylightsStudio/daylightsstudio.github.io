@@ -69,11 +69,16 @@ import React from "react";
 
 import Root from '../routes';
 import CarteLayout from '../layout/carteLayout'
+import Carte from './Carte'
 
 const router = createBrowserRouter([
     {
-      path: "/",
-      element: <Root/>,
+        path: "/",
+        element: <Root/>,
+    },
+    {
+        path: "/carte",
+        element: <Carte/>,
     },
     {path: '/adaoh', element: <Adaoh />,},
     {path: '/aska', element: <Aska />,},
