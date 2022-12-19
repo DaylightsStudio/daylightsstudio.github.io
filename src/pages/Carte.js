@@ -67,32 +67,30 @@ const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
 const nomCarte = params.get('n');
 
-const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_ev, Nightshadows, 
-                    Nightsshadows_ev, Bob, Bob_ev, Lucy, Lucyfer_ev, Lil_pink, Reptilien,
-                    Good, Karen, Kayla, Fakefoxx, Aska, Marine, Max_the_james, Misterk, Moma,
-                    Jukebox, Postal_lady, Dunkie, Adaoh, Snef, Ribsy, Dcriss, Recruit, Pogo_mayo, Badtivia,
-                    Gtii, Boulanger, Liqueur, Mystery_box, Niche, Os, Sous_marin, Gaming_chair, Galette,
-                    Plane, Deconnecte, Sushi_mate, Creme_crispe, Mr_pouf, Clef, Lag_monster, Bad_casino,
-                    Reverse, Verse, New_follow, Bat_titan, Platii, Eckko_ev, Bad_ev, Potter, Potter_ev, Liqueur_anti_t]
+const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_ev, Nightshadows,
+    Nightsshadows_ev, Bob, Bob_ev, Lucy, Lucyfer_ev, Lil_pink, Reptilien, Good, Karen, Kayla,
+    Fakefoxx, Aska, Marine, Max_the_james, Misterk, Moma, Jukebox, Postal_lady, Dunkie, Adaoh, 
+    Snef, Ribsy, Dcriss, Recruit, Pogo_mayo, Badtivia, Gtii, Boulanger, Liqueur, Mystery_box, 
+    Niche, Os, Sous_marin, Gaming_chair, Galette, Plane, Deconnecte, Sushi_mate, Creme_crispe, 
+    Mr_pouf, Clef, Lag_monster, Bad_casino, Reverse, Verse, New_follow, Bat_titan, Platii, 
+    Eckko_ev, Bad_ev, Potter, Potter_ev, Liqueur_anti_t]
 
 function getCardComponent(nomCarte) {
-    console.log(nomCarte)
     for (let i = 0; i < listeCartes.length; i++) {
         console.log(listeCartes[i].name.toLowerCase())
         if (listeCartes[i].name.toLowerCase() === nomCarte) {
-            console.log(listeCartes[i])
-          return listeCartes[i];
+            return listeCartes[i];
         }
-      }
-      return <Adaoh/>;
+    }
+    return <p>Carte introuvable!</p>;
 }
 
 function Carte() {
-    
+
     let CarteSelonLeNom = getCardComponent(nomCarte);
 
     return (
-        <CarteSelonLeNom/>
+        <CarteSelonLeNom />
     );
 }
 
