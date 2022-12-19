@@ -11,11 +11,7 @@ const jsonData = {
         "nom" : "Adaoh",
         "description" : {
             "bio" : "Adaoh il fait des tres bon plans a r6",
-            "chaine" : "",
-            "clips" : {
-                "0" : "twitch.tv/...",
-                "1" : "twitch.tv/..."
-            }
+            "chaine" : ""
         },
         "carte" : {
             "numero" : 19,
@@ -26,13 +22,15 @@ const jsonData = {
                     "titre" : "Jai un plan",
                     "numero" : "10",
                     "sous_titre" : "mais on a pas de smoke",
-                    "description" : "fait x, y et z"
+                    "description" : "fait x, y et z",
+                    "reference" : "twitch.tv/..."
                 },
                 "speciale" : {
                     "titre" : "On smoke",
                     "numero": "S+",
                     "sous_titre" : "ladversaire perd un tour le temps que la fumee se dissipe",
-                    "description" : "fait x, y et z"
+                    "description" : "fait x, y et z",
+                    "reference" : "twitch.tv/..."
                 }
             }
         }        
