@@ -57,23 +57,50 @@ function Adaoh() {
                 </div>
 
                 <div className="item" id="description">
+
+                <details>
+                    <summary>
+                        Attaque normale
+                    </summary>
                     <table>
                         <tr>
-                            <th>Company</th>
-                            <th>Contact</th>
+                            <td><b>Nom</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["basique"]["titre"]}</td>
                         </tr>
                         <tr>
-                            <td>Alfreds Futterkiste</td>
-                            <td>Maria Anders</td>
+                            <td><b>Description</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["basique"]["description"]}</td>
                         </tr>
                         <tr>
-                            <td>Centro comercial Moctezuma</td>
-                            <td>Francisco Chang</td>
+                            <td><b>Dommages</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["basique"]["numero"]}</td>
                         </tr>
                     </table>
+                </details>
+
+                <details>
+                    <summary>
+                        Attaque spéciale
+                    </summary>
+                    <table>
+                        <tr>
+                            <td><b>Nom</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["speciale"]["titre"]}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Description</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["speciale"]["description"]}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Dommages</b></td>
+                            <td>{jsonData["adaoh"]["carte"]["attaques"]["speciale"]["numero"]}</td>
+                        </tr>
+                    </table>
+                </details>
+
+
                 </div>
             </div>
-        
         </div>
     );
 }
