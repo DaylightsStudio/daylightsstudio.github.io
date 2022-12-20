@@ -51,10 +51,11 @@ body {
     margin-bottom: 15px;
     border: none;
     border-radius: 15px;
+    width: 80%;
 }
 
 .chakra-accordion__button {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .chakra-accordion__panel {
@@ -62,6 +63,31 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.SectionCarte {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.SectionInfos {
+
+}
+
+@media screen and (max-width: 768px) {
+    .chakra-accordion__item, .chakra-accordion__button {
+        width: 90%;
+    }
+
+    .SectionCarte {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    
+    .SectionCarte .parallax-tilt {
+        margin-left: 25%;
+    }
+}
+
 
 @media (prefers-color-scheme: light) {
     body {

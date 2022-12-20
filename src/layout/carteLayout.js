@@ -165,7 +165,9 @@ function CarteLayout() {
 
             <Flex direction={isLargerThan768 ? "row" : "column-reverse"}>
                 <Box width={info_WidthOver768}>
-                    <TypeCarte />
+                    <div className='SectionInfos'>
+                        <TypeCarte />
+                    </div>
                 </Box>
                 <Box width={carte_WidthOver768}>
                     <div className='SectionCarte' style={{alignContent:'center', margin:'auto', textAlign:'center'}}>
