@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./HeaderBar.css"
+import Logo from './Titans_logo.png'
 
 // // // // // // // // // // // // // // // -=|=- \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 
 // Code pris de/Code taken from https://blog.logrocket.com/create-responsive-navbar-react-css/  \\
@@ -24,6 +25,9 @@ export default function HeaderBar() {
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }>
+            <a href="/" id="logo">
+                <img src={Logo} height="40px" alt="Logo Titans" />
+            </a>
 
         <ul>
           <li>
