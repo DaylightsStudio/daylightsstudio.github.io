@@ -1,6 +1,6 @@
 .containerVideo {
     object-fit: cover;
-    transform: translateY(-45px);
+    transform: translateY(-120px);
     top: 0;
     bottom: 0;
     width: 100%;
