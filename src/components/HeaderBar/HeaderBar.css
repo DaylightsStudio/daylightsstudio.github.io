@@ -14,7 +14,14 @@
     position: fixed;
     transform: translateY(-120px);
     padding: 0.5rem 0rem;
-    color: black;
+    color: #FAEBFF;
+a:link {
+    color: #FAEBFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FAEBFF;
 }
 
 .navigation-menu {
