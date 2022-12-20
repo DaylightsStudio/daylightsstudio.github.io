@@ -12,9 +12,11 @@
     display: flex;
     align-items: center;
     position: fixed;
-    transform: translateY(-120px);
     padding: 0.5rem 0rem;
     color: #FAEBFF;
+
+    /* Deplacer la barre pour quelle soit en haut/touche le haut de l'ecran */
+    transform: translateY(-120px);
 }
 
 .navigation a:link {
