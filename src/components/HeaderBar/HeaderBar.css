@@ -70,8 +70,8 @@
         /* makes menu span full height and width */
         width: 100%;
         height: calc(100vh - 77px);
-        background-color: white;
-        border-top: 1px solid black;
+        background-color: #24002fe4;
+        backdrop-filter: blur(20px);
         display: none;
     }
 
@@ -90,13 +90,16 @@
     }
 
     .navigation-menu li a {
-        color: black;
+        color: #FAEBFF;
         width: 100%;
         padding: 1.5rem 0;
+        font-size: 1.2rem;
     }
 
     .navigation-menu li:hover {
-        background-color: #eee;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #5c0078e4;
     }
 
     #logo {
@@ -106,5 +109,23 @@
         left: 50%;
         margin-left: auto;
         transform: translate(-50%, -50%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FAEBFF;
+        color: #24002f;
+        transition: 0.3s;
+    }
+
+    ::selection {
+        background: #590076;
+        color: #FAEBFF;
+    }
+
+    .chakra-accordion__item, .chakra-accordion__button {
+        background: #f5d7ff;
+        color: #24002f;
     }
 }
