@@ -6,6 +6,7 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
+    useMediaQuery,
     Flex,
     Spacer,
     Square,
@@ -141,18 +142,34 @@ const TypeCarte = () => {
 
 
 function CarteLayout() {
+    // https://github.com/chakra-ui/chakra-ui/discussions/4789#discussioncomment-1442248
+    const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
+
+    let carte_WidthOver768;
+    let info_WidthOver768;
+
+    if (isLargerThan768)
+    {
+        carte_WidthOver768 = "40%";
+        info_WidthOver768 = "60%";
+    } else {
+        carte_WidthOver768 = '{{ base: "100%", md: "50%" }}';
+        info_WidthOver768 = '{{ base: "100%", md: "50%" }}';
+    }
+
     return (
         <div>
             <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
             <p>{jsonData[nomCarte]["description"]["bio"]}</p>
             <p>{jsonData[nomCarte]["carte"]["numero"]}/{Object.keys(jsonData).length - 1}</p>
-            <Flex color='white'>
-                <Box w='40%'>
+
+            <Flex direction={isLargerThan768 ? "row" : "column-reverse"}>
+                <Box width={carte_WidthOver768}>
                     <div className='SectionCarte' style={{alignContent:'center', margin:'auto', textAlign:'center'}}>
                         <Carte nomCarte={nomCarte} />
                     </div>
                 </Box>
-                <Box w='60%'>
+                <Box width={info_WidthOver768}>
                     <TypeCarte />
                 </Box>
             </Flex>
