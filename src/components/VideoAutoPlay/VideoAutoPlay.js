@@ -31,6 +31,7 @@ function VideoAutoPlay({videoIntro, videoLoop}) {
         src={videoLoop}
         muted
         loop
+        autoPlay
         controls
         ref={ref}
         type="video/mp4"
