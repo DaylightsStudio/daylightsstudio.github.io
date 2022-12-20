@@ -15,12 +15,13 @@
     transform: translateY(-120px);
     padding: 0.5rem 0rem;
     color: #FAEBFF;
-a:link {
+}
+
+.navigation a:link {
     color: #FAEBFF;
 }
 
-/* visited link */
-a:visited {
+.navigation a:visited {
     color: #FAEBFF;
 }
 
@@ -120,19 +121,34 @@ a:visited {
 }
 
 @media (prefers-color-scheme: light) {
-    body {
-        background-color: #FAEBFF;
+    .navigation {
+        background-color: #f3d0ffb5;
         color: #24002f;
-        transition: 0.3s;
     }
 
-    ::selection {
-        background: #590076;
-        color: #FAEBFF;
+    .hamburger {
+        color: #24002f;
     }
 
-    .chakra-accordion__item, .chakra-accordion__button {
-        background: #f5d7ff;
+    .navigation a:link {
         color: #24002f;
+    }
+    
+    .navigation a:visited {
+        color: #24002f;
+    }
+
+    @media screen and (max-width: 768px) {
+        .navigation-menu ul {
+            background-color: #FAEBFFe4;
+        }
+
+        .navigation-menu li a {
+            color: #24002f;
+        }
+
+        .navigation-menu li:hover {
+            background-color: #ecb0ffe4;
+        }
     }
 }
