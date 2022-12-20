@@ -1,0 +1,152 @@
+/* https://blog.logrocket.com/create-responsive-navbar-react-css/ */
+
+.navigation {
+    background-color: #45005ab5;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 0.5rem 0rem;
+    color: #FAEBFF;
+
+    /* Deplacer la barre pour quelle soit en haut/touche le haut de l'ecran */
+    transform: translateY(-120px);
+}
+
+.navigation a:link {
+    color: #FAEBFF;
+}
+
+.navigation a:visited {
+    color: #FAEBFF;
+}
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+}
+
+.navigation-menu li {
+    /* removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navigation-menu li a {
+    /* increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.hamburger {
+    /* removes default border on button element */
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    font-size: 2rem;
+    transition: background-color 0.2s ease-in-out;
+    /* positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    display: none;
+    color: #FAEBFF;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+        /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        /* stacks the li tags vertically  */
+        flex-direction: column;
+        /* makes menu span full height and width */
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: #24002fe4;
+        backdrop-filter: blur(20px);
+        display: none;
+    }
+
+    .navigation-menu.expanded ul {
+        transition: 0.2s;
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navigation-menu li {
+        text-align: center;
+        margin: 0;
+    }
+
+    .navigation-menu li a {
+        color: #FAEBFF;
+        width: 100%;
+        padding: 1.5rem 0;
+        font-size: 1.2rem;
+    }
+
+    .navigation-menu li:hover {
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #5c0078e4;
+    }
+
+    #logo {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .navigation {
+        background-color: #f3d0ffb5;
+        color: #24002f;
+    }
+
+    .hamburger {
+        color: #24002f;
+    }
+
+    .navigation a:link {
+        color: #24002f;
+    }
+    
+    .navigation a:visited {
+        color: #24002f;
+    }
+
+    @media screen and (max-width: 768px) {
+        .navigation-menu ul {
+            background-color: #FAEBFFe4;
+        }
+
+        .navigation-menu li a {
+            color: #24002f;
+        }
+
+        .navigation-menu li:hover {
+            background-color: #ecb0ffe4;
+        }
+    }
+}

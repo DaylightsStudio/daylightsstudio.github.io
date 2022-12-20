@@ -1,42 +1,48 @@
 import './App.css';
-import Daylights from './pages/daylights/daylights'
-import Potter from './pages/potter/potter'
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
 import React from "react";
-import ReactDOM from "react-dom/client";
+import Accueil from './pages/Accueil'
+import { ChakraProvider } from '@chakra-ui/react'
+import HeaderBar from './components/HeaderBar/HeaderBar';
 import Root from './routes';
+import CarteLayout from './layout/carteLayout'
+import Cartes from './pages/Cartes'
+import {
+    createBrowserRouter,
+    RouterProvider,
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
+
 
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root/>,
-  },
-  {
-    path: "/daylights",
-    element: <Daylights/>,
-  },
-  {
-    path: "/potter",
-    element: <Potter/>,
-  },
+    {
+        path: "/",
+        element: <Accueil/>,
+    },
+    {
+        path: "/carte",
+        element: <CarteLayout/>,
+    },
+    {
+      path: "/cartes",
+      element: <Cartes/>,
+    }
 ]);
 
 function App() {
   return (
-    <div className="App">
-
-      <header className="App-header"> 
-        <React.StrictMode>
-          <RouterProvider router={router} />
-        </React.StrictMode>
-      </header>
+    // <ChakraProvider resetCSS theme={theme}>
+    <div className='App'>
+      <HeaderBar/>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
     </div>
+      
+      
+    // </ChakraProvider>
   );
 }
 

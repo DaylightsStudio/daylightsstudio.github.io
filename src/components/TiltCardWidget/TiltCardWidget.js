@@ -6,15 +6,16 @@ function TiltCardWidget({
     fg,
     mg,
     bg,
-    width,
+    size = 1,
+    width = "48vmin",
     maxTiltAngleX = 10,
     maxTiltAngleY = 10,
     foregroundTransformCSS = "translateZ(40px) translateY(-25px) scale(1.1)",
     middlegroundTransformCSS = "translateZ(25px) scale(1.2)",
-    backgroundTransformCSS = "translateZ(0px)",
+    backgroundTransformCSS = "translateZ(0px) translateY(-20px) scale(1.2)",
  }) {
       return (
-        <div>
+        <div style={{transform:`scale(${size})`}}>
             <Tilt
                 className="parallax-tilt"
                 tiltMaxAngleX={10}
