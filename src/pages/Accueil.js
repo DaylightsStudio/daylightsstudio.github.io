@@ -1,8 +1,11 @@
 import React from "react";
+import VideoAutoPlay from "../components/VideoAutoPlay/VideoAutoPlay";
 
 function Accueil() {
     return (
-        <div>Accueil</div>
+        <div>
+            <VideoAutoPlay />
+        </div>
     );
 }
 
