@@ -26,7 +26,6 @@ function VideoAutoPlay() {
         style={{ display: vidIndex === 1 ? "none" : "block" }}
         autoPlay
         muted
-        controls
         onEnded={() => setVidIndex((idx) => idx + 1)}>
           <source src={videoIntro} type="video/webm"/>
         </video>
@@ -37,7 +36,6 @@ function VideoAutoPlay() {
         muted
         loop
         autoPlay
-        controls
         ref={ref}
         type="video/mp4"
       />
