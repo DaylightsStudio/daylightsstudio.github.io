@@ -27,10 +27,6 @@
     color: #FAEBFF;
 }
 
-.navigation-menu {
-    margin-left: auto;
-}
-
 .navigation-menu ul {
     display: flex;
     padding: 0;
