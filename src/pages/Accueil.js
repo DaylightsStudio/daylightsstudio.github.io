@@ -4,11 +4,20 @@ import VideoAutoPlay from "../components/VideoAutoPlay/VideoAutoPlay";
 
 function Accueil() {
     return (
-        <div>
-            <div className="containerVideo">
+        <div  className="containerAccueil">
+            <div>
                 <VideoAutoPlay />
                 <button className="btn">ACHETER</button>
             </div>
+
+            <div id="comparerEditions">
+                <div className="flexContainer">
+                    <div class="item">
+                        <h2>Nom item</h2>
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 }
