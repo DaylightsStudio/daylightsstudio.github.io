@@ -1,4 +1,8 @@
 import { useEffect, useState, useRef } from "react";
+import ReactPlayer from 'react-player'
+import videoIntro from './videos/smoke.mp4'
+import videoLoop from './videos/triangle.mp4'
+import './VideoAutoPlay.css'
 
 // 
 // TOUT LE AUTOPLAY DE https://stackoverflow.com/a/72444123
@@ -7,7 +11,7 @@ import { useEffect, useState, useRef } from "react";
 // const videoIntro = "https://www.w3schools.com/tags/movie.mp4";
 // const videoLoop = "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
 
-function VideoAutoPlay({videoIntro, videoLoop}) {
+function VideoAutoPlay() {
   const [vidIndex, setVidIndex] = useState(0);
   const ref = useRef(null);
   useEffect(() => {
@@ -16,17 +20,18 @@ function VideoAutoPlay({videoIntro, videoLoop}) {
     }
   }, [ref, vidIndex]);
   return (
-    <div className="main">
+    <div className="containerVideo">
       <video
+        id="videoBg"
         style={{ display: vidIndex === 1 ? "none" : "block" }}
-        src={videoIntro}
         autoPlay
         muted
         controls
-        onEnded={() => setVidIndex((idx) => idx + 1)}
-        type="video/mp4"
-      />
+        onEnded={() => setVidIndex((idx) => idx + 1)}>
+          <source src={videoIntro} type="video/webm"/>
+        </video>
       <video
+        id="videoBg"
         style={{ display: vidIndex === 0 ? "none" : "block" }}
         src={videoLoop}
         muted
