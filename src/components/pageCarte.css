@@ -26,6 +26,41 @@ body {
     margin-left: 100px;
 }
 
+.TypeAttaque {
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.InfoAttaque {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.SousTitreAttaque {
+    font-weight: bold;
+}
+
+.chakra-accordion__item, .chakra-accordion__button {
+    background: #30003F;
+    color: #FAEBFF;
+    margin: auto;
+    padding: 1px 2vmin;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.chakra-accordion__button {
+    cursor: pointer
+}
+
+.chakra-accordion__panel {
+    padding-bottom: 2vmin;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: #FAEBFF;

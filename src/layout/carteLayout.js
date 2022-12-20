@@ -1,5 +1,18 @@
 import jsonData from '../components/descriptions/operateurs.json'
 import Carte from '../pages/Carte';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
+    Flex,
+    Spacer,
+    Square,
+    Center,
+    Box,
+} from '@chakra-ui/react'
+import '../components/pageCarte.css'
 
 const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
@@ -14,7 +27,7 @@ function carteExiste() {
             isCarteExiste = true;
         }
     });
-    
+
 
     if (isCarteExiste) {
         return nomCarteParam.toLowerCase();
@@ -37,46 +50,90 @@ const TypeCarte = () => {
     else if (categorie == "not_found") { return (<div></div>); }
     else {
         return (
-            <div>
-                <details>
-                    <summary>
-                        Attaque normale
-                    </summary>
-                    <table>
-                        <tr>
-                            <td><b>Nom</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["basique"]["titre"]}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Description</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["basique"]["description"]}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Dommages</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["basique"]["numero"]}</td>
-                        </tr>
-                    </table>
-                </details>
+            <div className=''>
+                <Accordion allowMultiple>
+                    <AccordionItem>
+                        <h2>
+                            <AccordionButton>
+                            <AccordionIcon />
+                                <Box as="span" flex='1' textAlign='left'>
+                                    <div className='TypeAttaque'>
+                                        Attaque basique
+                                    </div>
+                                </Box>
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel>
+                            <div className='InfoAttaque'>
+                                <div className='SousTitreAttaque'>
+                                    Nom:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["titre"]}
+                                </div>
 
-                <details>
-                    <summary>
-                        Attaque spéciale
-                    </summary>
-                    <table>
-                        <tr>
-                            <td><b>Nom</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["speciale"]["titre"]}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Description</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["speciale"]["description"]}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Dommages</b></td>
-                            <td>{jsonData[nomCarte]["carte"]["attaques"]["speciale"]["numero"]}</td>
-                        </tr>
-                    </table>
-                </details>
+                                <br/>
+
+                                <div className='SousTitreAttaque'>
+                                    Description:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["description"]}
+                                </div>
+
+                                <br/>
+
+                                <div className='SousTitreAttaque'>
+                                    Référence:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"]}
+                                </div>
+                            </div>
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem>
+                        <h2>
+                            <AccordionButton>
+                            <AccordionIcon />
+                                <Box as="span" flex='1' textAlign='left'>
+                                    <div className='TypeAttaque'>
+                                        Attaque spéciale
+                                    </div>
+                                </Box>
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel>
+                            <div className='InfoAttaque'>
+                                <div className='SousTitreAttaque'>
+                                    Nom:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["titre"]}
+                                </div>
+                               
+                                <br/>
+
+                                <div className='SousTitreAttaque'>
+                                    Description:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["description"]}
+                                </div>
+                               
+                                <br/>
+
+                                <div className='SousTitreAttaque'>
+                                    Référence:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"]}
+                                </div>
+                            </div>
+                        </AccordionPanel>
+                    </AccordionItem>
+                </Accordion>
             </div>
         );
     }
@@ -86,20 +143,19 @@ const TypeCarte = () => {
 function CarteLayout() {
     return (
         <div>
-            <Carte nomCarte={nomCarte} />
-            <div>
-                <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
-                <p>{jsonData[nomCarte]["description"]["bio"]}</p>
-                <div className="container">
-
-
-                    <div className="item" id="description">
-
-                    <TypeCarte />
-
+            <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
+            <p>{jsonData[nomCarte]["description"]["bio"]}</p>
+            <p>{jsonData[nomCarte]["carte"]["numero"]}/{Object.keys(jsonData).length - 1}</p>
+            <Flex color='white'>
+                <Box w='40%'>
+                    <div className='SectionCarte' style={{alignContent:'center', margin:'auto', textAlign:'center'}}>
+                        <Carte nomCarte={nomCarte} />
                     </div>
-                </div>
-            </div>
+                </Box>
+                <Box w='60%'>
+                    <TypeCarte />
+                </Box>
+            </Flex>
         </div>
     );
 }
