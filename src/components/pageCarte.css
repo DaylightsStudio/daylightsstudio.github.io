@@ -5,6 +5,8 @@ body {
     justify-content: left;
     font-size: calc(10px + 1vmin);
     transition: 0.3s;
+
+    margin-top: 120px;
 }
 
 ::selection {
@@ -71,5 +73,10 @@ body {
     ::selection {
         background: #590076;
         color: #FAEBFF;
+    }
+
+    .chakra-accordion__item, .chakra-accordion__button {
+        background: #f5d7ff;
+        color: #24002f;
     }
 }
