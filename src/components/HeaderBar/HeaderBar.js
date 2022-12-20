@@ -15,6 +15,7 @@ export default function HeaderBar() {
             <button
                 className="hamburger"
                 onClick={() => {setIsNavExpanded(!isNavExpanded)}}>
+                    ☰
             </button>
 
             <a href="/" id="logo">
