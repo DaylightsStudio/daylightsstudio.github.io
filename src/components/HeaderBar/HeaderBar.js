@@ -19,7 +19,7 @@ export default function HeaderBar() {
             </button>
 
             <a href="/" id="logo">
-                <img src={Logo} height="40px" alt="Logo Titans" />
+                <img src={Logo} height="30px" alt="Logo Titans" />
             </a>
             
             <div
