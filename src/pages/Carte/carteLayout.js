@@ -1,5 +1,5 @@
-import jsonData from '../components/descriptions/operateurs.json'
-import Carte from '../pages/Carte';
+import jsonData from '../../components/descriptions/operateurs.json'
+import Carte from './Carte';
 import {
     Accordion,
     AccordionItem,
@@ -13,7 +13,7 @@ import {
     Center,
     Box,
 } from '@chakra-ui/react'
-import '../components/pageCarte.css'
+import './pageCarte.css'
 
 const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);

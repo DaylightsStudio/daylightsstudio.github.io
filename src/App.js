@@ -4,7 +4,7 @@ import Accueil from './pages/Accueil'
 import { ChakraProvider } from '@chakra-ui/react'
 import HeaderBar from './components/HeaderBar/HeaderBar';
 import Root from './routes';
-import CarteLayout from './layout/carteLayout'
+import CarteLayout from './pages/Carte/carteLayout'
 import Cartes from './pages/Cartes'
 import {
     createBrowserRouter,
