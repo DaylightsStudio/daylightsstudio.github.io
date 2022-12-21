@@ -7,7 +7,10 @@ function Accueil() {
         <div  className="containerAccueil">
             <div>
                 <VideoAutoPlay />
-                <button className="btn">ACHETER</button>
+                <button className="btn">
+                    <a href="#comparerEditions">ACHETER</a>
+                    
+                </button>
             </div>
 
             <div id="comparerEditions">
