@@ -161,7 +161,7 @@ function CarteLayout() {
         <div>
             <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
             <p>{jsonData[nomCarte]["description"]["bio"]}</p>
-            <p>{jsonData[nomCarte]["carte"]["numero"]}/{Object.keys(jsonData).length - 1}</p>
+            <p id='numeroCarte'>{jsonData[nomCarte]["carte"]["numero"]}/{Object.keys(jsonData).length - 1}</p>
 
             <Flex direction={isLargerThan768 ? "row" : "column-reverse"}>
                 <Box width={info_WidthOver768}>

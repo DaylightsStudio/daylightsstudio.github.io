@@ -28,6 +28,12 @@ body {
     margin-left: 100px;
 }
 
+#numeroCarte {
+    font-weight: bolder;
+    opacity: 20%;
+    margin-bottom: 100px;
+}
+
 .TypeAttaque {
     margin-left: 30px;
     font-weight: bolder;
@@ -85,6 +91,10 @@ body {
     
     .SectionCarte .parallax-tilt {
         margin-left: 25%;
+    }
+
+    #numeroCarte {
+        margin-bottom: 10px;
     }
 }
 
