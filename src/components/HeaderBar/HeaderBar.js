@@ -27,16 +27,17 @@ export default function HeaderBar() {
 
                 <ul>
                     <li>
-                        <a href="/">Accueil</a>
+                        <Link to="./">Accueil</Link>
+                        <a href="./">Accueil</a>
                     </li>
                     <li>
-                        <a href="/cartes">Cartes</a>
+                        <a href="./cartes">Cartes</a>
                     </li>
                     <li>
-                        <a href="/faq">FAQ</a>
+                        <a href="./faq">FAQ</a>
                     </li>
                     <li>
-                        <a href="/apropos">À propos</a>
+                        <a href="./apropos">À propos</a>
                     </li>
                 </ul>
             </div>

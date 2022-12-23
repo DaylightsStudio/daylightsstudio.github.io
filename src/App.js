@@ -1,17 +1,12 @@
 import './App.css';
 import React from "react";
 import Accueil from './pages/Accueil'
-import { ChakraProvider } from '@chakra-ui/react'
 import HeaderBar from './components/HeaderBar/HeaderBar';
-import Root from './routes';
 import CarteLayout from './pages/Carte/carteLayout'
 import Cartes from './pages/Cartes'
 import {
   createBrowserRouter,
   RouterProvider,
-  BrowserRouter,
-  Routes,
-  Route,
 } from "react-router-dom";
 
 
