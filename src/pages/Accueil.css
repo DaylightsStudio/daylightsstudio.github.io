@@ -28,8 +28,7 @@
 
 .flexContainer {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
     place-content: center;
     margin: auto;
 }
@@ -78,6 +77,15 @@
 }
 
 
+/* si la largeur d'écran est d'au moins 601px, ordinateur */
+@media screen and (min-width: 769px) {
+    .flexContainer {
+		margin-top: 10vh;
+		width: 80vmax;
+        grid-template-columns: 600px 600px 600px;
+	}
+}
+
 @media screen and (max-width: 768px) {
     .containerAccueil .btn {
         left: 50%;
@@ -90,8 +98,14 @@
 
     .flexContainer {
         margin-top: 10vh;
-		width: 50vmax;
-        grid-template-columns: auto;
+		/* width: 90%; */
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-template-columns: 172%;
+    }
+
+    .item {
+        margin: 0 auto;
     }
 }
 
