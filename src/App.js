@@ -38,6 +38,7 @@ function App() {
       <HeaderBar/>
       <React.StrictMode>
         <RouterProvider router={router} />
+        <BrowserRouter basename='/titans'/>
       </React.StrictMode>
     </div>
       
