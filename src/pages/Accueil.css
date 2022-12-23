@@ -42,18 +42,20 @@
     background-color: #380049;
     border-radius: 10px;
     padding: 25px;
+    /* height: 550px; */
 }
 
 .editionTitre {
-
+    height: 15%;
 }
 
 .editionPrix {
-
+    
 }
 
 .editionDescription {
     text-align: left;
+    height: 30%;
 }
 
 .editionListeAttributs {
