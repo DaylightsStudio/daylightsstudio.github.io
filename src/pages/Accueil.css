@@ -39,7 +39,44 @@
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    background-color: #380049;
+    border-radius: 10px;
+    padding: 25px;
 }
+
+.editionTitre {
+
+}
+
+.editionPrix {
+
+}
+
+.editionDescription {
+    text-align: left;
+}
+
+.editionListeAttributs {
+    text-align: left;
+    list-style: none;
+}
+
+.attributEditionInclus {
+
+}
+
+.attributEditionInclus::before {
+    content: '✔️ ';
+}
+
+.attributEditionPasInclus {
+    opacity: 75%;
+}
+
+.attributEditionPasInclus::before {
+    content: '❌ ';
+}
+
 
 @media screen and (max-width: 768px) {
     .containerAccueil .btn {
