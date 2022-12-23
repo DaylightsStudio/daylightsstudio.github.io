@@ -45,7 +45,7 @@ function Accueil() {
                         <h2 className="editionTitre">Pièce de jeu <i>Bad Casino</i></h2>
                         <h3 className="editionPrix">11,50$</h3>
                         <p className="editionDescription">L'incroyable pièce de jeu <i>Bad Casino</i></p>
-                        <ul>
+                        <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Pièce de jeu <i>Bad Casino</i></li>
                             <li className="attributEditionPasInclus">Cartes au hasard</li>
                             <li className="attributEditionPasInclus">Carte au choix</li>
