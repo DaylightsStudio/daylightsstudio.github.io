@@ -18,9 +18,6 @@ import {
 
 const router = createBrowserRouter([
   {
-    basename: '/titans'
-  },
-  {
     path: "/",
     element: <Accueil />,
   },
@@ -41,7 +38,6 @@ function App() {
       <HeaderBar />
       <React.StrictMode>
         <RouterProvider router={router} />
-        <BrowserRouter basename='/titans' />
       </React.StrictMode>
     </div>
 
