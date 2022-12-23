@@ -18,7 +18,7 @@ function Accueil() {
                     <div className="item">
                         <h2 className="editionTitre">Solo Pick</h2>
                         <h3 className="editionPrix">2,50$</h3>
-                        <p className="editionDescription"><b>UNE</b> carte au choix parmis les Titan et les Friend Origin seulement</p>
+                        <p className="editionDescription"><b>Une</b> carte au choix parmis les Titan et les Friend Origin seulement</p>
                         <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Carte au choix</li>
                             <li className="attributEditionPasInclus">Cartes au hasard</li>
@@ -83,7 +83,7 @@ function Accueil() {
                     <div className="item">
                         <h2 className="editionTitre">Boite de rangement</h2>
                         <h3 className="editionPrix">30,00$</h3>
-                        <p className="editionDescription">La magnifique boite de rangement qui peut contenir plus de 60 cartes</p>
+                        <p className="editionDescription">La magnifique boite de rangement qui peut contenir plus de <b>60</b> cartes</p>
                         <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Boite de rangement</li>
                             <li className="attributEditionPasInclus">Cartes holo</li>
@@ -107,7 +107,7 @@ function Accueil() {
                     <div className="item">
                         <h2 className="editionTitre">Deck complet holographique</h2>
                         <h3 className="editionPrix">70,00$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant 6 cartes holographiques</p>
+                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant <b>6</b> cartes holographiques</p>
                         <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Jeu complet</li>
                             <li className="attributEditionInclus">Cartes holo</li>
@@ -129,7 +129,7 @@ function Accueil() {
                     <div className="item">
                         <h2 className="editionTitre">Holo Collector Package</h2>
                         <h3 className="editionPrix">92,00$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant 6 cartes holographiques, avec la boite de rangement ainsi que la pièce <i>Bad Casino</i></p>
+                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant <b>6</b> cartes holographiques, avec la boite de rangement ainsi que la pièce <i>Bad Casino</i></p>
                         <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Jeu complet</li>
                             <li className="attributEditionInclus">Boite de rangement</li>
