@@ -55,7 +55,7 @@ function Accueil() {
                     </div>
                     <div className="item">
                         <h2 className="editionTitre">Holo Collector Package</h2>
-                        <h3 className="editionPrix">92,00$</h3>
+                        <h3 className="editionPrix">103,50$</h3>
                         <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant <b>6</b> cartes holographiques, avec la boite de rangement ainsi que la pièce <i>Bad Casino</i></p>
                         <ul className="editionListeAttributs">
                             <li className="attributEditionInclus">Jeu complet</li>
