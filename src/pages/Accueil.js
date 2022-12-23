@@ -14,6 +14,9 @@ function Accueil() {
             </div>
 
             <div id="comparerEditions">
+
+                <h1>Comparer les éditions</h1>
+
                 <div className="flexContainer">
                     <div className="item">
                         <h2 className="editionTitre">Solo Pick</h2>
