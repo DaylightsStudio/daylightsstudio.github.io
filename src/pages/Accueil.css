@@ -31,6 +31,7 @@
     grid-gap: 20px;
     place-content: center;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .item {
