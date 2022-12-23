@@ -27,7 +27,6 @@ export default function HeaderBar() {
 
                 <ul>
                     <li>
-                        <Link to="./">Accueil</Link>
                         <a href="./">Accueil</a>
                     </li>
                     <li>
