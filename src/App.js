@@ -7,42 +7,45 @@ import Root from './routes';
 import CarteLayout from './pages/Carte/carteLayout'
 import Cartes from './pages/Cartes'
 import {
-    createBrowserRouter,
-    RouterProvider,
-    BrowserRouter,
-    Routes,
-    Route,
+  createBrowserRouter,
+  RouterProvider,
+  BrowserRouter,
+  Routes,
+  Route,
 } from "react-router-dom";
 
 
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Accueil/>,
-    },
-    {
-        path: "/carte",
-        element: <CarteLayout/>,
-    },
-    {
-      path: "/cartes",
-      element: <Cartes/>,
-    }
+  {
+    basename: '/titans'
+  },
+  {
+    path: "/",
+    element: <Accueil />,
+  },
+  {
+    path: "/carte",
+    element: <CarteLayout />,
+  },
+  {
+    path: "/cartes",
+    element: <Cartes />,
+  }
 ]);
 
 function App() {
   return (
     // <ChakraProvider resetCSS theme={theme}>
     <div className='App'>
-      <HeaderBar/>
+      <HeaderBar />
       <React.StrictMode>
         <RouterProvider router={router} />
-        <BrowserRouter basename='/titans'/>
+        <BrowserRouter basename='/titans' />
       </React.StrictMode>
     </div>
-      
-      
+
+
     // </ChakraProvider>
   );
 }
