@@ -84,6 +84,14 @@
 }
 
 
+@media (prefers-color-scheme: light) {   
+    .item {
+        background-color: #fcf5ff;
+        box-shadow: 0px 0px 25px #00000033;
+    }
+}
+
+
 /* si la largeur d'écran est d'au moins 601px, ordinateur */
 @media screen and (min-width: 769px) {
     .flexContainer {
@@ -93,7 +101,7 @@
 	}
 
     .item {
-		width: 20vmax;
+		width: 20vmax !important;
     }
 }
 
@@ -117,12 +125,5 @@
 
     .item {
         margin: 0 auto;
-    }
-}
-
-@media (prefers-color-scheme: light) {   
-    .item {
-        background-color: #fcf5ff;
-        box-shadow: 0px 0px 25px #00000033;
     }
 }
