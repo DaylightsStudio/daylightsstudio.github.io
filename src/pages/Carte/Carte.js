@@ -60,9 +60,13 @@ import Max_the_james from '../../cartes/max_the_james/max_the_james'
 import Liqueur_anti_t from '../../cartes/liqueur_anti_t/liqueur_anti_t'
 import NotFound from '../../cartes/not_found/not_found'
 
+import { useSearchParams } from 'react-router-dom'
+
 const windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
-const nomCarte = params.get('n');
+// const nomCarte = params.get('n');
+
+
 
 const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_ev, Nightshadows,
     Nightsshadows_ev, Bob, Bob_ev, Lucy, Lucyfer_ev, Lil_pink, Reptilien, Good, Karen, Kayla,
@@ -79,11 +83,11 @@ function getCardComponent(nomCarte) {
             return listeCartes[i];
         }
     }
-    return <p>Carte introuvable!</p>;
 }
 
 function Carte() {
-
+    let [searchParams] = useSearchParams();
+    const nomCarte = searchParams.get("n");
     let CarteSelonLeNom = getCardComponent(nomCarte);
 
     return (

@@ -14,14 +14,13 @@ import {
     Box,
 } from '@chakra-ui/react'
 import './pageCarte.css'
+import { useSearchParams } from 'react-router-dom';
 
-const windowUrl = window.location.search;
-const params = new URLSearchParams(windowUrl);
-const nomCarte = carteExiste().toLowerCase();
+let nomCarte;
 
-function carteExiste() {
+function carteExiste(nomCarteParam) {
     let isCarteExiste = false
-    let nomCarteParam = params.get('n')
+    // let nomCarteParam = params.get('n')
 
     Object.entries(jsonData).forEach(elem => {
         if (elem[0] == nomCarteParam) {
@@ -31,6 +30,7 @@ function carteExiste() {
 
 
     if (isCarteExiste) {
+        nomCarte = nomCarteParam.toLowerCase();
         return nomCarteParam.toLowerCase();
     } else {
         return "not_found"
@@ -142,6 +142,12 @@ const TypeCarte = () => {
 
 
 function CarteLayout() {
+    let [searchParams] = useSearchParams();
+    const nomCarteParams = searchParams.get("n");
+    nomCarte = carteExiste(nomCarteParams);
+
+    // const carteSelonLeType = TypeCarte();
+
     // https://github.com/chakra-ui/chakra-ui/discussions/4789#discussioncomment-1442248
     const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
