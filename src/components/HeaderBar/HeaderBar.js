@@ -20,9 +20,9 @@ export default function HeaderBar() {
                     ☰
             </button>
 
-            <a href="/" id="logo">
+            <Link to="/" id="logo">
                 <img src={Logo} height="30px" alt="Logo Titans" />
-            </a>
+            </Link>
             
             <div
                 className={ isNavExpanded ? "navigation-menu expanded" : "navigation-menu" }>
@@ -30,37 +30,25 @@ export default function HeaderBar() {
                 <ul>
                     <li>
                         <Link
-                            className="navbar-item"
-                            activeClassName="is-active"
-                            to="/"
-                            exact>
+                            to="/">
                             Accueil
                         </Link>
                     </li>
                     <li>
                         <Link
-                            className="navbar-item"
-                            activeClassName="is-active"
-                            to="/cartes"
-                            exact>
+                            to="/cartes">
                             Cartes
                         </Link>
                     </li>
                     <li>
                         <Link
-                            className="navbar-item"
-                            activeClassName="is-active"
-                            to="/faq"
-                            exact>
+                            to="/faq">
                             FAQ
                         </Link>
                     </li>
                     <li>
                         <Link
-                            className="navbar-item"
-                            activeClassName="is-active"
-                            to="/apropos"
-                            exact>
+                            to="/apropos">
                             À propos
                         </Link>
                     </li>
