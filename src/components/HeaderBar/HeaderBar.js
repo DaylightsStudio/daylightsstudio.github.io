@@ -1,6 +1,8 @@
 import { useState } from "react"
 import "./HeaderBar.css"
 import Logo from './Titans_logo.png'
+import { Link } from "react-router-dom"
+
 
 // // // // // // // // // // // // // // // -=|=- \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ 
 // Code pris de/Code taken from https://blog.logrocket.com/create-responsive-navbar-react-css/  \\
@@ -27,16 +29,40 @@ export default function HeaderBar() {
 
                 <ul>
                     <li>
-                        <a href="./">Accueil</a>
+                        <Link
+                            className="navbar-item"
+                            activeClassName="is-active"
+                            to="/"
+                            exact>
+                            Accueil
+                        </Link>
                     </li>
                     <li>
-                        <a href="./cartes">Cartes</a>
+                        <Link
+                            className="navbar-item"
+                            activeClassName="is-active"
+                            to="/cartes"
+                            exact>
+                            Cartes
+                        </Link>
                     </li>
                     <li>
-                        <a href="./faq">FAQ</a>
+                        <Link
+                            className="navbar-item"
+                            activeClassName="is-active"
+                            to="/faq"
+                            exact>
+                            FAQ
+                        </Link>
                     </li>
                     <li>
-                        <a href="./apropos">À propos</a>
+                        <Link
+                            className="navbar-item"
+                            activeClassName="is-active"
+                            to="/apropos"
+                            exact>
+                            À propos
+                        </Link>
                     </li>
                 </ul>
             </div>

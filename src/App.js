@@ -6,8 +6,12 @@ import CarteLayout from './pages/Carte/carteLayout'
 import Cartes from './pages/Cartes'
 import {
   createBrowserRouter,
+  BrowserRouter,
   RouterProvider,
+  
+  Router,
 } from "react-router-dom";
+import { Route, Routes } from "react-router";
 
 
 
@@ -30,10 +34,15 @@ function App() {
   return (
     // <ChakraProvider resetCSS theme={theme}>
     <div className='App'>
-      <HeaderBar />
-      <React.StrictMode>
-        <RouterProvider router={router} basename="/titans"/>
-      </React.StrictMode>
+
+      <BrowserRouter>
+        <HeaderBar />
+        <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path='cartes' element={<Cartes/>}/>
+        <Route path="carte" element={<CarteLayout />} />
+      </Routes>
+      </BrowserRouter>
     </div>
 
 
