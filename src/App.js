@@ -32,7 +32,7 @@ function App() {
     <div className='App'>
       <HeaderBar />
       <React.StrictMode>
-        <RouterProvider router={router} />
+        <RouterProvider router={router} basename="/titans"/>
       </React.StrictMode>
     </div>
 
