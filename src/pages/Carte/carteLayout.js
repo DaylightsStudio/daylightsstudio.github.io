@@ -21,6 +21,7 @@ let nomCarte;
 function carteExiste(nomCarteParam) {
     let isCarteExiste = false
     // let nomCarteParam = params.get('n')
+    
 
     Object.entries(jsonData).forEach(elem => {
         if (elem[0] == nomCarteParam) {
@@ -142,11 +143,15 @@ const TypeCarte = () => {
 
 
 function CarteLayout() {
+    console.log("definition searchParams entree ");
     let [searchParams] = useSearchParams();
+    console.log("searchparams " + searchParams);
     const nomCarteParams = searchParams.get("n");
+    console.log("nomCarteParams " + nomCarteParams);
     nomCarte = carteExiste(nomCarteParams);
+    console.log("nomCarte " + nomCarte);
+    console.log("definition searchParams sortie ");
 
-    // const carteSelonLeType = TypeCarte();
 
     // https://github.com/chakra-ui/chakra-ui/discussions/4789#discussioncomment-1442248
     const [isLargerThan768] = useMediaQuery("(min-width: 768px)");

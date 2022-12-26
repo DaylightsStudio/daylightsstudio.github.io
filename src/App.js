@@ -34,7 +34,7 @@ function App() {
   return (
     // <ChakraProvider resetCSS theme={theme}>
     <div className='App'>
-
+<React.StrictMode>
       <BrowserRouter>
         <HeaderBar />
         <Routes>
@@ -43,6 +43,7 @@ function App() {
         <Route path="carte" element={<CarteLayout />} />
       </Routes>
       </BrowserRouter>
+      </React.StrictMode>
     </div>
 
 
