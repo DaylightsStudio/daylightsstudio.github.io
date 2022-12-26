@@ -15,5 +15,7 @@ function Frenchfox() {
     );
 }
 
+Frenchfox.displayName = 'frenchfox';
+
 export default Frenchfox;
             

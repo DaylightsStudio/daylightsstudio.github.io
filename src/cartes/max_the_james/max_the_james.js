@@ -14,5 +14,7 @@ function Max_the_james() {
     );
 }
 
+Max_the_james.displayName = 'max_the_james';
+
 export default Max_the_james;
             

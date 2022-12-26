@@ -14,5 +14,7 @@ function Verse() {
     );
 }
 
+Verse.displayName = 'verse';
+
 export default Verse;
             

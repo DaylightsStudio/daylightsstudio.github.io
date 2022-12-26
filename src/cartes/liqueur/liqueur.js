@@ -14,5 +14,7 @@ function Liqueur() {
     );
 }
 
+Liqueur.displayName = 'liqueur';
+
 export default Liqueur;
             

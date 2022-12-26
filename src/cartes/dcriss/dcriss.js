@@ -14,5 +14,7 @@ function Dcriss() {
     );
 }
 
+Dcriss.displayName = 'dcriss';
+
 export default Dcriss;
             

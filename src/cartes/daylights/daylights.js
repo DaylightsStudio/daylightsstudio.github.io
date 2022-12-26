@@ -15,5 +15,7 @@ function Daylights() {
     );
 }
 
+Daylights.displayName = 'daylights';
+
 export default Daylights;
             

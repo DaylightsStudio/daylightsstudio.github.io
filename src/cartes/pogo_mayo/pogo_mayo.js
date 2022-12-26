@@ -14,5 +14,7 @@ function Pogo_mayo() {
     );
 }
 
+Pogo_mayo.displayName = 'pogo_mayo';
+
 export default Pogo_mayo;
             

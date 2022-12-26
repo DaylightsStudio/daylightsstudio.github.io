@@ -14,5 +14,7 @@ function Platii() {
     );
 }
 
+Platii.displayName = 'platii';
+
 export default Platii;
             

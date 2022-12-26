@@ -15,5 +15,7 @@ function Misterk() {
     );
 }
 
+Misterk.displayName = 'misterk';
+
 export default Misterk;
             

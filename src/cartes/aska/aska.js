@@ -15,5 +15,7 @@ function Aska() {
     );
 }
 
+Aska.displayName = 'aska'
+
 export default Aska;
             

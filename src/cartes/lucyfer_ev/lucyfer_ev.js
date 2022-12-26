@@ -16,5 +16,7 @@ function Lucyfer_ev() {
     );
 }
 
+Lucyfer_ev.displayName = 'lucyfer_ev';
+
 export default Lucyfer_ev;
             

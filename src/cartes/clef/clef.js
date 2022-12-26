@@ -14,5 +14,7 @@ function Clef() {
     );
 }
 
+Clef.displayName = 'clef';
+
 export default Clef;
             

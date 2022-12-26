@@ -15,5 +15,7 @@ function Good() {
     );
 }
 
+Good.displayName = 'good';
+
 export default Good;
             

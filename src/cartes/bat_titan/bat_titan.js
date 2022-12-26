@@ -15,5 +15,7 @@ function Bat_titan() {
     );
 }
 
+Bat_titan.displayName = 'Bat_titan'
+
 export default Bat_titan;
             

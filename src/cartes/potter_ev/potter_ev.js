@@ -16,5 +16,7 @@ function Potter_ev() {
     );
 }
 
+Potter_ev.displayName = 'potter_ev';
+
 export default Potter_ev;
             

@@ -15,5 +15,7 @@ function Nightshadows() {
     );
 }
 
+Nightshadows.displayName = 'nightshadows';
+
 export default Nightshadows;
             

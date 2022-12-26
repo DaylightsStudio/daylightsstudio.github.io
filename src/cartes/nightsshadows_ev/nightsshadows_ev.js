@@ -15,5 +15,7 @@ function Nightsshadows_ev() {
     );
 }
 
+Nightsshadows_ev.displayName = 'nightsshadows_ev';
+
 export default Nightsshadows_ev;
             

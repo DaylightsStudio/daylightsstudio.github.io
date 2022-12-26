@@ -14,5 +14,7 @@ function Kayla() {
     );
 }
 
+Kayla.displayName = 'kayla';
+
 export default Kayla;
             

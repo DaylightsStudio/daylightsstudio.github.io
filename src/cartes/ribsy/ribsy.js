@@ -14,5 +14,7 @@ function Ribsy() {
     );
 }
 
+Ribsy.displayName = 'ribsy';
+
 export default Ribsy;
             

@@ -14,5 +14,7 @@ function Potter() {
     );
 }
 
+Potter.displayName = 'potter';
+
 export default Potter;
             

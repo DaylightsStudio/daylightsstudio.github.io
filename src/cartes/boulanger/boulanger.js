@@ -15,5 +15,7 @@ function Boulanger() {
     );
 }
 
+Boulanger.displayName = 'boulanger'
+
 export default Boulanger;
             

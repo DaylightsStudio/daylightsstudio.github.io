@@ -14,5 +14,7 @@ function Mystery_box() {
     );
 }
 
+Mystery_box.displayName = 'mystery_box';
+
 export default Mystery_box;
             

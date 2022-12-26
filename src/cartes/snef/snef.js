@@ -14,5 +14,7 @@ function Snef() {
     );
 }
 
+Snef.displayName = 'snef';
+
 export default Snef;
             

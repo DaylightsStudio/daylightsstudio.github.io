@@ -17,5 +17,7 @@ function Bad_ev() {
     );
 }
 
+Bad_ev.displayName = 'bad_ev'
+
 export default Bad_ev;
             

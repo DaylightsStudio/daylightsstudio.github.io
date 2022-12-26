@@ -14,5 +14,7 @@ function Niche() {
     );
 }
 
+Niche.displayName = 'niche';
+
 export default Niche;
             

@@ -15,5 +15,7 @@ function Daylights_ev() {
     );
 }
 
+Daylights_ev.displayName = 'daylights_ev';
+
 export default Daylights_ev;
             

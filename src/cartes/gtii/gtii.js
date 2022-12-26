@@ -14,5 +14,7 @@ function Gtii() {
     );
 }
 
+Gtii.displayName = 'gtii';
+
 export default Gtii;
             

@@ -14,5 +14,7 @@ function Liqueur_anti_t() {
     );
 }
 
+Liqueur_anti_t.displayName = 'liqueur_anti_t';
+
 export default Liqueur_anti_t;
             

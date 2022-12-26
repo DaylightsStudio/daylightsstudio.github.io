@@ -14,5 +14,7 @@ function Galette() {
     );
 }
 
+Galette.displayName = 'galette';
+
 export default Galette;
             

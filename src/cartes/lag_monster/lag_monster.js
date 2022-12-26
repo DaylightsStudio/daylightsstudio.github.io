@@ -14,5 +14,7 @@ function Lag_monster() {
     );
 }
 
+Lag_monster.displayName = 'lag_monster';
+
 export default Lag_monster;
             

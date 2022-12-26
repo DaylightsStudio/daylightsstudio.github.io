@@ -15,5 +15,7 @@ function Bad() {
     );
 }
 
+Bad.displayName = 'bad'
+
 export default Bad;
             

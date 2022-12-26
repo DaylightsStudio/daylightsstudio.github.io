@@ -14,5 +14,7 @@ function Mr_pouf() {
     );
 }
 
+Mr_pouf.displayName = 'mr_pouf';
+
 export default Mr_pouf;
             

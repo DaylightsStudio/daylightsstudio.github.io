@@ -14,5 +14,7 @@ function Deconnecte() {
     );
 }
 
+Deconnecte.displayName = 'deconnecte';
+
 export default Deconnecte;
             

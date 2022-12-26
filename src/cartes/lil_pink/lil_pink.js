@@ -15,5 +15,7 @@ function Lil_pink() {
     );
 }
 
+Lil_pink.displayName = 'lil_pink';
+
 export default Lil_pink;
             

@@ -15,5 +15,7 @@ function Reptilien() {
     );
 }
 
+Reptilien.displayName = 'reptilien';
+
 export default Reptilien;
             

@@ -14,5 +14,7 @@ function Reverse() {
     );
 }
 
+Reverse.displayName = 'reverse';
+
 export default Reverse;
             

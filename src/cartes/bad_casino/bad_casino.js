@@ -14,5 +14,7 @@ function Bad_casino() {
     );
 }
 
+Bad_casino.displayName = 'bad_casino'
+
 export default Bad_casino;
             

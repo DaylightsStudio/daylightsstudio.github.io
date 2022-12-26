@@ -14,5 +14,7 @@ function Postal_lady() {
     );
 }
 
+Postal_lady.displayName = 'postal_lady';
+
 export default Postal_lady;
             

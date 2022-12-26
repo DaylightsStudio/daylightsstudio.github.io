@@ -16,5 +16,7 @@ function Bob_ev() {
     );
 }
 
+Bob_ev.displayName = 'bob_ev'
+
 export default Bob_ev;
             

@@ -14,5 +14,7 @@ function Marine() {
     );
 }
 
+Marine.displayName = 'marine';
+
 export default Marine;
             

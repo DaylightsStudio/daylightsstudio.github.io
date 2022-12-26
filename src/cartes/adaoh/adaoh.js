@@ -16,4 +16,6 @@ function Adaoh() {
     );
 }
 
+Adaoh.displayName = 'adaoh'
+
 export default Adaoh;

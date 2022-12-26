@@ -14,5 +14,7 @@ function Recruit() {
     );
 }
 
+Recruit.displayName = 'recruit';
+
 export default Recruit;
             

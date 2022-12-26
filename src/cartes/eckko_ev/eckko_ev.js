@@ -16,5 +16,7 @@ function Eckko_ev() {
     );
 }
 
+Eckko_ev.displayName = 'eckko_ev';
+
 export default Eckko_ev;
             

@@ -14,5 +14,7 @@ function Sushi_mate() {
     );
 }
 
+Sushi_mate.displayName = 'sushi_mate';
+
 export default Sushi_mate;
             

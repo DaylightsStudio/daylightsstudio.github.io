@@ -14,5 +14,7 @@ function New_follow() {
     );
 }
 
+New_follow.displayName = 'new_follow';
+
 export default New_follow;
             

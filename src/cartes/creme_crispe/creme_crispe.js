@@ -14,5 +14,7 @@ function Creme_crispe() {
     );
 }
 
+Creme_crispe.displayName = 'creme_crispe';
+
 export default Creme_crispe;
             

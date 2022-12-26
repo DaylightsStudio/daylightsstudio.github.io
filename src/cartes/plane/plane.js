@@ -15,5 +15,7 @@ function Plane() {
     );
 }
 
+Plane.displayName = 'plane';
+
 export default Plane;
             

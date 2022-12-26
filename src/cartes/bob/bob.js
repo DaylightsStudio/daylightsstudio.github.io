@@ -16,5 +16,7 @@ function Bob() {
     );
 }
 
+Bob.displayName = 'bob'
+
 export default Bob;
             

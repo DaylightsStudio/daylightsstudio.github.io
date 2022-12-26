@@ -15,5 +15,7 @@ function Dunkie() {
     );
 }
 
+Dunkie.displayName = 'dunkie';
+
 export default Dunkie;
             

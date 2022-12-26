@@ -14,5 +14,7 @@ function Karen() {
     );
 }
 
+Karen.displayName = 'karen';
+
 export default Karen;
             

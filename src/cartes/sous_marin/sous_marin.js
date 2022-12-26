@@ -14,5 +14,7 @@ function Sous_marin() {
     );
 }
 
+Sous_marin.displayName = 'sous_marin';
+
 export default Sous_marin;
             

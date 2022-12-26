@@ -14,5 +14,7 @@ function Moma() {
     );
 }
 
+Moma.displayName = 'moma';
+
 export default Moma;
             

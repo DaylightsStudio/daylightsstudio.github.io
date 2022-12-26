@@ -37,22 +37,24 @@ def deplacerFichiers(dir):
 
             f = open(f"./src/pages/{nomCarte}/{nomCarte}.js", "x")
             f.write("""
-import React from 'react';
-import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
-import foreground from './assets/foreground.png';
-import middleground from './assets/middleground.png';
-import background from './assets/background.png';
+                import React from 'react';
+                import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
+                import foreground from './assets/foreground.png';
+                import middleground from './assets/middleground.png';
+                import background from './assets/background.png';
 
-function """ + nomCarteCap + """() {
-    return (
-        <TiltCardWidget 
-            fg={foreground}
-            mg={middleground} 
-            bg={background} /> 
-    );
-}
+                function """ + nomCarteCap + """() {
+                    return (
+                        <TiltCardWidget 
+                            fg={foreground}
+                            mg={middleground} 
+                            bg={background} /> 
+                    );
+                }
 
-export default """ + nomCarteCap + """;
+                {nomCarteCap}.displayName = '{nomCarte}';
+
+                export default """ + nomCarteCap + """;
             """)
             f.close()
 

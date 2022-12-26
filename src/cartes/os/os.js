@@ -14,5 +14,7 @@ function Os() {
     );
 }
 
+Os.displayName = 'os';
+
 export default Os;
             

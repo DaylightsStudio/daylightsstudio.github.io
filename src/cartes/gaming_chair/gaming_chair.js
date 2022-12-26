@@ -14,5 +14,7 @@ function Gaming_chair() {
     );
 }
 
+Gaming_chair.displayName = 'gaming_chair';
+
 export default Gaming_chair;
             

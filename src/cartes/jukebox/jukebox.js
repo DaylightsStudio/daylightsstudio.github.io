@@ -14,5 +14,7 @@ function Jukebox() {
     );
 }
 
+Jukebox.displayName = 'jukebox';
+
 export default Jukebox;
             

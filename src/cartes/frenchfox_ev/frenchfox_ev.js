@@ -16,5 +16,7 @@ function Frenchfox_ev() {
     );
 }
 
+Frenchfox_ev.displayName = 'frenchfox_ev';
+
 export default Frenchfox_ev;
             

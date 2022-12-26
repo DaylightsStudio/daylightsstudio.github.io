@@ -16,5 +16,7 @@ function Eckko() {
     );
 }
 
+Eckko.displayName = 'eckko';
+
 export default Eckko;
             

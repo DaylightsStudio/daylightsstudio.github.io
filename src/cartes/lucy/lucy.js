@@ -14,5 +14,7 @@ function Lucy() {
     );
 }
 
+Lucy.displayName = 'lucy';
+
 export default Lucy;
             

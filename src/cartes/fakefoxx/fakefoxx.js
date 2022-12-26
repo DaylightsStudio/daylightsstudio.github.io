@@ -14,5 +14,7 @@ function Fakefoxx() {
     );
 }
 
+Fakefoxx.displayName = 'fakefoxx';
+
 export default Fakefoxx;
             
