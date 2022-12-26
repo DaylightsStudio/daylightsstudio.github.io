@@ -73,8 +73,7 @@ const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_e
 
 function getCardComponent(nomCarte) {
     for (let i = 0; i < listeCartes.length; i++) {
-        // console.log(listeCartes[i].name.toLowerCase())
-        if (listeCartes[i].name.toLowerCase() === nomCarte) {
+        if (listeCartes[i].displayName === nomCarte) {
             return listeCartes[i];
         } 
     }
@@ -84,6 +83,9 @@ function getCardComponent(nomCarte) {
 function Carte() {
     let [searchParams] = useSearchParams();
     const nomCarte = searchParams.get("n");
+
+    console.log(nomCarte)
+
     let CarteSelonLeNom = getCardComponent(nomCarte);
 
     return (
