@@ -140,14 +140,9 @@ const TypeCarte = () => {
 
 
 function CarteLayout() {
-    console.log("definition searchParams entree ");
     let [searchParams] = useSearchParams();
-    console.log("searchparams " + searchParams);
     const nomCarteParams = searchParams.get("n");
-    console.log("nomCarteParams " + nomCarteParams);
     nomCarte = carteExiste(nomCarteParams);
-    console.log("nomCarte " + nomCarte);
-    console.log("definition searchParams sortie ");
 
 
     // https://github.com/chakra-ui/chakra-ui/discussions/4789#discussioncomment-1442248
