@@ -84,8 +84,6 @@ function Carte() {
     let [searchParams] = useSearchParams();
     const nomCarte = searchParams.get("n");
 
-    console.log(nomCarte)
-
     let CarteSelonLeNom = getCardComponent(nomCarte);
 
     return (
