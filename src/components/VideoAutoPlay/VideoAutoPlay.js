@@ -1,5 +1,4 @@
 import { useEffect, useState, useRef } from "react";
-import ReactPlayer from 'react-player'
 import videoIntro from './videos/teaser_titans_card.mp4'
 import videoLoop from './videos/triangle.mp4'
 import './VideoAutoPlay.css'

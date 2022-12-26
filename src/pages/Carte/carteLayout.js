@@ -8,9 +8,6 @@ import {
     AccordionIcon,
     useMediaQuery,
     Flex,
-    Spacer,
-    Square,
-    Center,
     Box,
 } from '@chakra-ui/react'
 import './pageCarte.css'
@@ -24,7 +21,7 @@ function carteExiste(nomCarteParam) {
     
 
     Object.entries(jsonData).forEach(elem => {
-        if (elem[0] == nomCarteParam) {
+        if (elem[0] === nomCarteParam) {
             isCarteExiste = true;
         }
     });
@@ -42,14 +39,14 @@ function carteExiste(nomCarteParam) {
 const TypeCarte = () => {
     let categorie = jsonData[nomCarte]['carte']['categorie'];
 
-    if (categorie == "supplydrop") {
+    if (categorie === "supplydrop") {
         return (
             <div>
                 <p>test</p>
             </div>
         );
     }
-    else if (categorie == "not_found") { return (<div></div>); }
+    else if (categorie === "not_found") { return (<div></div>); }
     else {
         return (
             <div className=''>

@@ -62,11 +62,6 @@ import NotFound from '../../cartes/not_found/not_found'
 
 import { useSearchParams } from 'react-router-dom'
 
-const windowUrl = window.location.search;
-const params = new URLSearchParams(windowUrl);
-// const nomCarte = params.get('n');
-
-
 
 const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_ev, Nightshadows,
     Nightsshadows_ev, Bob, Bob_ev, Lucy, Lucyfer_ev, Lil_pink, Reptilien, Good, Karen, Kayla,
@@ -81,8 +76,9 @@ function getCardComponent(nomCarte) {
         // console.log(listeCartes[i].name.toLowerCase())
         if (listeCartes[i].name.toLowerCase() === nomCarte) {
             return listeCartes[i];
-        }
+        } 
     }
+    return NotFound;
 }
 
 function Carte() {
