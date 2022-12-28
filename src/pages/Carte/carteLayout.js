@@ -12,6 +12,7 @@ import {
 } from '@chakra-ui/react'
 import './pageCarte.css'
 import { useSearchParams } from 'react-router-dom';
+import { TwitchClip } from 'react-twitch-embed';
 
 let nomCarte;
 
@@ -39,6 +40,12 @@ function carteExiste(nomCarteParam) {
 const TypeCarte = () => {
     let categorie = jsonData[nomCarte]['carte']['categorie'];
 
+    let referenceBasique;
+    let referenceSpeciale;
+
+
+
+
     if (categorie === "supplydrop") {
         return (
             <div>
@@ -48,6 +55,19 @@ const TypeCarte = () => {
     }
     else if (categorie === "not_found") { return (<div></div>); }
     else {
+
+        if (jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].startsWith("clip=")) {
+            referenceBasique = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].replace("clip=", "")} autoplay="false" muted="false"/>;
+        } else {
+            referenceBasique = jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"]
+        }
+
+        if (jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].startsWith("clip=")) {
+            referenceSpeciale = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].replace("clip=", "")}/>;
+        } else {
+            referenceSpeciale = jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"]
+        }
+
         return (
             <div className=''>
                 <Accordion allowMultiple>
@@ -86,7 +106,7 @@ const TypeCarte = () => {
                                     Référence:
                                 </div>
                                 <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"]}
+                                    {referenceBasique}
                                 </div>
                             </div>
                         </AccordionPanel>
@@ -127,7 +147,7 @@ const TypeCarte = () => {
                                     Référence:
                                 </div>
                                 <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"]}
+                                    {referenceSpeciale}
                                 </div>
                             </div>
                         </AccordionPanel>
