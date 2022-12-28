@@ -57,13 +57,13 @@ const TypeCarte = () => {
     else {
 
         if (jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].startsWith("clip=")) {
-            referenceBasique = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].replace("clip=", "")} autoplay="false" muted="false"/>;
+            referenceBasique = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false"/>;
         } else {
             referenceBasique = jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"]
         }
 
         if (jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].startsWith("clip=")) {
-            referenceSpeciale = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].replace("clip=", "")}/>;
+            referenceSpeciale = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false"/>;
         } else {
             referenceSpeciale = jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"]
         }
