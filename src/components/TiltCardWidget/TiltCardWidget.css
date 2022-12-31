@@ -1,0 +1,42 @@
+.parallax-tilt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform-style: preserve-3d;
+}
+
+.background {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.middleground {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.foreground {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* ====================================================================== */
+/* ========================= ADAPTATIONS MOBILE ========================= */
+/* ====================================================================== */
+
+/* si la largeur d'écran est d'au moins 601px, ordinateur */
+@media screen and (min-width: 601px) {
+
+}
+
+/* si la taille d'écran est moins de 600px, mobile */
+@media screen and (max-width: 600px) {
+.background {
+    transform: translateY(-15px);
+}
+}

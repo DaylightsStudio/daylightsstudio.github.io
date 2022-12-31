@@ -1,0 +1,118 @@
+body {
+    background-color: #24002f;
+    color: #FAEBFF;
+    text-align: center;
+    justify-content: left;
+    font-size: calc(10px + 1vmin);
+    transition: 0.3s;
+
+    margin-top: 120px;
+}
+
+::selection {
+    background: #e597ff;
+    color: #24002f;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    width: 50%;
+}
+
+#carte {
+    margin-left: 100px;
+}
+
+#numeroCarte {
+    font-weight: bolder;
+    opacity: 20%;
+    margin-bottom: 100px;
+}
+
+.TypeAttaque {
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.InfoAttaque {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.SousTitreAttaque {
+    font-weight: bold;
+}
+
+.chakra-accordion__item, .chakra-accordion__button {
+    background: #30003F;
+    color: #FAEBFF;
+    margin: auto;
+    padding: 1px 2vmin;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.chakra-accordion__button {
+    cursor: pointer;
+}
+
+.chakra-accordion__panel {
+    padding-bottom: 2vmin;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SectionCarte {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.SectionInfos {
+
+}
+
+@media screen and (max-width: 768px) {
+    .chakra-accordion__item, .chakra-accordion__button {
+        width: 90%;
+    }
+
+    .SectionCarte {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    
+    .SectionCarte .parallax-tilt {
+        margin-left: 25%;
+    }
+
+    #numeroCarte {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FAEBFF;
+        color: #24002f;
+        transition: 0.3s;
+    }
+
+    ::selection {
+        background: #590076;
+        color: #FAEBFF;
+    }
+
+    .chakra-accordion__item, .chakra-accordion__button {
+        background: #f5d7ff;
+        color: #24002f;
+    }
+}

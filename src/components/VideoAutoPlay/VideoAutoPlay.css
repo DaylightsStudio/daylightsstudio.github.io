@@ -1,0 +1,26 @@
+.containerVideo {
+    object-fit: cover;
+    transform: translateY(-120px);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+    #videoBg {
+        min-height: 100%;
+        width: 100%;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    #videoBg {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
