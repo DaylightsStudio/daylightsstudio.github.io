@@ -3,13 +3,13 @@ import './Accueil.css'
 import VideoAutoPlay from "../components/VideoAutoPlay/VideoAutoPlay";
 
 function Accueil() {
+    document.title = "Accueil - Titans Card Game"
     return (
         <div className="containerAccueil">
             <div>
                 <VideoAutoPlay />
                 <button className="btn">
                     <a href="#comparerEditions">ACHETER</a>
-
                 </button>
             </div>
 
@@ -66,7 +66,7 @@ function Accueil() {
                     </div>
                 </div>
 
-                <h2>Deck partiels</h2>
+                <h2>Deck patiels</h2>
 
                 <div className="flexContainer">
                     <div className="item">

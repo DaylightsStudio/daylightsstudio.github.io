@@ -171,6 +171,8 @@ function CarteLayout() {
     let carte_WidthOver768;
     let info_WidthOver768;
 
+    document.title = `${jsonData[nomCarte]["nom"]} - Titans Card Game`
+
     if (isLargerThan768)
     {
         carte_WidthOver768 = "40%";
