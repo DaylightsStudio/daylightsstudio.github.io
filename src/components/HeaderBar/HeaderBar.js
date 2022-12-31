@@ -30,24 +30,28 @@ export default function HeaderBar() {
                 <ul>
                     <li>
                         <Link
+                            onClick={() => {setIsNavExpanded(!isNavExpanded)}}
                             to="/">
                             Accueil
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={() => {setIsNavExpanded(!isNavExpanded)}}
                             to="/cartes">
                             Cartes
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={() => {setIsNavExpanded(!isNavExpanded)}}
                             to="/faq">
                             FAQ
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={() => {setIsNavExpanded(!isNavExpanded)}}
                             to="/apropos">
                             À propos
                         </Link>
