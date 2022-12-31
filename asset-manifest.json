@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c4b6c8c.css",
+    "main.js": "/static/js/main.a56b66c8.js",
+    "static/js/787.cd2d9d15.chunk.js": "/static/js/787.cd2d9d15.chunk.js",
+    "static/media/teaser_titans_card.mp4": "/static/media/teaser_titans_card.11b363be54e441825705.mp4",
+    "static/media/triangle.mp4": "/static/media/triangle.e380433f429bf4b76e55.mp4",
+    "static/media/background.png": "/static/media/background.cd143f1e46e0b86b7a1c.png",
+    "static/media/foreground.png": "/static/media/foreground.83267f35fd6e1efc95a7.png",
+    "static/media/middleground.png": "/static/media/middleground.748ab3b628486c384f21.png",
+    "index.html": "/index.html",
+    "main.2c4b6c8c.css.map": "/static/css/main.2c4b6c8c.css.map",
+    "main.a56b66c8.js.map": "/static/js/main.a56b66c8.js.map",
+    "787.cd2d9d15.chunk.js.map": "/static/js/787.cd2d9d15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c4b6c8c.css",
+    "static/js/main.a56b66c8.js"
+  ]
+}
