@@ -66,7 +66,7 @@ function Accueil() {
                     </div>
                 </div>
 
-                <h2>Deck patiels</h2>
+                <h2>Deck partiels</h2>
 
                 <div className="flexContainer">
                     <div className="item">

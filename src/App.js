@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='App'>
       <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <HeaderBar />
           <Routes>
           <Route path="/" element={<Accueil />} />
