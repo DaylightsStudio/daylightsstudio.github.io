@@ -45,8 +45,8 @@ export default function HeaderBar() {
                     <li>
                         <Link
                             onClick={() => {setIsNavExpanded(!isNavExpanded)}}
-                            to="/faq">
-                            FAQ
+                            to="/reglements">
+                            Règlements
                         </Link>
                     </li>
                     <li>
