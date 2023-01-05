@@ -20,9 +20,9 @@ function App() {
           <HeaderBar />
           <Routes>
             <Route path="/" element={<Accueil />} />
-            <Route path='cartes' element={<Cartes />} />
-            <Route path="carte" element={<CarteLayout />} />
-            <Route path="reglements" element={<Reglements />} />
+            <Route path='/cartes' element={<Cartes />} />
+            <Route path="/carte" element={<CarteLayout />} />
+            <Route path="/reglements" element={<Reglements />} />
           </Routes>
         </BrowserRouter>
       </React.StrictMode>
