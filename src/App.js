@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {
-  BrowserRouter,
+  HashRouter,
 } from "react-router-dom";
 import { Route, Routes } from "react-router";
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='App'>
       <React.StrictMode>
-        <BrowserRouter basename="/">
+        <HashRouter basename="/">
           <HeaderBar />
           <Routes>
             <Route path="/" element={<Accueil />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/carte" element={<CarteLayout />} />
             <Route path="/reglements" element={<Reglements />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </React.StrictMode>
     </div>
   );
