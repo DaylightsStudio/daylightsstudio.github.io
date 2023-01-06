@@ -794,6 +794,35 @@
         }        
     },
 
+    "postal_lady" : {
+        "nom" : "Postal Lady",
+        "description" : {
+            "bio" : "bio postal lady",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 16,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Whoa, let is shine",
+                    "numero" : "10",
+                    "sous_titre" : "Si l'adversaire est un Titan, inflige 2x",
+                    "description" : "L'attaque inflige le double de dégats (20) si l'adversaire est un Titan",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Shout out to you",
+                    "numero": "S+",
+                    "sous_titre" : "Inflige le même nombre de dégâts que les dégâts reçus le tour précédent seulement si Lucy est l'Anti-T actif.",
+                    "description" : "Inflige le nombre de dégâts subits lors du tour précédent si Lucy est l'Anti-T actif.",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
