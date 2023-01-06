@@ -399,17 +399,17 @@
             "pv" : 140,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Yark",
-                    "numero" : "10",
-                    "sous_titre" : "Encore des cheaters",
+                    "titre" : "Hmmmmm",
+                    "numero" : "30",
+                    "sous_titre" : "Quest-ce que je mange?",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Tu veux quoi",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si FrenchFox est le Titan actif",
-                    "description" : "Si FrenchFox est le Titan actif, l'attaque de base est de 30",
+                    "titre" : "J'ai un brunch",
+                    "numero": "S+",
+                    "sous_titre" : "*Lorsque que l'ennemi attaque, lance une pièce, si la pièce tombe du coté face, FrenchFox esquive et ne perd aucun PV*",
+                    "description" : "Lorsque FrenchFox est attaqué, le joueur fait un pile ou face, si la pièce tombe du côté face, FrenchFox ne perd aucun PV",
                     "reference" : ""
                 }
             }
