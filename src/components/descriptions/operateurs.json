@@ -242,6 +242,35 @@
         }        
     },
 
+    "dcriss" : {
+        "nom" : "DCRISS",
+        "description" : {
+            "bio" : "bio daylights",
+            "chaine" : "https://twitch.tv/dcr1ss_"
+        },
+        "carte" : {
+            "numero" : 24,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "C'est gratuit",
+                    "numero" : "10",
+                    "sous_titre" : "Et c'est de la qualité",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Nice Kill Good Sh*t",
+                    "numero": "S+",
+                    "sous_titre" : "Paralyse une carte Supply Drop ou Friend de ton choix pendant deux tours",
+                    "description" : "Empêche l'adversaire d'utiliser une carte Supply Drop ou Friend du choix du joueur pendant deux tours",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
