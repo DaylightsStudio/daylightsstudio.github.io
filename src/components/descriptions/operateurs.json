@@ -271,6 +271,35 @@
         }        
     },
 
+    "dunkie" : {
+        "nom" : "Dunkie",
+        "description" : {
+            "bio" : "bio daylights",
+            "chaine" : "https://www.twitch.tv/dunkietv"
+        },
+        "carte" : {
+            "numero" : 20,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Charogne",
+                    "numero" : "10",
+                    "sous_titre" : "Cassage de rotule",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Vulvecan",
+                    "numero": "S+",
+                    "sous_titre" : "Un bruit de noune dans le vent effraie l'ennemi, retire une carte de support de votre choix à l'adversaire",
+                    "description" : "Le joueur peut retirer une carte au choix à son adversaire",
+                    "reference" : "clip=FurryWonderfulLarkEagleEye"
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
