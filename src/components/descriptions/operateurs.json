@@ -678,6 +678,35 @@
         }        
     },
 
+    "misterk" : {
+        "nom" : "MisterK",
+        "description" : {
+            "bio" : "bio misterk",
+            "chaine" : "https://www.twitch.tv/misterk_qc"
+        },
+        "carte" : {
+            "numero" : 23,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Impro",
+                    "numero" : "10",
+                    "sous_titre" : "On improvise un coup",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Programmation",
+                    "numero": "S+",
+                    "sous_titre" : "Guérit 20 PV",
+                    "description" : "Guérit 20 PV",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
