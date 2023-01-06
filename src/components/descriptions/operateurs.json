@@ -707,6 +707,35 @@
         }        
     },
 
+    "moma" : {
+        "nom" : "Moma",
+        "description" : {
+            "bio" : "bio Moma",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 18,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Galette traffiquée",
+                    "numero" : "10",
+                    "sous_titre" : "Des raisins secs ont fait un complot et ont remplacé le chocolat",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Galette",
+                    "numero": "S+",
+                    "sous_titre" : "Guérit 20 PV",
+                    "description" : "Guérit 20 PV",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
