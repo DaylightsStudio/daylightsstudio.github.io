@@ -366,8 +366,17 @@
         },
         "carte" : {
             "numero" : 2,
+
+    "frenchfox_ev" : {
+        "nom" : "FrenchFox EV",
+        "description" : {
+            "bio" : "bio frenchfox-ev",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 57,
             "categorie" : "titan",
-            "pv" : 180,
+            "pv" : 140,
             "attaques" : {
                 "basique" : {
                     "titre" : "Yark",
