@@ -416,6 +416,35 @@
         }        
     },
 
+    "frenchfox" : {
+        "nom" : "FrenchFox",
+        "description" : {
+            "bio" : "bio frenchfox",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 5,
+            "categorie" : "titan",
+            "pv" : 100,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Moi pas toi!",
+                    "numero" : "20",
+                    "sous_titre" : "Moi je fais des choses, pi pas toi!",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "J'ai un souper",
+                    "numero": "S+",
+                    "sous_titre" : "*Lorsque que l'ennemi attaque, lance une pièce, si la pièce tombe du coté face, FrenchFox esquive et ne perd aucun PV*",
+                    "description" : "Lorsque FrenchFox est attaqué, le joueur fait un pile ou face, si la pièce tombe du côté face, FrenchFox ne perd aucun PV",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
