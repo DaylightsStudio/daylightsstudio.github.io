@@ -503,6 +503,38 @@
             }
         }        
     },
+
+    "kayla" : {
+        "nom" : "Kayla",
+        "description" : {
+            "bio" : "Wouf wouf! Wouf wouf woouf...",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 12,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Dandine!",
+                    "numero" : "10",
+                    "sous_titre" : "Tout le monde se dandine!",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Woof!",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Potter est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Potter est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
