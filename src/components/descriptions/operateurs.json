@@ -445,6 +445,35 @@
         }        
     },
 
+    "good" : {
+        "nom" : "Good",
+        "description" : {
+            "bio" : "bio good",
+            "chaine" : "https://www.twitch.tv/badlns"
+        },
+        "carte" : {
+            "numero" : 11,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Bien essayé",
+                    "numero" : "10",
+                    "sous_titre" : "L'important c'est de s'amuser",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Ça va très bien",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Bad est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Bad est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
