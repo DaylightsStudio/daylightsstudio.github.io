@@ -620,6 +620,35 @@
         }        
     },
 
+    "marine" : {
+        "nom" : "Marine",
+        "description" : {
+            "bio" : "bio lucyfer",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 15,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Submarine",
+                    "numero" : "10",
+                    "sous_titre" : "Le géant d'acier ne rate jamais sa cible",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "M16",
+                    "numero": "-1 carte friend",
+                    "sous_titre" : "Enlève une carte Friend de l'adversaire seulement si Bob est l'Anti-T actif",
+                    "description" : "Si Bob est l'Anti-T actif, cette attaque retire une carte Friend du jeu de l'adversaire",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
