@@ -474,6 +474,35 @@
         }        
     },
 
+
+    "jukebox" : {
+        "nom" : "Jukebox",
+        "description" : {
+            "bio" : "bio jukebox",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 17,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Jeux de mots",
+                    "numero" : "20",
+                    "sous_titre" : "Blague étrange heurtant l'égo de l'adversaire",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Chanson random",
+                    "numero": "S+",
+                    "sous_titre" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
+                    "description" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
