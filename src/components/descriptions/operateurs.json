@@ -562,6 +562,64 @@
         }        
     },
 
+    "lucy" : {
+        "nom" : "Lucy",
+        "description" : {
+            "bio" : "bio lucy",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 8,
+            "categorie" : "anti-t",
+            "pv" : 160,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "F*ck You",
+                    "numero" : "15",
+                    "sous_titre" : "Attaque l'adversaire hystériquement",
+                    "description" : "fait x, y et z",
+                    "reference" : "clip=KathishSpunkyPieAMPEnergy"
+                },
+                "speciale" : {
+                    "titre" : "F*ck you very much",
+                    "numero": "20",
+                    "sous_titre" : "Utilise une carte support de l'adversaire",
+                    "description" : "Utilise une carte support de l'adversaire",
+                    "reference" : "clip=KathishSpunkyPieAMPEnergy"
+                }
+            }
+        }        
+    },
+
+    "lucyfer_ev" : {
+        "nom" : "Lucyfer",
+        "description" : {
+            "bio" : "bio lucyfer",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 60,
+            "categorie" : "anti-t",
+            "pv" : 200,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "F*ck Toutes",
+                    "numero" : "20",
+                    "sous_titre" : "Attaque l'adversaire hystériquement",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "I don't need you",
+                    "numero": "30",
+                    "sous_titre" : "Utilise une carte support de l'adversaire",
+                    "description" : "Utilise une carte support de l'adversaire",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
