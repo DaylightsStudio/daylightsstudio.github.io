@@ -128,7 +128,7 @@
     "bob_ev" : {
         "nom" : "Bob chevelu",
         "description" : {
-            "bio" : "Personne ne sait réellement qui il est...",
+            "bio" : "BOB AVEC DES CHEVEUX!!!",
             "chaine" : ""
         },
         "carte" : {
@@ -153,6 +153,37 @@
             }
         }        
     },
+
+    "bob" : {
+        "nom" : "Bob",
+        "description" : {
+            "bio" : "Personne ne sait réellement qui il est...",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 7,
+            "categorie" : "anti-t",
+            "pv" : 220,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Où suis-je?",
+                    "numero" : "10",
+                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "C'est qui Bob?",
+                    "numero": "S+",
+                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
+                    "description" : "Copie l'attaque spéciale de l'adversaire",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    
 
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
