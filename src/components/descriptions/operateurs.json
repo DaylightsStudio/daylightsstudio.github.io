@@ -533,7 +533,34 @@
         }        
     },
 
-    
+    "lil_pink" : {
+        "nom" : "Lil' Pink",
+        "description" : {
+            "bio" : "bio lil pink",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 9,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Hheun!",
+                    "numero" : "10",
+                    "sous_titre" : "Personne ne sait réellement ce qu'elle dit...",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "PAPAAAA!",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Daylights est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Daylights est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
 
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
