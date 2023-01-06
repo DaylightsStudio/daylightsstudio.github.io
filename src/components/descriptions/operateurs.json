@@ -37,8 +37,31 @@
             }
         }        
     },
+
+    "aska" : {
+        "nom" : "Aska",
+        "description" : {
+            "bio" : "bio aska",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 14,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Un zeyzer!",
+                    "numero" : "10",
+                    "sous_titre" : "J'y allais souvent avec mon père",
                     "description" : "fait x, y et z",
-                    "reference" : "twitch.tv/..."
+                    "reference" : "clip=SavorySoftBeaverShazBotstix-1SPAnNzvwM69xCsy"
+                },
+                "speciale" : {
+                    "titre" : "Entité",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si NightShadows est l'Anti-T actif.",
+                    "description" : "Ajoute 20 dégats à l'attaque de base",
+                    "reference" : ""
                 }
             }
         }        
