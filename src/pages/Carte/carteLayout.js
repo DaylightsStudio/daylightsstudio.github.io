@@ -182,11 +182,16 @@ function CarteLayout() {
         info_WidthOver768 = '{{ base: "100%", md: "50%" }}';
     }
 
+    let numeroCarte
+    if (jsonData[nomCarte]["carte"]["numero"] === 0)
+        numeroCarte = "Max"
+    else numeroCarte = jsonData[nomCarte]["carte"]["numero"]
+    
     return (
         <div>
             <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
             <p>{jsonData[nomCarte]["description"]["bio"]}</p>
-            <p id='numeroCarte'>{jsonData[nomCarte]["carte"]["numero"]}/{Object.keys(jsonData).length - 1}</p>
+            <p id='numeroCarte'>{numeroCarte}/{Object.keys(jsonData).length - 1}</p>
 
             <Flex direction={isLargerThan768 ? "row" : "column-reverse"}>
                 <Box width={info_WidthOver768}>
