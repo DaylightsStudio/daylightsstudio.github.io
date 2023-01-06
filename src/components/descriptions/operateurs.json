@@ -183,7 +183,35 @@
         }        
     },
 
-    
+
+    "daylights_ev" : {
+        "nom" : "Daylights EV",
+        "description" : {
+            "bio" : "bio daylights_ev",
+            "chaine" : "https://www.twitch.tv/daylightsstudio/"
+        },
+        "carte" : {
+            "numero" : 53,
+            "categorie" : "titan",
+            "pv" : 240,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "J'le fais",
+                    "numero" : "15",
+                    "sous_titre" : "Toutes les cartes Friend effectuent une assistance",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Minuit et demi",
+                    "numero": "30",
+                    "sous_titre" : "*Lorsque Daylights EV atteint 0 PV*: Toutes les cartes Friends en jeu sont transférées au prochain Titan",
+                    "description" : "Transfere toutes les cartes Friends en jeu au prochain Titan si Daylights atteint 0PV.",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
 
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
