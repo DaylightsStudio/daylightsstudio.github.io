@@ -138,7 +138,7 @@ const TypeCarte = () => {
                                     Description:
                                 </div>
                                 <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["description"]}
+                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["description"]}
                                 </div>
                                
                                 <br/>
