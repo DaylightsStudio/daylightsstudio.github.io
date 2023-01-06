@@ -105,20 +105,20 @@
         "carte" : {
             "numero" : 3,
             "categorie" : "titan",
-            "pv" : 200,
+            "pv" : 160,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Rage Quit",
-                    "numero" : "35",
-                    "sous_titre" : "On va essayer des slots",
+                    "titre" : "WHAT WHAT WHAT!",
+                    "numero" : "20",
+                    "sous_titre" : "Le puissant cri du chasseur",
                     "description" : "fait x, y et z",
                     "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
                 },
                 "speciale" : {
-                    "titre" : "56... Heu non 43!",
+                    "titre" : "J'ai 56 ans",
                     "numero": "S+",
                     "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
-                    "description" : "Ajoute 20 dégats à l'attaque de base",
+                    "description" : "fait x, y et z",
                     "reference" : ""
                 }
             }
