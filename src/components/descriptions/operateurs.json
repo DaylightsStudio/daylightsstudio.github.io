@@ -649,6 +649,35 @@
         }        
     },
 
+    "max_the_james" : {
+        "nom" : "Max The James",
+        "description" : {
+            "bio" : "bio Max The James",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 0,
+            "categorie" : "titan",
+            "pv" : 180,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Guitar",
+                    "numero" : "15",
+                    "sous_titre" : "X3 si la carte Jukebox est sur le jeu",
+                    "description" : "Cette attaque est triplée si la carte Jukebox est sur le jeu.",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Stairway to Heaven",
+                    "numero": "15",
+                    "sous_titre" : "Choisi une carte Friend dans les cartes discartée pour assister l'attaque",
+                    "description" : "Prend une carte Friend parmi les cartes discartées pour assister lors de l'attaque.",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
