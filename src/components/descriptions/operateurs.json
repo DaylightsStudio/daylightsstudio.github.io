@@ -125,6 +125,35 @@
         }        
     },
 
+    "bob_ev" : {
+        "nom" : "Bob chevelu",
+        "description" : {
+            "bio" : "Personne ne sait réellement qui il est...",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 59,
+            "categorie" : "anti-t",
+            "pv" : 260,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Par derrière",
+                    "numero" : "20",
+                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Par devant",
+                    "numero": "S+",
+                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
+                    "description" : "Copie l'attaque spéciale de l'adversaire",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
