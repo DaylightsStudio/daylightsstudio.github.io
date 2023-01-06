@@ -67,6 +67,34 @@
         }        
     },
     
+    "bad_ev" : {
+        "nom" : "Bad EV",
+        "description" : {
+            "bio" : "bio bad",
+            "chaine" : "https://www.twitch.tv/badlns"
+        },
+        "carte" : {
+            "numero" : 55,
+            "categorie" : "titan",
+            "pv" : 200,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Rage Quit",
+                    "numero" : "35",
+                    "sous_titre" : "On va essayer des slots",
+                    "description" : "fait x, y et z",
+                    "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
+                },
+                "speciale" : {
+                    "titre" : "56... Heu non 43!",
+                    "numero": "S+",
+                    "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
+                    "description" : "Ajoute 20 dégats à l'attaque de base",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
