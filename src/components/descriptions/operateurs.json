@@ -736,6 +736,64 @@
         }        
     },
 
+    "nightshadows" : {
+        "nom" : "NightShadows",
+        "description" : {
+            "bio" : "bio nightshadows",
+            "chaine" : "https://www.twitch.tv/daylightsstudio/"
+        },
+        "carte" : {
+            "numero" : 6,
+            "categorie" : "anti-t",
+            "pv" : 200,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Midi",
+                    "numero" : "15",
+                    "sous_titre" : "12 heures avant minuit",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Vous l'faites",
+                    "numero": "S+",
+                    "sous_titre" : "Toutes les cartes Friend effectuent leur attaque de base",
+                    "description" : "Toutes les cartes Friend effectuent leur attaque de base",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "nightshadows_ev" : {
+        "nom" : "NightShadows EV",
+        "description" : {
+            "bio" : "bio nightshadows ev",
+            "chaine" : "https://www.twitch.tv/daylightsstudio/"
+        },
+        "carte" : {
+            "numero" : 58,
+            "categorie" : "anti-t",
+            "pv" : 240,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Midi et demi",
+                    "numero" : "25",
+                    "sous_titre" : "11 heures 30 heures avant minuit",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "On l'fait pour vrai",
+                    "numero": "S+",
+                    "sous_titre" : "*Toutes les cartes Friend (carte de l'adversaire inclus)*: Effectues leur attaque de base",
+                    "description" : "Toutes les cartes Friend effectuent leur attaque de base",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
         "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
