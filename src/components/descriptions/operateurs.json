@@ -329,7 +329,34 @@
         }        
     },
 
-    
+    "eckko" : {
+        "nom" : "Eckko",
+        "description" : {
+            "bio" : "bio eckko",
+            "chaine" : "https://twitch.tv/eckko85"
+        },
+        "carte" : {
+            "numero" : 2,
+            "categorie" : "titan",
+            "pv" : 180,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Pyjama tigre",
+                    "numero" : "15",
+                    "sous_titre" : "Ce pyjama est vraiment féroce",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Pogo Mayo",
+                    "numero": "80",
+                    "sous_titre" : "Effectue cette attaque dès que la carte Pogo Mayo est retournée et pige une nouvelle carte",
+                    "description" : "Inflige 90 dégats à l'adversaire dès que la carte Pogo Mayo est retournée. Le joueur doit ensuite piger une nouvelle carte",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
 
     "crate" : {
         "nom" : "Nom complet de la carte avec espaces et majuscules",
