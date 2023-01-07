@@ -42,7 +42,7 @@
         "nom" : "Aska",
         "description" : {
             "bio" : "bio aska",
-            "chaine" : ""
+            "chaine" : "https://www.twitch.tv/askaatiny/"
         },
         "carte" : {
             "numero" : 14,
@@ -54,7 +54,7 @@
                     "numero" : "10",
                     "sous_titre" : "J'y allais souvent avec mon père",
                     "description" : "fait x, y et z",
-                    "reference" : "clip=SavorySoftBeaverShazBotstix-1SPAnNzvwM69xCsy"
+                    "reference" : "clip=FancyNiceStinkbugM4xHeh-aza_A1GCawQgxSNs"
                 },
                 "speciale" : {
                     "titre" : "Entité",
