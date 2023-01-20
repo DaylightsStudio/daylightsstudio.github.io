@@ -1,5 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+import bgFrame from './backgroundFrame.png'
 import './TiltCardWidget.css'
 
 function TiltCardWidget({ 
@@ -10,9 +11,10 @@ function TiltCardWidget({
     width = "48vmin",
     maxTiltAngleX = 10,
     maxTiltAngleY = 10,
-    foregroundTransformCSS = "translateZ(40px) translateY(-25px) scale(1.1)",
-    middlegroundTransformCSS = "translateZ(25px) scale(1.2)",
-    backgroundTransformCSS = "translateZ(0px) translateY(-20px) scale(1.2)",
+    foregroundTransformCSS = "translateZ(40px)",
+    middlegroundTransformCSS = "translateZ(25px)",
+    backgroundFrameTransformCSS = "translateZ(10px)",
+    backgroundTransformCSS = "translateZ(0px)",
  }) {
       return (
         <div style={{transform:`scale(${size})`}}>
@@ -41,6 +43,14 @@ function TiltCardWidget({
                     style={{
                         width: width,
                         transform: middlegroundTransformCSS}} 
+                    alt="pic" />
+
+                <img 
+                    src={bgFrame} 
+                    className="backgroundFrame" 
+                    style={{
+                        width: width, 
+                        transform: backgroundFrameTransformCSS}} 
                     alt="pic" />
 
                 <img 
