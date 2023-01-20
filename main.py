@@ -12,10 +12,10 @@ def deplacerFichiers(dir):
             nomCarte = d[3:].replace(" ", "_").lower()
             nomCarteCap = nomCarte.capitalize()
 
-            ancienEmplacement = str(f"./src/pages/{d}/")
+            ancienEmplacement = str(f"~/Téléchargements/Deck Web-20230120T232336Z-001/")
             # print(ancienEmplacement)
 
-            nouvelEmplacement = str(f"./src/pages/{nomCarte}/assets/")
+            nouvelEmplacement = str(f"./src/cartes/{nomCarte}/assets/")
             # print(nouvelEmplacement)
 
             source = ancienEmplacement
@@ -35,7 +35,7 @@ def deplacerFichiers(dir):
             
             # os.rename(ancienEmplacement, nouvelEmplacement)
 
-            f = open(f"./src/pages/{nomCarte}/{nomCarte}.js", "x")
+            f = open(f"./src/cartes/{nomCarte}/{nomCarte}.js", "x")
             f.write("""
                 import React from 'react';
                 import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
@@ -89,11 +89,11 @@ def afficherBoutonsRouter(dir):
             print("<li><button><a href={`" + nomCarte + "`}>" + nomCarteCap + "</a></button></li>")
 
 
-#deplacerFichiers("src/pages")
+deplacerFichiers("src/pages")
 
 #afficherImports("src/pages")
 print()
 #afficherRoutes("src/pages")
 
-afficherBoutonsRouter("src/pages")
+# afficherBoutonsRouter("src/pages")
 
