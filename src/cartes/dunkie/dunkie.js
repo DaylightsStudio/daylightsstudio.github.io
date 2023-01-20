@@ -10,8 +10,7 @@ function Dunkie() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            backgroundTransformCSS = "translateZ(0px) translateY(-20px) translateX(-35px) scale(1.12)"/> 
+            bg={background}/> 
     );
 }
 
