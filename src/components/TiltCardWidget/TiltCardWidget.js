@@ -9,10 +9,7 @@ function TiltCardWidget({
     size = 1,
     width = "48vmin",
     maxTiltAngleX = 10,
-    maxTiltAngleY = 10,
-    foregroundTransformCSS = "translateZ(40px)",
-    middlegroundTransformCSS = "translateZ(25px)",
-    backgroundTransformCSS = "translateZ(0px)",
+    maxTiltAngleY = 10
  }) {
       return (
         <div style={{transform:`scale(${size})`}}>
@@ -31,24 +28,21 @@ function TiltCardWidget({
                     src={fg}
                     className="foreground"
                     style={{
-                        width: width,
-                        transform: foregroundTransformCSS}}
+                        width: width}}
                     alt="pic" />
 
                 <img 
                     src={mg}
                     className="middleground"
                     style={{
-                        width: width,
-                        transform: middlegroundTransformCSS}} 
+                        width: width}} 
                     alt="pic" />
 
                 <img 
                     src={bg} 
                     className="background" 
                     style={{
-                        width: width, 
-                        transform: backgroundTransformCSS}} 
+                        width: width}} 
                     alt="pic" />
             </Tilt> 
         </div>

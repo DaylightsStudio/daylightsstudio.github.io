@@ -11,18 +11,24 @@
     position:absolute;
     top: 0px;
     left: 0px;
+
+    transform: translateZ(0px);
 }
 
 .middleground {
     position:absolute;
     top: 0px;
     left: 0px;
+
+    transform: translateZ(25px);
 }
 
 .foreground {
     position:absolute;
     top: 0px;
     left: 0px;
+
+    transform: translateZ(40px);
 }
 
 /* ====================================================================== */
