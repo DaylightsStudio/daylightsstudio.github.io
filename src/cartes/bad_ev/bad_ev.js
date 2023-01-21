@@ -10,14 +10,11 @@ function Bad_ev() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            backgroundTransformCSS="translateZ(0px) translateY(-140px) translateX(20px) scale(1.1)"
-            middlegroundTransformCSS="translateZ(25px) translateX(-35px) scale(1.15)"
-            /> 
+            bg={background} /> 
     );
 }
 
-Bad_ev.displayName = 'bad_ev'
+Bad_ev.displayName = 'bad_ev';
 
 export default Bad_ev;
             

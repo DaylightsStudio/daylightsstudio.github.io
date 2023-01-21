@@ -10,9 +10,7 @@ function Frenchfox_ev() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateX(-10px) scale(1.2)"
-            backgroundTransformCSS = "translateZ(0px) translateY(75px) translateX(-50px) scale(1.2)"/> 
+            bg={background} /> 
     );
 }
 

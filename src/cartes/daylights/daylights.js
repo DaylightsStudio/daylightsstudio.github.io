@@ -10,8 +10,7 @@ function Daylights() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background}
-            backgroundTransformCSS="translateZ(0px) translateY(0px) scale(1.2)"/> 
+            bg={background} /> 
     );
 }
 

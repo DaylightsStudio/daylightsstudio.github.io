@@ -14,7 +14,7 @@ function Badtivia() {
     );
 }
 
-Badtivia.displayName = 'badtivia'
+Badtivia.displayName = 'badtivia';
 
 export default Badtivia;
             

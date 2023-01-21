@@ -10,8 +10,7 @@ function Lil_pink() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-40px) translateX(47px) scale(1.17)"/> 
+            bg={background} /> 
     );
 }
 

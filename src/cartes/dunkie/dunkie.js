@@ -10,7 +10,7 @@ function Dunkie() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background}/> 
+            bg={background} /> 
     );
 }
 

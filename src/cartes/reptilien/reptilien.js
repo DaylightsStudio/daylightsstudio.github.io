@@ -10,8 +10,7 @@ function Reptilien() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            backgroundTransformCSS = "translateZ(0px)  scale(1)"/> 
+            bg={background} /> 
     );
 }
 

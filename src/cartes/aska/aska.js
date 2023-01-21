@@ -10,12 +10,11 @@ function Aska() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateX(-10px) scale(1.1)"/> 
+            bg={background} /> 
     );
 }
 
-Aska.displayName = 'aska'
+Aska.displayName = 'aska';
 
 export default Aska;
             

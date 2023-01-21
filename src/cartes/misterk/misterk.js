@@ -10,8 +10,7 @@ function Misterk() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-20px) scale(1.1)"/> 
+            bg={background} /> 
     );
 }
 

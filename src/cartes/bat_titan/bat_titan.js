@@ -10,12 +10,11 @@ function Bat_titan() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-15px) scale(1.1)"/> 
+            bg={background} /> 
     );
 }
 
-Bat_titan.displayName = 'Bat_titan'
+Bat_titan.displayName = 'bat_titan';
 
 export default Bat_titan;
             

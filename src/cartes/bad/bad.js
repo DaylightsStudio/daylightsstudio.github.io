@@ -10,12 +10,11 @@ function Bad() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-45px) translateX(15px) scale(1.1)"/> 
+            bg={background} /> 
     );
 }
 
-Bad.displayName = 'bad'
+Bad.displayName = 'bad';
 
 export default Bad;
             

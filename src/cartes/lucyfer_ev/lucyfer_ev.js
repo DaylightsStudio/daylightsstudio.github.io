@@ -10,9 +10,7 @@ function Lucyfer_ev() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(-90px) translateX(-20px) scale(1.05)"
-            backgroundTransformCSS="translateZ(0px) translateY(0px) scale(1.2)" /> 
+            bg={background} /> 
     );
 }
 

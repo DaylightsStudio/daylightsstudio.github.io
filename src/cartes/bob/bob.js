@@ -10,13 +10,11 @@ function Bob() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background} 
-            middlegroundTransformCSS = "translateZ(25px) translateY(15px) scale(1.2)"
-            backgroundTransformCSS="translateZ(0px) translateY(0px) scale(1.2)"/> 
+            bg={background} /> 
     );
 }
 
-Bob.displayName = 'bob'
+Bob.displayName = 'bob';
 
 export default Bob;
             

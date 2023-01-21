@@ -10,9 +10,7 @@ function Eckko_ev() {
         <TiltCardWidget 
             fg={foreground}
             mg={middleground} 
-            bg={background}
-            middlegroundTransformCSS = "translateZ(25px) scale(1.15)"
-            backgroundTransformCSS="translateZ(0px) translateY(-350px) scale(1.2)" /> 
+            bg={background} /> 
     );
 }
 
