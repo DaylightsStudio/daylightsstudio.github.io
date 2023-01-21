@@ -42,7 +42,15 @@
 
 /* si la taille d'écran est moins de 600px, mobile */
 @media screen and (max-width: 600px) {
-.background {
-    transform: translateY(-15px);
-}
+    .background {
+        transform: translateZ(0px) !important;
+    }
+    
+    .middleground {
+        transform: translateZ(15px) !important;
+    }
+    
+    .foreground {
+        transform: translateZ(25px) !important;
+    }
 }
