@@ -12,11 +12,11 @@ def deplacerFichiers(dir):
             nomCarte = d[3:].replace(" ", "_").lower()
             nomCarteCap = nomCarte.capitalize()
 
-            ancienEmplacement = str(f"~/Téléchargements/Deck Web-20230120T232336Z-001/")
-            # print(ancienEmplacement)
+            ancienEmplacement = str(f"./Deck Web/{d}")
+            print(ancienEmplacement)
 
             nouvelEmplacement = str(f"./src/cartes/{nomCarte}/assets/")
-            # print(nouvelEmplacement)
+            print(nouvelEmplacement)
 
             source = ancienEmplacement
             destination = nouvelEmplacement
@@ -31,30 +31,29 @@ def deplacerFichiers(dir):
                 src_path = os.path.join(source, f)
                 dst_path = os.path.join(destination, f)
                 shutil.move(src_path, dst_path)
+                print("\t" + src_path + " -> " + dst_path)
 
             
-            # os.rename(ancienEmplacement, nouvelEmplacement)
-
             f = open(f"./src/cartes/{nomCarte}/{nomCarte}.js", "x")
             f.write("""
-                import React from 'react';
-                import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
-                import foreground from './assets/foreground.png';
-                import middleground from './assets/middleground.png';
-                import background from './assets/background.png';
+import React from 'react';
+import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
+import foreground from './assets/foreground.png';
+import middleground from './assets/middleground.png';
+import background from './assets/background.png';
 
-                function """ + nomCarteCap + """() {
-                    return (
-                        <TiltCardWidget 
-                            fg={foreground}
-                            mg={middleground} 
-                            bg={background} /> 
-                    );
-                }
+function """ + nomCarteCap + """() {
+    return (
+        <TiltCardWidget 
+            fg={foreground}
+            mg={middleground} 
+            bg={background} /> 
+    );
+}
 
-                {nomCarteCap}.displayName = '{nomCarte}';
+""" + nomCarteCap + """.displayName = '""" + nomCarte + """';
 
-                export default """ + nomCarteCap + """;
+export default """ + nomCarteCap + """;
             """)
             f.close()
 
@@ -89,7 +88,7 @@ def afficherBoutonsRouter(dir):
             print("<li><button><a href={`" + nomCarte + "`}>" + nomCarteCap + "</a></button></li>")
 
 
-deplacerFichiers("src/pages")
+deplacerFichiers("./Deck Web")
 
 #afficherImports("src/pages")
 print()
