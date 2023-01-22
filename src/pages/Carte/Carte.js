@@ -60,6 +60,8 @@ import Max_the_james from '../../cartes/max_the_james/max_the_james'
 import Liqueur_anti_t from '../../cartes/liqueur_anti_t/liqueur_anti_t'
 import NotFound from '../../cartes/not_found/not_found'
 
+import DaylightsDeluxe from '../../cartes/daylights-deluxe/daylights-deluxe'
+
 import { useSearchParams } from 'react-router-dom'
 
 
@@ -69,7 +71,7 @@ const listeCartes = [Eckko, Bad, Frenchfox, Frenchfox_ev, Daylights, Daylights_e
     Snef, Ribsy, Dcriss, Recruit, Pogo_mayo, Badtivia, Gtii, Boulanger, Liqueur, Mystery_box, 
     Niche, Os, Sous_marin, Gaming_chair, Galette, Plane, Deconnecte, Sushi_mate, Creme_crispe, 
     Mr_pouf, Clef, Lag_monster, Bad_casino, Reverse, Verse, New_follow, Bat_titan, Platii, 
-    Eckko_ev, Bad_ev, Potter, Potter_ev, Liqueur_anti_t]
+    Eckko_ev, Bad_ev, Potter, Potter_ev, Liqueur_anti_t, DaylightsDeluxe]
 
 function getCardComponent(nomCarte) {
     for (let i = 0; i < listeCartes.length; i++) {
