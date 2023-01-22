@@ -250,7 +250,7 @@ function Cartes() {
                 <div className="item">
                     <img src={Recrue}></img>
                     <h2 className="editionTitre">25 Recrue</h2>
-                    <Link to={`/carte?n=recrue`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=recruit`}><button>Afficher la carte</button></Link>
                 </div>
 
 
@@ -481,7 +481,7 @@ function Cartes() {
                 <div className="item">
                     <img src={Nightshadows_ev}></img>
                     <h2 className="editionTitre">58 NightShadows EV</h2>
-                    <Link to={`/carte?n=nightshadows_ev`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=nightsshadows_ev`}><button>Afficher la carte</button></Link>
                 </div>
 
 
@@ -494,8 +494,8 @@ function Cartes() {
 
                 <div className="item">
                     <img src={Lucy_ev}></img>
-                    <h2 className="editionTitre">60 Lucy EV</h2>
-                    <Link to={`/carte?n=lucy_ev`}><button>Afficher la carte</button></Link>
+                    <h2 className="editionTitre">60 Lucyfer EV</h2>
+                    <Link to={`/carte?n=lucyfer_ev`}><button>Afficher la carte</button></Link>
                 </div>
             </div>
         </div>
