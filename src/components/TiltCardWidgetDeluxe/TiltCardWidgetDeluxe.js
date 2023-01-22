@@ -21,6 +21,7 @@ function TiltCardWidgetDeluxe({
                 perspective={1000}
                 glareEnable={true} 
                 glareMaxOpacity={0.3}
+                gyroscope={true}
                 glareColor="white" 
                 glarePosition="all"
                 glareBorderRadius='20px'
