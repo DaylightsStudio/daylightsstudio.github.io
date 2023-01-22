@@ -1,0 +1,40 @@
+.parallax-tilt-deluxe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform-style: preserve-3d;
+}
+
+.background-deluxe {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+
+    transform: translateZ(0px);
+}
+
+.foreground-deluxe {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+
+    transform: translateZ(40px);
+}
+
+/* ====================================================================== */
+/* ========================= ADAPTATIONS MOBILE ========================= */
+/* ====================================================================== */
+
+
+/* si la taille d'écran est moins de 600px, mobile */
+@media screen and (max-width: 600px) {
+    .background-deluxe {
+        transform: translateZ(0px) !important;
+    }
+    
+    .foreground-deluxe {
+        transform: translateZ(25px) !important;
+    }
+}
