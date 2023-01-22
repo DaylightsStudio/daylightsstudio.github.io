@@ -60,6 +60,7 @@ export default """ + nomCarteCap + """;
 
 def creerImgCartesThumbnails(dir):
     arr = []
+    arrNomCartes = []
 
     for root, dirs, files in os.walk(dir):
         for f in files:
@@ -77,7 +78,12 @@ def creerImgCartesThumbnails(dir):
 
             print(f"import {nomCarteCap} from '../cartesThumbnails/{nomCarte}.png'")
 
-        for f in files:
+            arrNomCartes.append(f)
+
+        arrNomCartes.sort()
+        print(arrNomCartes)
+
+        for f in arrNomCartes:
             nomCarte = f[3:-4].replace(" ", "_").lower()
             nomCarteCap = nomCarte.capitalize()
 
