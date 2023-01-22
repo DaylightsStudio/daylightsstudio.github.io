@@ -76,7 +76,7 @@ def creerImgCartesThumbnails(dir):
             shutil.copy(ancienEmplacement, nouvelEmplacement)
             # print("\t" + ancienEmplacement + " -> " + nouvelEmplacement)
 
-            print(f"import {nomCarteCap} from '../cartesThumbnails/{nomCarte}.png'")
+            print(f"import {nomCarteCap} from '../../cartesThumbnails/{nomCarte}.png'")
 
             arrNomCartes.append(f)
 

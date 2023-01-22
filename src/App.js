@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router";
 import Accueil from './pages/Accueil'
 import HeaderBar from './components/HeaderBar/HeaderBar';
 import CarteLayout from './pages/Carte/carteLayout'
-import Cartes from './pages/Cartes'
+import Cartes from './pages/ListeCartes/Cartes'
 import Reglements from './pages/Reglements';
 
 
