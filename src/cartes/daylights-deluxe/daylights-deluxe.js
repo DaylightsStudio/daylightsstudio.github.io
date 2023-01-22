@@ -7,7 +7,7 @@ import TiltCardWidgetDeluxe from '../../components/TiltCardWidgetDeluxe/TiltCard
 function DaylightsDeluxe() {
     return (
         <TiltCardWidgetDeluxe
-            
+            width='48vmin'
             fg={foreground}
             shiny={shiny}
             bg={background} /> 

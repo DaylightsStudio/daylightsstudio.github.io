@@ -7,7 +7,6 @@ function Cartes() {
     return (
         <div>
             <Root />
-            <DaylightsDeluxe/>    
         </div>
         
         
