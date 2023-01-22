@@ -278,7 +278,7 @@ function Cartes() {
                 <div className="item">
                     <img src={Yogourt}  alt="une carte"></img>
                     <h2 className="editionTitre">29 Yogourt</h2>
-                    <Link to={`/carte?n=yogourt`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=badtivia`}><button>Afficher la carte</button></Link>
                 </div>
 
 
@@ -362,7 +362,7 @@ function Cartes() {
                 <div className="item">
                     <img src={Déconnecté}  alt="une carte"></img>
                     <h2 className="editionTitre">41 Déconnecté</h2>
-                    <Link to={`/carte?n=déconnecté`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=deconnecte`}><button>Afficher la carte</button></Link>
                 </div>
 
 
@@ -425,14 +425,14 @@ function Cartes() {
                 <div className="item">
                     <img src={New_follower_card}  alt="une carte"></img>
                     <h2 className="editionTitre">50 New Follower</h2>
-                    <Link to={`/carte?n=new_follower`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=new_follow`}><button>Afficher la carte</button></Link>
                 </div>
 
 
                 <div className="item">
                     <img src={Bat_card}  alt="une carte"></img>
                     <h2 className="editionTitre">51 Bat</h2>
-                    <Link to={`/carte?n=bat`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=bat_titan`}><button>Afficher la carte</button></Link>
                 </div>
 
 
