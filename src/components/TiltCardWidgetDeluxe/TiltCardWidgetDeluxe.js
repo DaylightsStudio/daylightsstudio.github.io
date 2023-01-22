@@ -2,41 +2,46 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import './TiltCardWidgetDeluxe.css'
 
-function TiltCardWidgetDeluxe({ 
+function TiltCardWidgetDeluxe({
     fg,
+    shiny,
     bg,
     size = 1,
-    width = "48vmin"
- }) {
-      return (
-        <div style={{transform:`scale(${size})`}}>
+    width = "100%"
+}) {
+    return (
+        <div>
             <Tilt
-                className="parallax-tilt"
+                className="parallax-tilt-deluxe"
                 tiltMaxAngleX={10}
                 tiltMaxAngleY={10}
-                tiltReverse={true}
-                perspective={400}
-                transitionSpeed={1500}
-                scale={1.1}
-                gyroscope={true} 
-                style={{height: width, width: width}}>
+                perspective={1000}
+                glareEnable={true} 
+                glareMaxOpacity={0.3} 
+                glareColor="purple" 
+                glarePosition="all"
+                scale={1.1} 
+                style={{backgroundImage: "url('" + shiny + "')"}}>
 
-                <img 
+                <img
                     src={fg}
                     className="foreground-deluxe"
                     style={{
-                        width: width}}
+                        width: width
+                    }}
                     alt="pic" />
 
-                <img 
-                    src={bg} 
-                    className="background-deluxe" 
+                <img
+                    src={bg}
+                    className="background-deluxe"
                     style={{
-                        width: width}} 
+                        width: width
+                    }}
                     alt="pic" />
-            </Tilt> 
+
+            </Tilt>
         </div>
-    ); 
+    );
 }
 
 export default TiltCardWidgetDeluxe;

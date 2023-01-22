@@ -1,33 +1,32 @@
-.parallax-tilt-deluxe {
+.parallax-tilt-deluxe   {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 816px;
+    height: 1110px;
     transform-style: preserve-3d;
+    transform: translateZ(0px);
 }
 
 .background-deluxe {
     position:absolute;
     top: 0px;
     left: 0px;
-
-    transform: translateZ(0px);
+    transform: translateZ(1px);
 }
 
 .foreground-deluxe {
     position:absolute;
     top: 0px;
     left: 0px;
-
     transform: translateZ(40px);
 }
+
 
 /* ====================================================================== */
 /* ========================= ADAPTATIONS MOBILE ========================= */
 /* ====================================================================== */
-
-
 /* si la taille d'écran est moins de 600px, mobile */
 @media screen and (max-width: 600px) {
     .background-deluxe {
