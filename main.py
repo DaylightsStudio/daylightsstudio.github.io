@@ -58,6 +58,52 @@ export default """ + nomCarteCap + """;
             f.close()
 
 
+def creerImgCartesThumbnails(dir):
+    arr = []
+
+    for root, dirs, files in os.walk(dir):
+        for f in files:
+            nomCarte = f[3:-4].replace(" ", "_").lower()
+            nomCarteCap = nomCarte.capitalize()
+
+            ancienEmplacement = str(f"./Deck final/{f}")
+            # print(ancienEmplacement)
+
+            nouvelEmplacement = str(f"./src/cartesThumbnails/{nomCarte}.png")
+            # print(nouvelEmplacement)
+
+            shutil.copy(ancienEmplacement, nouvelEmplacement)
+            # print("\t" + ancienEmplacement + " -> " + nouvelEmplacement)
+
+            print(f"import {nomCarteCap} from '../cartesThumbnails/{nomCarte}.png'")
+
+        for f in files:
+            nomCarte = f[3:-4].replace(" ", "_").lower()
+            nomCarteCap = nomCarte.capitalize()
+
+            
+
+            if ("_card" in nomCarte):
+                nomCarte = nomCarte[:-5]
+
+            if (".png" in f):
+                f = f[:-4]
+
+            if ("card" in f.lower()):
+                f = f[:-5]
+
+            html = """
+<div className="item">
+    <img src={""" + nomCarteCap + """}></img>
+    <h2 className="editionTitre">""" + f + """</h2>
+    <button><Link to={`/carte?n=""" + nomCarte + """`}>Afficher la carte</Link></button>
+</div>
+            """
+
+            arr.append(html)
+        
+        for item in arr:
+            print(item)
             
 
 def afficherImports(dir):
@@ -88,7 +134,7 @@ def afficherBoutonsRouter(dir):
             print("<li><button><a href={`" + nomCarte + "`}>" + nomCarteCap + "</a></button></li>")
 
 
-deplacerFichiers("./Deck Web")
+# deplacerFichiers("./Deck Web")
 
 #afficherImports("src/pages")
 print()
@@ -96,3 +142,4 @@ print()
 
 # afficherBoutonsRouter("src/pages")
 
+creerImgCartesThumbnails("./Deck final/")
