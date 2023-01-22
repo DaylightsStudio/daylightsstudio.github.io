@@ -1,6 +1,5 @@
 import React from "react";
 import Root from '../routes';
-import DaylightsDeluxe from "../cartes/daylights-deluxe/daylights-deluxe";
 
 function Cartes() {
     document.title = "Cartes - Titans Card Game"
@@ -8,8 +7,6 @@ function Cartes() {
         <div>
             <Root />
         </div>
-        
-        
     );
 }
 
