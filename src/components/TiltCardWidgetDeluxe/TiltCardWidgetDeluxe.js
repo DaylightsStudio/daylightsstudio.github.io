@@ -7,21 +7,29 @@ function TiltCardWidgetDeluxe({
     shiny,
     bg,
     size = 1,
-    width = "100%"
+    width = "48vmin",
+    heigt = "65vmin"
 }) {
     return (
-        <div>
+        <div className='tilt'>
             <Tilt
                 className="parallax-tilt-deluxe"
+                tiltReverse={true}
+                transitionSpeed={1500}
                 tiltMaxAngleX={10}
                 tiltMaxAngleY={10}
                 perspective={1000}
                 glareEnable={true} 
-                glareMaxOpacity={0.3} 
-                glareColor="purple" 
+                glareMaxOpacity={0.3}
+                glareColor="white" 
                 glarePosition="all"
+                glareBorderRadius='30px'
                 scale={1.1} 
-                style={{backgroundImage: "url('" + shiny + "')"}}>
+                style={{
+                    backgroundImage: "url('" + shiny + "')",
+                    width: width,
+                    height: heigt
+                    }}>
 
                 <img
                     src={fg}
