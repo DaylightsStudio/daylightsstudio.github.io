@@ -23,7 +23,7 @@ function TiltCardWidgetDeluxe({
                 glareMaxOpacity={0.3}
                 glareColor="white" 
                 glarePosition="all"
-                glareBorderRadius='30px'
+                glareBorderRadius='25px'
                 scale={1.1} 
                 style={{
                     backgroundImage: "url('" + shiny + "')",
