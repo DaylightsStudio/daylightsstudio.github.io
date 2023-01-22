@@ -75,7 +75,7 @@ function Cartes() {
                 <div className="item">
                     <img src={Max_the_james_l}></img>
                     <h2 className="editionTitre">Max The James</h2>
-                    <Link to={`/carte?n=max_the_james_l`}><button>Afficher la carte</button></Link>
+                    <Link to={`/carte?n=max_the_james`}><button>Afficher la carte</button></Link>
                 </div>
 
 
