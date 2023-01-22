@@ -70,7 +70,7 @@ function Cartes() {
     document.title = "Cartes - Titans Card Game"
     return (
         <div>
-            <h1>Toutes les</h1>
+            <h1>Toutes les cartes</h1>
             <div className="flexContainer">
                 <div className="item">
                     <img src={Max_the_james_l}  alt="une carte"></img>
@@ -81,7 +81,7 @@ function Cartes() {
 
                 <div className="item">
                     <img src={Daylights}  alt="une carte"></img>
-                    <h2 className="editionTitre">01 daylights</h2>
+                    <h2 className="editionTitre">01 Daylights</h2>
                     <Link to={`/carte?n=daylights`}><button>Afficher la carte</button></Link>
                 </div>
 
