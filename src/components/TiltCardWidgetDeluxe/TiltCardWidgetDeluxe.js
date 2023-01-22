@@ -8,7 +8,7 @@ function TiltCardWidgetDeluxe({
     bg,
     size = 1,
     width = "48vmin",
-    heigt = "65vmin"
+    height = "67vmin"
 }) {
     return (
         <div className='tilt'>
@@ -28,7 +28,7 @@ function TiltCardWidgetDeluxe({
                 style={{
                     backgroundImage: "url('" + shiny + "')",
                     width: width,
-                    height: heigt
+                    height: height
                     }}>
 
                 <img
