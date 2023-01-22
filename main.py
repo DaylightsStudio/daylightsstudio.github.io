@@ -102,7 +102,7 @@ def creerImgCartesThumbnails(dir):
 <div className="item">
     <img src={""" + nomCarteCap + """}></img>
     <h2 className="editionTitre">""" + f + """</h2>
-    <button><Link to={`/carte?n=""" + nomCarte + """`}>Afficher la carte</Link></button>
+    <Link to={`/carte?n=""" + nomCarte + """`}><button>Afficher la carte</button></Link>
 </div>
             """
 
