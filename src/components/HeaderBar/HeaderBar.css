@@ -61,6 +61,20 @@
     color: #FAEBFF;
 }
 
+.toggle-media {
+    /* removes default border on button element */
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    transition: background-color 0.2s ease-in-out;
+    /* positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-45%);
+    color: #FAEBFF;
+}
+
 #logo {
     margin-left: 10px;
 }
@@ -124,7 +138,7 @@
         color: #24002f;
     }
 
-    .hamburger {
+    .hamburger, .toggle-media {
         color: #24002f;
     }
 

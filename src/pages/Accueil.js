@@ -4,7 +4,7 @@ import VideoAutoPlay from "../components/VideoAutoPlay/VideoAutoPlay";
 
 function Accueil() {
     document.title = "Accueil - Titans Card Game"
-
+    
     return (
         <div className="containerAccueil">
             <div>
