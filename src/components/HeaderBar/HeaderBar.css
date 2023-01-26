@@ -14,6 +14,7 @@
     position: fixed;
     padding: 0.5rem 0rem;
     color: #FAEBFF;
+    font-weight: 600;
 
     /* Deplacer la barre pour quelle soit en haut/touche le haut de l'ecran */
     transform: translateY(-120px);
@@ -70,7 +71,7 @@
     /* positions the icon to the right and center aligns it vertically */
     position: absolute;
     top: 50%;
-    right: 0px;
+    right: 10px;
     transform: translateY(-45%);
     color: #FAEBFF;
 }
@@ -132,7 +133,7 @@
     }
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     .navigation {
         background-color: #f3d0ffb5;
         color: #24002f;
@@ -163,4 +164,4 @@
             background-color: #ecb0ffe4;
         }
     }
-}
+} */

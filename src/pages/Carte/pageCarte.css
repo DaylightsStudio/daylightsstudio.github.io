@@ -101,7 +101,7 @@ body {
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: #FAEBFF;
+        background-color: #e6e6e6;
         color: #24002f;
         transition: 0.3s;
     }
@@ -112,7 +112,7 @@ body {
     }
 
     .chakra-accordion__item, .chakra-accordion__button {
-        background: #f5d7ff;
+        background: #ffffff;
         color: #24002f;
     }
 }

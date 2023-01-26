@@ -1,7 +1,10 @@
 import React from 'react';
 import "./HideShowMedia.css"
-import HideMedia from './hide-media.png'
-import ShowMedia from './show-media.png'
+// import HideMedia from './hide-media.png'
+// import ShowMedia from './show-media.png'
+import {ReactComponent as HideMedia} from './hide-media.svg'
+import {ReactComponent as ShowMedia} from './show-media.svg'
+
 
 function HideShowMedia() {
     
@@ -10,7 +13,7 @@ function HideShowMedia() {
         console.log("afficher media = true")
         return (
             <div>
-                <img className="toggleMediaImage" src={HideMedia}></img>
+                <HideMedia className='toggleMediaImage'/>
             </div>
         );
     }
@@ -19,7 +22,7 @@ function HideShowMedia() {
         document.cookie = "showMedia=false"
         return (
             <div>
-                <img className="toggleMediaImage" src={ShowMedia}></img>
+                <ShowMedia className='toggleMediaImage'/>
             </div>
         );
     }
