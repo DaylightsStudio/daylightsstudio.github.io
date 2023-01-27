@@ -13,7 +13,6 @@ import {
 import './pageCarte.css'
 import { useSearchParams } from 'react-router-dom';
 import { TwitchClip } from 'react-twitch-embed';
-import Helmet from 'helmet';
 
 let nomCarte;
 
@@ -172,7 +171,7 @@ function CarteLayout() {
     let carte_WidthOver768;
     let info_WidthOver768;
 
-    // document.title = `${jsonData[nomCarte]["nom"]} - Titans Card Game`
+    document.title = `${jsonData[nomCarte]["nom"]} - Titans Card Game`
 
     if (isLargerThan768)
     {
@@ -190,11 +189,6 @@ function CarteLayout() {
     
     return (
         <div>
-            <Helmet>
-                <title>{jsonData[nomCarte]["nom"]} - Titans Card Game</title>
-                <meta name="description" content={`Voyez la carte ${jsonData[nomCarte]["nom"]} sur TeamTitans.ca!`} />
-            </Helmet>
-
             <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
             <p>{jsonData[nomCarte]["description"]["bio"]}</p>
             <p id='numeroCarte'>{numeroCarte}/{Object.keys(jsonData).length - 1}</p>
