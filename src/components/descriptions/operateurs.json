@@ -733,7 +733,7 @@
         }        
     },
 	
-	"recrue" : {
+	"recruit" : {
         "nom" : "Recrue",
         "description" : {
             "bio" : "bio Recrue",
@@ -1070,7 +1070,7 @@
         "nom" : "Sushi Mate",
         "description" : "",
         "carte" : {
-            "numero" : 42
+            "numero" : 42,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1089,7 +1089,7 @@
         "nom" : "Crème Crispé",
         "description" : "",
         "carte" : {
-            "numero" : 43
+            "numero" : 43,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1108,7 +1108,7 @@
         "nom" : "Mr. Pouf",
         "description" : "",
         "carte" : {
-            "numero" : 44
+            "numero" : 44,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1127,7 +1127,7 @@
         "nom" : "Clef",
         "description" : "",
         "carte" : {
-            "numero" : 45
+            "numero" : 45,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1146,7 +1146,7 @@
         "nom" : "Lag Monster",
         "description" : "",
         "carte" : {
-            "numero" : 46
+            "numero" : 46,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1165,7 +1165,7 @@
         "nom" : "Bad Casino",
         "description" : "",
         "carte" : {
-            "numero" : 47
+            "numero" : 47,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1184,7 +1184,7 @@
         "nom" : "Reverse",
         "description" : "",
         "carte" : {
-            "numero" : 48
+            "numero" : 48,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1203,7 +1203,7 @@
         "nom" : "Verse",
         "description" : "",
         "carte" : {
-            "numero" : 49
+            "numero" : 49,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1222,7 +1222,7 @@
         "nom" : "New Follow",
         "description" : "",
         "carte" : {
-            "numero" : 50
+            "numero" : 50,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1241,7 +1241,7 @@
         "nom" : "Bat-Titan",
         "description" : "",
         "carte" : {
-            "numero" : 51
+            "numero" : 51,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
@@ -1260,7 +1260,7 @@
         "nom" : "Plat II",
         "description" : "",
         "carte" : {
-            "numero" : 52
+            "numero" : 52,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "",
