@@ -9,204 +9,29 @@
         }        
     },
 
-    "adaoh" : {
-        "nom" : "Adaoh",
+    "max_the_james" : {
+        "nom" : "Max The James",
         "description" : {
-            "bio" : "Adaoh il fait des tres bon plans a r6",
+            "bio" : "bio Max The James",
             "chaine" : ""
         },
         "carte" : {
-            "numero" : 19,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "J'ai un plan",
-                    "numero" : "10",
-                    "sous_titre" : "mais on a pas de smoke",
-                    "description" : "fait x, y et z",
-                    "reference" : "clip=FriendlyZanyLeopardMoreCowbell"
-                },
-                "speciale" : {
-                    "titre" : "On smoke",
-                    "numero": "S+",
-                    "sous_titre" : "L'adversaire perd un tour le temps que la fumée se dissipe.",
-                    "description" : "Fait perdre un tour à l'adversaire",
-                    "reference" : "clip=FriendlyZanyLeopardMoreCowbell"
-                }
-            }
-        }        
-    },
-
-    "aska" : {
-        "nom" : "Aska",
-        "description" : {
-            "bio" : "bio aska",
-            "chaine" : "https://www.twitch.tv/askaatiny/"
-        },
-        "carte" : {
-            "numero" : 14,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Un zeyzer!",
-                    "numero" : "10",
-                    "sous_titre" : "J'y allais souvent avec mon père",
-                    "description" : "fait x, y et z",
-                    "reference" : "clip=FancyNiceStinkbugM4xHeh-aza_A1GCawQgxSNs"
-                },
-                "speciale" : {
-                    "titre" : "Entité",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si NightShadows est l'Anti-T actif.",
-                    "description" : "Ajoute 20 dégats à l'attaque de base",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-    
-    "bad_ev" : {
-        "nom" : "Bad EV",
-        "description" : {
-            "bio" : "bio bad",
-            "chaine" : "https://www.twitch.tv/badlns"
-        },
-        "carte" : {
-            "numero" : 55,
+            "numero" : 0,
             "categorie" : "titan",
-            "pv" : 200,
+            "pv" : 180,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Rage Quit",
-                    "numero" : "35",
-                    "sous_titre" : "On va essayer des slots",
-                    "description" : "fait x, y et z",
-                    "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
-                },
-                "speciale" : {
-                    "titre" : "56... Heu non 43!",
-                    "numero": "S+",
-                    "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
-                    "description" : "Ajoute 20 dégats à l'attaque de base",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "bad" : {
-        "nom" : "Bad",
-        "description" : {
-            "bio" : "bio bad",
-            "chaine" : "https://www.twitch.tv/badlns"
-        },
-        "carte" : {
-            "numero" : 3,
-            "categorie" : "titan",
-            "pv" : 160,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "WHAT WHAT WHAT!",
-                    "numero" : "20",
-                    "sous_titre" : "Le puissant cri du chasseur",
-                    "description" : "fait x, y et z",
-                    "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
-                },
-                "speciale" : {
-                    "titre" : "J'ai 56 ans",
-                    "numero": "S+",
-                    "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "bob_ev" : {
-        "nom" : "Bob chevelu",
-        "description" : {
-            "bio" : "BOB AVEC DES CHEVEUX!!!",
-            "chaine" : ""
-        },
-        "carte" : {
-            "numero" : 59,
-            "categorie" : "anti-t",
-            "pv" : 260,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Par derrière",
-                    "numero" : "20",
-                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Par devant",
-                    "numero": "S+",
-                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
-                    "description" : "Copie l'attaque spéciale de l'adversaire",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "bob" : {
-        "nom" : "Bob",
-        "description" : {
-            "bio" : "Personne ne sait réellement qui il est...",
-            "chaine" : ""
-        },
-        "carte" : {
-            "numero" : 7,
-            "categorie" : "anti-t",
-            "pv" : 220,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Où suis-je?",
-                    "numero" : "10",
-                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "C'est qui Bob?",
-                    "numero": "S+",
-                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
-                    "description" : "Copie l'attaque spéciale de l'adversaire",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-
-    "daylights_ev" : {
-        "nom" : "Daylights EV",
-        "description" : {
-            "bio" : "bio daylights_ev",
-            "chaine" : "https://www.twitch.tv/daylightsstudio/"
-        },
-        "carte" : {
-            "numero" : 53,
-            "categorie" : "titan",
-            "pv" : 240,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "J'le fais",
+                    "titre" : "Guitar",
                     "numero" : "15",
-                    "sous_titre" : "Toutes les cartes Friend effectuent une assistance",
-                    "description" : "fait x, y et z",
+                    "sous_titre" : "X3 si la carte Jukebox est sur le jeu",
+                    "description" : "Cette attaque est triplée si la carte Jukebox est sur le jeu.",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Minuit et demi",
-                    "numero": "30",
-                    "sous_titre" : "*Lorsque Daylights EV atteint 0 PV*: Toutes les cartes Friends en jeu sont transférées au prochain Titan",
-                    "description" : "Transfere toutes les cartes Friends en jeu au prochain Titan si Daylights atteint 0PV.",
+                    "titre" : "Stairway to Heaven",
+                    "numero": "15",
+                    "sous_titre" : "Choisi une carte Friend dans les cartes discartée pour assister l'attaque",
+                    "description" : "Prend une carte Friend parmi les cartes discartées pour assister lors de l'attaque.",
                     "reference" : ""
                 }
             }
@@ -242,93 +67,6 @@
         }        
     },
 
-    "dcriss" : {
-        "nom" : "DCRISS",
-        "description" : {
-            "bio" : "bio daylights",
-            "chaine" : "https://twitch.tv/dcr1ss_"
-        },
-        "carte" : {
-            "numero" : 24,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "C'est gratuit",
-                    "numero" : "10",
-                    "sous_titre" : "Et c'est de la qualité",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Nice Kill Good Sh*t",
-                    "numero": "S+",
-                    "sous_titre" : "Paralyse une carte Supply Drop ou Friend de ton choix pendant deux tours",
-                    "description" : "Empêche l'adversaire d'utiliser une carte Supply Drop ou Friend du choix du joueur pendant deux tours",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "dunkie" : {
-        "nom" : "Dunkie",
-        "description" : {
-            "bio" : "bio daylights",
-            "chaine" : "https://www.twitch.tv/dunkietv"
-        },
-        "carte" : {
-            "numero" : 20,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Charogne",
-                    "numero" : "10",
-                    "sous_titre" : "Cassage de rotule",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Vulvecan",
-                    "numero": "S+",
-                    "sous_titre" : "Un bruit de noune dans le vent effraie l'ennemi, retire une carte de support de votre choix à l'adversaire",
-                    "description" : "Le joueur peut retirer une carte au choix à son adversaire",
-                    "reference" : "clip=FurryWonderfulLarkEagleEye"
-                }
-            }
-        }        
-    },
-
-    "eckko_ev" : {
-        "nom" : "Eckko EV",
-        "description" : {
-            "bio" : "bio daylights",
-            "chaine" : "https://twitch.tv/eckko85"
-        },
-        "carte" : {
-            "numero" : 54,
-            "categorie" : "titan",
-            "pv" : 220,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Furry",
-                    "numero" : "25",
-                    "sous_titre" : "L'instinct animal surgit",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Gros Pogo Mayo",
-                    "numero": "90",
-                    "sous_titre" : "Effectue cette attaque dès que la carte Pogo Mayo est retournée et pige une nouvelle carte",
-                    "description" : "Inflige 90 dégats à l'adversaire dès que la carte Pogo Mayo est retournée. Le joueur doit ensuite piger une nouvelle carte",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
     "eckko" : {
         "nom" : "Eckko",
         "description" : {
@@ -358,58 +96,29 @@
         }        
     },
 
-    "fakefoxx" : {
-        "nom" : "FakeFoxx",
+    "bad" : {
+        "nom" : "Bad",
         "description" : {
-            "bio" : "bio fakefox",
-            "chaine" : ""
+            "bio" : "bio bad",
+            "chaine" : "https://www.twitch.tv/badlns"
         },
         "carte" : {
-            "numero" : 13,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Yark",
-                    "numero" : "10",
-                    "sous_titre" : "Encore des cheaters",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Tu veux quoi",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si FrenchFox est le Titan actif",
-                    "description" : "Si FrenchFox est le Titan actif, l'attaque de base est de 30",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "frenchfox_ev" : {
-        "nom" : "FrenchFox EV",
-        "description" : {
-            "bio" : "bio frenchfox-ev",
-            "chaine" : ""
-        },
-        "carte" : {
-            "numero" : 57,
+            "numero" : 3,
             "categorie" : "titan",
-            "pv" : 140,
+            "pv" : 160,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Hmmmmm",
-                    "numero" : "30",
-                    "sous_titre" : "Quest-ce que je mange?",
+                    "titre" : "WHAT WHAT WHAT!",
+                    "numero" : "20",
+                    "sous_titre" : "Le puissant cri du chasseur",
                     "description" : "fait x, y et z",
-                    "reference" : ""
+                    "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
                 },
                 "speciale" : {
-                    "titre" : "J'ai un brunch",
+                    "titre" : "J'ai 56 ans",
                     "numero": "S+",
-                    "sous_titre" : "*Lorsque que l'ennemi attaque, lance une pièce, si la pièce tombe du coté face, FrenchFox esquive et ne perd aucun PV*",
-                    "description" : "Lorsque FrenchFox est attaqué, le joueur fait un pile ou face, si la pièce tombe du côté face, FrenchFox ne perd aucun PV",
+                    "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
+                    "description" : "fait x, y et z",
                     "reference" : ""
                 }
             }
@@ -445,117 +154,58 @@
         }        
     },
 
-    "good" : {
-        "nom" : "Good",
+    "nightshadows" : {
+        "nom" : "NightShadows",
         "description" : {
-            "bio" : "bio good",
-            "chaine" : "https://www.twitch.tv/badlns"
+            "bio" : "bio nightshadows",
+            "chaine" : "https://www.twitch.tv/daylightsstudio/"
         },
         "carte" : {
-            "numero" : 11,
-            "categorie" : "friend",
-            "pv" : 0,
+            "numero" : 6,
+            "categorie" : "anti-t",
+            "pv" : 200,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Bien essayé",
-                    "numero" : "10",
-                    "sous_titre" : "L'important c'est de s'amuser",
+                    "titre" : "Midi",
+                    "numero" : "15",
+                    "sous_titre" : "12 heures avant minuit",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Ça va très bien",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Bad est le Titan actif",
-                    "description" : "Ajoute 20 dégats à l'attaque de base si Bad est le Titan actif",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-
-    "jukebox" : {
-        "nom" : "Jukebox",
-        "description" : {
-            "bio" : "bio jukebox",
-            "chaine" : ""
-        },
-        "carte" : {
-            "numero" : 17,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Jeux de mots",
-                    "numero" : "20",
-                    "sous_titre" : "Blague étrange heurtant l'égo de l'adversaire",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "Chanson random",
+                    "titre" : "Vous l'faites",
                     "numero": "S+",
-                    "sous_titre" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
-                    "description" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
+                    "sous_titre" : "Toutes les cartes Friend effectuent leur attaque de base",
+                    "description" : "Toutes les cartes Friend effectuent leur attaque de base",
                     "reference" : ""
                 }
             }
         }        
     },
 
-    "kayla" : {
-        "nom" : "Kayla",
+    "bob" : {
+        "nom" : "Bob",
         "description" : {
-            "bio" : "Wouf wouf! Wouf wouf woouf...",
+            "bio" : "Personne ne sait réellement qui il est...",
             "chaine" : ""
         },
         "carte" : {
-            "numero" : 12,
-            "categorie" : "friend",
-            "pv" : 0,
+            "numero" : 7,
+            "categorie" : "anti-t",
+            "pv" : 220,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Dandine!",
+                    "titre" : "Où suis-je?",
                     "numero" : "10",
-                    "sous_titre" : "Tout le monde se dandine!",
+                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Woof!",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Potter est le Titan actif",
-                    "description" : "Ajoute 20 dégats à l'attaque de base si Potter est le Titan actif",
-                    "reference" : ""
-                }
-            }
-        }        
-    },
-
-    "lil_pink" : {
-        "nom" : "Lil' Pink",
-        "description" : {
-            "bio" : "bio lil pink",
-            "chaine" : ""
-        },
-        "carte" : {
-            "numero" : 9,
-            "categorie" : "friend",
-            "pv" : 0,
-            "attaques" : {
-                "basique" : {
-                    "titre" : "Hheun!",
-                    "numero" : "10",
-                    "sous_titre" : "Personne ne sait réellement ce qu'elle dit...",
-                    "description" : "fait x, y et z",
-                    "reference" : ""
-                },
-                "speciale" : {
-                    "titre" : "PAPAAAA!",
-                    "numero": "+20 att",
-                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Daylights est le Titan actif",
-                    "description" : "Ajoute 20 dégats à l'attaque de base si Daylights est le Titan actif",
+                    "titre" : "C'est qui Bob?",
+                    "numero": "S+",
+                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
+                    "description" : "Copie l'attaque spéciale de l'adversaire",
                     "reference" : ""
                 }
             }
@@ -591,29 +241,145 @@
         }        
     },
 
-    "lucyfer_ev" : {
-        "nom" : "Lucyfer",
+    "lil_pink" : {
+        "nom" : "Lil' Pink",
         "description" : {
-            "bio" : "bio lucyfer",
+            "bio" : "bio lil pink",
             "chaine" : ""
         },
         "carte" : {
-            "numero" : 60,
-            "categorie" : "anti-t",
-            "pv" : 200,
+            "numero" : 9,
+            "categorie" : "friend",
+            "pv" : 0,
             "attaques" : {
                 "basique" : {
-                    "titre" : "F*ck Toutes",
-                    "numero" : "20",
-                    "sous_titre" : "Attaque l'adversaire hystériquement",
+                    "titre" : "Hheun!",
+                    "numero" : "10",
+                    "sous_titre" : "Personne ne sait réellement ce qu'elle dit...",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "I don't need you",
-                    "numero": "30",
-                    "sous_titre" : "Utilise une carte support de l'adversaire",
-                    "description" : "Utilise une carte support de l'adversaire",
+                    "titre" : "PAPAAAA!",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Daylights est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Daylights est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "good" : {
+        "nom" : "Good",
+        "description" : {
+            "bio" : "bio good",
+            "chaine" : "https://www.twitch.tv/badlns"
+        },
+        "carte" : {
+            "numero" : 11,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Bien essayé",
+                    "numero" : "10",
+                    "sous_titre" : "L'important c'est de s'amuser",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Ça va très bien",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Bad est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Bad est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "kayla" : {
+        "nom" : "Kayla",
+        "description" : {
+            "bio" : "Wouf wouf! Wouf wouf woouf...",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 12,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Dandine!",
+                    "numero" : "10",
+                    "sous_titre" : "Tout le monde se dandine!",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Woof!",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Potter est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Potter est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "fakefoxx" : {
+        "nom" : "FakeFoxx",
+        "description" : {
+            "bio" : "bio fakefox",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 13,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Yark",
+                    "numero" : "10",
+                    "sous_titre" : "Encore des cheaters",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Tu veux quoi",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si FrenchFox est le Titan actif",
+                    "description" : "Si FrenchFox est le Titan actif, l'attaque de base est de 30",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "aska" : {
+        "nom" : "Aska",
+        "description" : {
+            "bio" : "bio aska",
+            "chaine" : "https://www.twitch.tv/askaatiny/"
+        },
+        "carte" : {
+            "numero" : 14,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Un zeyzer!",
+                    "numero" : "10",
+                    "sous_titre" : "J'y allais souvent avec mon père",
+                    "description" : "fait x, y et z",
+                    "reference" : "clip=FancyNiceStinkbugM4xHeh-aza_A1GCawQgxSNs"
+                },
+                "speciale" : {
+                    "titre" : "Entité",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si NightShadows est l'Anti-T actif.",
+                    "description" : "Ajoute 20 dégats à l'attaque de base",
                     "reference" : ""
                 }
             }
@@ -649,58 +415,58 @@
         }        
     },
 
-    "max_the_james" : {
-        "nom" : "Max The James",
+    "postal_lady" : {
+        "nom" : "Postal Lady",
         "description" : {
-            "bio" : "bio Max The James",
+            "bio" : "bio postal lady",
             "chaine" : ""
         },
         "carte" : {
-            "numero" : 0,
-            "categorie" : "titan",
-            "pv" : 180,
+            "numero" : 16,
+            "categorie" : "friend",
+            "pv" : 0,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Guitar",
-                    "numero" : "15",
-                    "sous_titre" : "X3 si la carte Jukebox est sur le jeu",
-                    "description" : "Cette attaque est triplée si la carte Jukebox est sur le jeu.",
+                    "titre" : "Whoa, let is shine",
+                    "numero" : "10",
+                    "sous_titre" : "Si l'adversaire est un Titan, inflige 2x",
+                    "description" : "L'attaque inflige le double de dégats (20) si l'adversaire est un Titan",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Stairway to Heaven",
-                    "numero": "15",
-                    "sous_titre" : "Choisi une carte Friend dans les cartes discartée pour assister l'attaque",
-                    "description" : "Prend une carte Friend parmi les cartes discartées pour assister lors de l'attaque.",
+                    "titre" : "Shout out to you",
+                    "numero": "S+",
+                    "sous_titre" : "Inflige le même nombre de dégâts que les dégâts reçus le tour précédent seulement si Lucy est l'Anti-T actif.",
+                    "description" : "Inflige le nombre de dégâts subits lors du tour précédent si Lucy est l'Anti-T actif.",
                     "reference" : ""
                 }
             }
         }        
     },
 
-    "misterk" : {
-        "nom" : "MisterK",
+    "jukebox" : {
+        "nom" : "Jukebox",
         "description" : {
-            "bio" : "bio misterk",
-            "chaine" : "https://www.twitch.tv/misterk_qc"
+            "bio" : "bio jukebox",
+            "chaine" : ""
         },
         "carte" : {
-            "numero" : 23,
+            "numero" : 17,
             "categorie" : "friend",
             "pv" : 0,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Impro",
-                    "numero" : "10",
-                    "sous_titre" : "On improvise un coup",
+                    "titre" : "Jeux de mots",
+                    "numero" : "20",
+                    "sous_titre" : "Blague étrange heurtant l'égo de l'adversaire",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Programmation",
+                    "titre" : "Chanson random",
                     "numero": "S+",
-                    "sous_titre" : "Guérit 20 PV",
-                    "description" : "Guérit 20 PV",
+                    "sous_titre" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
+                    "description" : "Récupère une carte Friend ou Supply Drop qui a été jouée",
                     "reference" : ""
                 }
             }
@@ -736,29 +502,251 @@
         }        
     },
 
-    "nightshadows" : {
-        "nom" : "NightShadows",
+    "adaoh" : {
+        "nom" : "Adaoh",
         "description" : {
-            "bio" : "bio nightshadows",
-            "chaine" : "https://www.twitch.tv/daylightsstudio/"
+            "bio" : "Adaoh il fait des tres bon plans a r6",
+            "chaine" : ""
         },
         "carte" : {
-            "numero" : 6,
-            "categorie" : "anti-t",
-            "pv" : 200,
+            "numero" : 19,
+            "categorie" : "friend",
+            "pv" : 0,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Midi",
-                    "numero" : "15",
-                    "sous_titre" : "12 heures avant minuit",
+                    "titre" : "J'ai un plan",
+                    "numero" : "10",
+                    "sous_titre" : "mais on a pas de smoke",
+                    "description" : "fait x, y et z",
+                    "reference" : "clip=FriendlyZanyLeopardMoreCowbell"
+                },
+                "speciale" : {
+                    "titre" : "On smoke",
+                    "numero": "S+",
+                    "sous_titre" : "L'adversaire perd un tour le temps que la fumée se dissipe.",
+                    "description" : "Fait perdre un tour à l'adversaire",
+                    "reference" : "clip=FriendlyZanyLeopardMoreCowbell"
+                }
+            }
+        }        
+    },
+
+    "dunkie" : {
+        "nom" : "Dunkie",
+        "description" : {
+            "bio" : "bio daylights",
+            "chaine" : "https://www.twitch.tv/dunkietv"
+        },
+        "carte" : {
+            "numero" : 20,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Charogne",
+                    "numero" : "10",
+                    "sous_titre" : "Cassage de rotule",
                     "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Vous l'faites",
+                    "titre" : "Vulvecan",
                     "numero": "S+",
-                    "sous_titre" : "Toutes les cartes Friend effectuent leur attaque de base",
-                    "description" : "Toutes les cartes Friend effectuent leur attaque de base",
+                    "sous_titre" : "Un bruit de noune dans le vent effraie l'ennemi, retire une carte de support de votre choix à l'adversaire",
+                    "description" : "Le joueur peut retirer une carte au choix à son adversaire",
+                    "reference" : "clip=FurryWonderfulLarkEagleEye"
+                }
+            }
+        }        
+    },
+
+    "misterk" : {
+        "nom" : "MisterK",
+        "description" : {
+            "bio" : "bio misterk",
+            "chaine" : "https://www.twitch.tv/misterk_qc"
+        },
+        "carte" : {
+            "numero" : 23,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Impro",
+                    "numero" : "10",
+                    "sous_titre" : "On improvise un coup",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Programmation",
+                    "numero": "S+",
+                    "sous_titre" : "Guérit 20 PV",
+                    "description" : "Guérit 20 PV",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "dcriss" : {
+        "nom" : "DCRISS",
+        "description" : {
+            "bio" : "bio daylights",
+            "chaine" : "https://twitch.tv/dcr1ss_"
+        },
+        "carte" : {
+            "numero" : 24,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "C'est gratuit",
+                    "numero" : "10",
+                    "sous_titre" : "Et c'est de la qualité",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Nice Kill Good Sh*t",
+                    "numero": "S+",
+                    "sous_titre" : "Paralyse une carte Supply Drop ou Friend de ton choix pendant deux tours",
+                    "description" : "Empêche l'adversaire d'utiliser une carte Supply Drop ou Friend du choix du joueur pendant deux tours",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "crate" : {
+        "nom" : "Nom complet de la carte avec espaces et majuscules",
+        "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
+        "carte" : {
+            "numero" : 37,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "nom du bonus avec espaces et majuscules comme il faut",
+                "avantage": {
+                    "universel" : "avantage de la carte pour tout le monde, ex: +30PV",
+                    "specifique" : {
+                        "cible" : "nom de la carte sans espaces, comme la premiere ligne. supprimer categorie cible si inutile",
+                        "avantage" : "avantage pour la carte cible, comme la carte OS pour Kayla, double"
+                    }
+                }   
+            }
+        }        
+    },
+
+    "daylights_ev" : {
+        "nom" : "Daylights EV",
+        "description" : {
+            "bio" : "bio daylights_ev",
+            "chaine" : "https://www.twitch.tv/daylightsstudio/"
+        },
+        "carte" : {
+            "numero" : 53,
+            "categorie" : "titan",
+            "pv" : 240,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "J'le fais",
+                    "numero" : "15",
+                    "sous_titre" : "Toutes les cartes Friend effectuent une assistance",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Minuit et demi",
+                    "numero": "30",
+                    "sous_titre" : "*Lorsque Daylights EV atteint 0 PV*: Toutes les cartes Friends en jeu sont transférées au prochain Titan",
+                    "description" : "Transfere toutes les cartes Friends en jeu au prochain Titan si Daylights atteint 0PV.",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "eckko_ev" : {
+        "nom" : "Eckko EV",
+        "description" : {
+            "bio" : "bio daylights",
+            "chaine" : "https://twitch.tv/eckko85"
+        },
+        "carte" : {
+            "numero" : 54,
+            "categorie" : "titan",
+            "pv" : 220,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Furry",
+                    "numero" : "25",
+                    "sous_titre" : "L'instinct animal surgit",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Gros Pogo Mayo",
+                    "numero": "90",
+                    "sous_titre" : "Effectue cette attaque dès que la carte Pogo Mayo est retournée et pige une nouvelle carte",
+                    "description" : "Inflige 90 dégats à l'adversaire dès que la carte Pogo Mayo est retournée. Le joueur doit ensuite piger une nouvelle carte",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+    
+    "bad_ev" : {
+        "nom" : "Bad EV",
+        "description" : {
+            "bio" : "bio bad",
+            "chaine" : "https://www.twitch.tv/badlns"
+        },
+        "carte" : {
+            "numero" : 55,
+            "categorie" : "titan",
+            "pv" : 200,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Rage Quit",
+                    "numero" : "35",
+                    "sous_titre" : "On va essayer des slots",
+                    "description" : "fait x, y et z",
+                    "reference" : "clip=BashfulSuspiciousDugongTakeNRG-0Scb6hRZ8m5AO7sh"
+                },
+                "speciale" : {
+                    "titre" : "56... Heu non 43!",
+                    "numero": "S+",
+                    "sous_titre" : "*Si l'adversaire utilise une carte Friend*: Riposte automatiquement avec une carte Friend au choix",
+                    "description" : "Ajoute 20 dégats à l'attaque de base",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "frenchfox_ev" : {
+        "nom" : "FrenchFox EV",
+        "description" : {
+            "bio" : "bio frenchfox-ev",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 57,
+            "categorie" : "titan",
+            "pv" : 140,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Hmmmmm",
+                    "numero" : "30",
+                    "sous_titre" : "Quest-ce que je mange?",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "J'ai un brunch",
+                    "numero": "S+",
+                    "sous_titre" : "*Lorsque que l'ennemi attaque, lance une pièce, si la pièce tombe du coté face, FrenchFox esquive et ne perd aucun PV*",
+                    "description" : "Lorsque FrenchFox est attaqué, le joueur fait un pile ou face, si la pièce tombe du côté face, FrenchFox ne perd aucun PV",
                     "reference" : ""
                 }
             }
@@ -794,52 +782,61 @@
         }        
     },
 
-    "postal_lady" : {
-        "nom" : "Postal Lady",
+    "bob_ev" : {
+        "nom" : "Bob chevelu",
         "description" : {
-            "bio" : "bio postal lady",
+            "bio" : "BOB AVEC DES CHEVEUX!!!",
             "chaine" : ""
         },
         "carte" : {
-            "numero" : 16,
-            "categorie" : "friend",
-            "pv" : 0,
+            "numero" : 59,
+            "categorie" : "anti-t",
+            "pv" : 260,
             "attaques" : {
                 "basique" : {
-                    "titre" : "Whoa, let is shine",
-                    "numero" : "10",
-                    "sous_titre" : "Si l'adversaire est un Titan, inflige 2x",
-                    "description" : "L'attaque inflige le double de dégats (20) si l'adversaire est un Titan",
+                    "titre" : "Par derrière",
+                    "numero" : "20",
+                    "sous_titre" : "Attaque l'adversaire de dos avec sa canne",
+                    "description" : "fait x, y et z",
                     "reference" : ""
                 },
                 "speciale" : {
-                    "titre" : "Shout out to you",
+                    "titre" : "Par devant",
                     "numero": "S+",
-                    "sous_titre" : "Inflige le même nombre de dégâts que les dégâts reçus le tour précédent seulement si Lucy est l'Anti-T actif.",
-                    "description" : "Inflige le nombre de dégâts subits lors du tour précédent si Lucy est l'Anti-T actif.",
+                    "sous_titre" : "Copie l'attaque spéciale de l'adversaire",
+                    "description" : "Copie l'attaque spéciale de l'adversaire",
                     "reference" : ""
                 }
             }
         }        
     },
 
-    "crate" : {
-        "nom" : "Nom complet de la carte avec espaces et majuscules",
-        "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
+    "lucyfer_ev" : {
+        "nom" : "Lucyfer",
+        "description" : {
+            "bio" : "bio lucyfer",
+            "chaine" : ""
+        },
         "carte" : {
-            "numero" : 37,
-            "categorie" : "supplydrop",
-            "bonus" : {
-                "titre" : "nom du bonus avec espaces et majuscules comme il faut",
-                "avantage": {
-                    "universel" : "avantage de la carte pour tout le monde, ex: +30PV",
-                    "specifique" : {
-                        "cible" : "nom de la carte sans espaces, comme la premiere ligne. supprimer categorie cible si inutile",
-                        "avantage" : "avantage pour la carte cible, comme la carte OS pour Kayla, double"
-                    }
-                }   
+            "numero" : 60,
+            "categorie" : "anti-t",
+            "pv" : 200,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "F*ck Toutes",
+                    "numero" : "20",
+                    "sous_titre" : "Attaque l'adversaire hystériquement",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "I don't need you",
+                    "numero": "30",
+                    "sous_titre" : "Utilise une carte support de l'adversaire",
+                    "description" : "Utilise une carte support de l'adversaire",
+                    "reference" : ""
+                }
             }
         }        
-    }
-    
+    }    
 }
