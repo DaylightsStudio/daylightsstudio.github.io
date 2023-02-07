@@ -124,12 +124,40 @@
             }
         }        
     },
+	 "potter" : {
+        "nom" : "Potter",
+        "description" : {
+            "bio" : "bio potter",
+            "chaine" : "https://www.twitch.tv/potter51"
+        },
+        "carte" : {
+            "numero" : 4,
+            "categorie" : "titan",
+            "pv" : 210,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Ben Voyons",
+                    "numero" : "20",
+                    "sous_titre" : "Est-ce une incantation?",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Potter Plus Fort",
+                    "numero": "30",
+                    "sous_titre" : "Le champion de la Gold Tournament II bombe le torse et prend une carte en jeu à l'adversaire",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
 
     "frenchfox" : {
         "nom" : "FrenchFox",
         "description" : {
             "bio" : "bio frenchfox",
-            "chaine" : ""
+            "chaine" : "https://www.twitch.tv/frenchfoxx014/"
         },
         "carte" : {
             "numero" : 5,
@@ -264,6 +292,35 @@
                     "numero": "+20 att",
                     "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Daylights est le Titan actif",
                     "description" : "Ajoute 20 dégats à l'attaque de base si Daylights est le Titan actif",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+	
+	"reptilien" : {
+        "nom" : "Reptilien",
+        "description" : {
+            "bio" : "bio reptilien",
+            "chaine" : ""
+        },
+        "carte" : {
+            "numero" : 10,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Le plateau de Laval",
+                    "numero" : "10",
+                    "sous_titre" : "La clique du plateau, l'élite reptilienne",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Sous terrain",
+                    "numero": "+20 att",
+                    "sous_titre" : "Ajoute 20 à l'attaque de base seulement si Eckko est le Titan actif",
+                    "description" : "Ajoute 20 dégats à l'attaque de base si Eckko est le Titan actif",
                     "reference" : ""
                 }
             }
@@ -560,6 +617,64 @@
         }        
     },
 
+    "snef" : {
+        "nom" : "Snef",
+        "description" : {
+            "bio" : "bio snef",
+            "chaine" : "https://www.twitch.tv/snef_computerdesign"
+        },
+        "carte" : {
+            "numero" : 21,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Sucez la",
+                    "numero" : "10",
+                    "sous_titre" : "Une demande étrange...",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Pas de lunette",
+                    "numero": "20",
+                    "sous_titre" : "Coup critique X3 si la pièce tombe sur face",
+                    "description" : "Le joueur peut retirer une carte au choix à son adversaire",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "ribsy" : {
+        "nom" : "Ribsy",
+        "description" : {
+            "bio" : "bio Ribsy",
+            "chaine" : "https://www.twitch.tv/ribsyman"
+        },
+        "carte" : {
+            "numero" : 22,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Milf",
+                    "numero" : "10",
+                    "sous_titre" : "Un petit coup de main avant d'être brulé",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Mini Go",
+                    "numero": "20",
+                    "sous_titre" : "Guérit 20 PV",
+                    "description" : "",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+	
     "misterk" : {
         "nom" : "MisterK",
         "description" : {
@@ -592,7 +707,7 @@
     "dcriss" : {
         "nom" : "DCRISS",
         "description" : {
-            "bio" : "bio daylights",
+            "bio" : "bio DCRISS",
             "chaine" : "https://twitch.tv/dcr1ss_"
         },
         "carte" : {
@@ -617,26 +732,549 @@
             }
         }        
     },
-
-    "crate" : {
-        "nom" : "Nom complet de la carte avec espaces et majuscules",
-        "description" : "expliquer la carte sans dire cest quoi les attaques, ca on le fait en bas",
+	
+	"recrue" : {
+        "nom" : "Recrue",
+        "description" : {
+            "bio" : "bio Recrue",
+            "chaine" : ""
+        },
         "carte" : {
-            "numero" : 37,
+            "numero" : 25,
+            "categorie" : "friend",
+            "pv" : 0,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Batteuse",
+                    "numero" : "10",
+                    "sous_titre" : "TA-KA-TA-KA-TA-KA-TA-KA-TA...",
+                    "description" : "fait x, y et z",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Pu d'shield",
+                    "numero": "S+",
+                    "sous_titre" : "L'adversaire ne peux pas utiliser de carte de support au prochain tour",
+                    "description" : "",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+
+    "conflit" : {
+        "nom" : "Conflit",
+        "description" : "",
+        "carte" : {
+            "numero" : 26,
             "categorie" : "supplydrop",
             "bonus" : {
                 "titre" : "nom du bonus avec espaces et majuscules comme il faut",
                 "avantage": {
-                    "universel" : "avantage de la carte pour tout le monde, ex: +30PV",
+                    "universel" : "Si l'adversaire est du clan opposé les dommages effectués sont doublés",
                     "specifique" : {
-                        "cible" : "nom de la carte sans espaces, comme la premiere ligne. supprimer categorie cible si inutile",
-                        "avantage" : "avantage pour la carte cible, comme la carte OS pour Kayla, double"
+                        "cible" : "",
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"liqueur" : {
+        "nom" : "liqueur",
+        "description" : "",
+        "carte" : {
+            "numero" : 27,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["daylights", "daylights_ev"],
+                        "avantage" : "+60PV"
                     }
                 }   
             }
         }        
     },
 
+	"pogo_mayo" : {
+        "nom" : "Pogo Mayo",
+        "description" : "",
+        "carte" : {
+            "numero" : 28,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["eckko", "eckko_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"yogourt" : {
+        "nom" : "Yogourt",
+        "description" : "",
+        "carte" : {
+            "numero" : 29,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["bad", "bad_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"gtii" : {
+        "nom" : "GTII",
+        "description" : "",
+        "carte" : {
+            "numero" : 30,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["potter", "potter_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"boulanger" : {
+        "nom" : "Boulanger",
+        "description" : "",
+        "carte" : {
+            "numero" : 31,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["frenchfox", "frenchfox_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"liqueur_anti_t" : {
+        "nom" : "Liqueur",
+        "description" : "",
+        "carte" : {
+            "numero" : 32,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["nightshadows", "nightshadows_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"mystery_box" : {
+        "nom" : "Mystery Box",
+        "description" : "",
+        "carte" : {
+            "numero" : 33,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["bob", "bob_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"karen" : {
+        "nom" : "Karen",
+        "description" : "",
+        "carte" : {
+            "numero" : 34,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : ["lucy", "lucyfer_ev"],
+                        "avantage" : "+60PV"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"niche" : {
+        "nom" : "Niche",
+        "description" : "",
+        "carte" : {
+            "numero" : 35,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+10ATT",
+                    "specifique" : {
+                        "cible" : ["kayla"],
+                        "avantage" : "+20ATT"
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"os" : {
+        "nom" : "Os",
+        "description" : "",
+        "carte" : {
+            "numero" : 36,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+10ATT",
+                    "specifique" : {
+                        "cible" : ["kayla"],
+                        "avantage" : "+20ATT"
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"sous_marin" : {
+        "nom" : "Sous Marin",
+        "description" : "",
+        "carte" : {
+            "numero" : 37,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "Double",
+                "avantage": {
+                    "universel" : "+20ATT",
+                    "specifique" : {
+                        "cible" : ["marine"],
+                        "avantage" : "+40ATT"
+                    }
+                }   
+            }
+        }        
+    },
+
+	"gaming_chair" : {
+        "nom" : "Gaming Chair",
+        "description" : "",
+        "carte" : {
+            "numero" : 38,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "+20ATT",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+
+	"galette" : {
+        "nom" : "Galette",
+        "description" : "",
+        "carte" : {
+            "numero" : 39,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "+30PV",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+
+	"plane" : {
+        "nom" : "Plane",
+        "description" : "",
+        "carte" : {
+            "numero" : 40,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Vole une carte Friend à l'adversaire",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"deconnecte" : {
+        "nom" : "Déconnecté",
+        "description" : "",
+        "carte" : {
+            "numero" : 41,
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "L'adversaire perd un tour",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"sushi_mate" : {
+        "nom" : "Sushi Mate",
+        "description" : "",
+        "carte" : {
+            "numero" : 42
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "+30ATT",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"creme_crispe" : {
+        "nom" : "Crème Crispé",
+        "description" : "",
+        "carte" : {
+            "numero" : 43
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "+20ATT",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+
+	"mr_pouf" : {
+        "nom" : "Mr. Pouf",
+        "description" : "",
+        "carte" : {
+            "numero" : 44
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "+20ATT",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+
+	"clef" : {
+        "nom" : "Clef",
+        "description" : "",
+        "carte" : {
+            "numero" : 45
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Empeche l'adversaire d'utiliser une carte de support",
+                    "specifique" : {
+                        "cible" : ["bad", "bad_ev"],
+                        "avantage" : "perd un tour"
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"lag_monster" : {
+        "nom" : "Lag Monster",
+        "description" : "",
+        "carte" : {
+            "numero" : 46
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Annule les dommages reçus lors du dernier tour",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"bad_casino" : {
+        "nom" : "Bad Casino",
+        "description" : "",
+        "carte" : {
+            "numero" : 47
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Lance un jeton Face = Attaque de 50, Pile = Perd un tour",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"reverse" : {
+        "nom" : "Reverse",
+        "description" : "",
+        "carte" : {
+            "numero" : 48
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Renvoie les dommages subis au dernier tour",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"verse" : {
+        "nom" : "Verse",
+        "description" : "",
+        "carte" : {
+            "numero" : 49
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Enlève une carte de ton choix dans le jeu de l'adversaire",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"new_follow" : {
+        "nom" : "New Follow",
+        "description" : "",
+        "carte" : {
+            "numero" : 50
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Permet une seconde assistance d'une carte Friend en main",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
+	"bat_titan" : {
+        "nom" : "Bat-Titan",
+        "description" : "",
+        "carte" : {
+            "numero" : 51
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Lien de vie - Absorbe 20 PV à l'adversaire",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+
+	"platii" : {
+        "nom" : "Plat II",
+        "description" : "",
+        "carte" : {
+            "numero" : 52
+            "categorie" : "supplydrop",
+            "bonus" : {
+                "titre" : "",
+                "avantage": {
+                    "universel" : "Change le Titan ou Anti-T actif pour sa forme EV",
+                    "specifique" : {
+                        "cible" : [""],
+                        "avantage" : ""
+                    }
+                }   
+            }
+        }        
+    },
+	
     "daylights_ev" : {
         "nom" : "Daylights EV",
         "description" : {
@@ -724,6 +1362,35 @@
         }        
     },
 
+    "potter_ev" : {
+        "nom" : "Potter EV",
+        "description" : {
+            "bio" : "bio potter",
+            "chaine" : "https://www.twitch.tv/potter51"
+        },
+        "carte" : {
+            "numero" : 56,
+            "categorie" : "titan",
+            "pv" : 250,
+            "attaques" : {
+                "basique" : {
+                    "titre" : "Allo la !",
+                    "numero" : "25",
+                    "sous_titre" : "Est-ce une réponse ?",
+                    "description" : "",
+                    "reference" : ""
+                },
+                "speciale" : {
+                    "titre" : "Bye la !",
+                    "numero": "40",
+                    "sous_titre" : "Le champion de la Gold Tournament II t'ignore et prend une carte en jeu à l'adversaire",
+                    "description" : "",
+                    "reference" : ""
+                }
+            }
+        }        
+    },
+	
     "frenchfox_ev" : {
         "nom" : "FrenchFox EV",
         "description" : {
