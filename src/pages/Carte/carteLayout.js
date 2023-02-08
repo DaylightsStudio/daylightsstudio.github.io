@@ -13,13 +13,14 @@ import {
 import './pageCarte.css'
 import { useSearchParams } from 'react-router-dom';
 import { TwitchClip } from 'react-twitch-embed';
+import { Link } from 'react-router-dom';
 
 let nomCarte;
 
 function carteExiste(nomCarteParam) {
     let isCarteExiste = false
     // let nomCarteParam = params.get('n')
-    
+
 
     Object.entries(jsonData).forEach(elem => {
         if (elem[0] === nomCarteParam) {
@@ -73,7 +74,7 @@ const TypeCarte = () => {
                         <div className='ContenuSousTitreAttaque'>
                             {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["cible"].map(cible =>
                             (
-                                <Link className='link-supplydrop-carte' to={`/carte?n=${cible}`}>{jsonData[cible]["nom"]}<br></br></Link> 
+                                <Link className='link-supplydrop-carte' to={`/carte?n=${cible}`}>{jsonData[cible]["nom"]}<br></br></Link>
                             )
                             )}
                         </div>
@@ -81,7 +82,7 @@ const TypeCarte = () => {
                 </AccordionPanel>
             </AccordionItem>
         }
-        
+
         return (
             <div className=''>
                 <Accordion allowMultiple>
@@ -123,13 +124,13 @@ const TypeCarte = () => {
     else {
 
         if (jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].startsWith("clip=")) {
-            referenceBasique = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false"/>;
+            referenceBasique = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false" />;
         } else {
             referenceBasique = jsonData[nomCarte]["carte"]["attaques"]["basique"]["reference"]
         }
 
         if (jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].startsWith("clip=")) {
-            referenceSpeciale = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false"/>;
+            referenceSpeciale = <TwitchClip clip={jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"].replace("clip=", "")} width="100%" autoplay="false" muted="false" />;
         } else {
             referenceSpeciale = jsonData[nomCarte]["carte"]["attaques"]["speciale"]["reference"]
         }
@@ -140,7 +141,7 @@ const TypeCarte = () => {
                     <AccordionItem>
                         <h2>
                             <AccordionButton>
-                            <AccordionIcon />
+                                <AccordionIcon />
                                 <Box as="span" flex='1' textAlign='left'>
                                     <div className='TypeAttaque'>
                                         Attaque basique
@@ -157,7 +158,7 @@ const TypeCarte = () => {
                                     {jsonData[nomCarte]["carte"]["attaques"]["basique"]["titre"]}
                                 </div>
 
-                                <br/>
+                                <br />
 
                                 <div className='SousTitreAttaque'>
                                     Description:
@@ -166,7 +167,7 @@ const TypeCarte = () => {
                                     {jsonData[nomCarte]["carte"]["attaques"]["basique"]["sous_titre"]}
                                 </div>
 
-                                <br/>
+                                <br />
 
                                 <div className='SousTitreAttaque'>
                                     Référence:
@@ -181,7 +182,7 @@ const TypeCarte = () => {
                     <AccordionItem>
                         <h2>
                             <AccordionButton>
-                            <AccordionIcon />
+                                <AccordionIcon />
                                 <Box as="span" flex='1' textAlign='left'>
                                     <div className='TypeAttaque'>
                                         Attaque spéciale
@@ -197,8 +198,8 @@ const TypeCarte = () => {
                                 <div className='ContenuSousTitreAttaque'>
                                     {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["titre"]}
                                 </div>
-                               
-                                <br/>
+
+                                <br />
 
                                 <div className='SousTitreAttaque'>
                                     Description:
@@ -206,8 +207,8 @@ const TypeCarte = () => {
                                 <div className='ContenuSousTitreAttaque'>
                                     {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["sous_titre"]}
                                 </div>
-                               
-                                <br/>
+
+                                <br />
 
                                 <div className='SousTitreAttaque'>
                                     Référence:
@@ -239,8 +240,7 @@ function CarteLayout() {
 
     document.title = `${jsonData[nomCarte]["nom"]} - Titans Card Game`
 
-    if (isLargerThan768)
-    {
+    if (isLargerThan768) {
         carte_WidthOver768 = "40%";
         info_WidthOver768 = "60%";
     } else {
@@ -252,7 +252,7 @@ function CarteLayout() {
     if (jsonData[nomCarte]["carte"]["numero"] === 0)
         numeroCarte = "Max"
     else numeroCarte = jsonData[nomCarte]["carte"]["numero"]
-    
+
     return (
         <div>
             <h1 id='nomCarte'>{jsonData[nomCarte]["nom"]}</h1>
@@ -266,7 +266,7 @@ function CarteLayout() {
                     </div>
                 </Box>
                 <Box width={carte_WidthOver768}>
-                    <div className='SectionCarte' style={{alignContent:'center', margin:'auto', textAlign:'center'}}>
+                    <div className='SectionCarte' style={{ alignContent: 'center', margin: 'auto', textAlign: 'center' }}>
                         <Carte nomCarte={nomCarte} />
                     </div>
                 </Box>
