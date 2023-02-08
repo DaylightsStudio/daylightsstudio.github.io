@@ -132,36 +132,3 @@
         transform: translate(-50%, -50%);
     }
 }
-
-/* @media (prefers-color-scheme: light) {
-    .navigation {
-        background-color: #f3d0ffb5;
-        color: #24002f;
-    }
-
-    .hamburger, .toggle-media {
-        color: #24002f;
-    }
-
-    .navigation a:link {
-        color: #24002f;
-    }
-    
-    .navigation a:visited {
-        color: #24002f;
-    }
-
-    @media screen and (max-width: 768px) {
-        .navigation-menu ul {
-            background-color: #FAEBFFe4;
-        }
-
-        .navigation-menu li a {
-            color: #24002f;
-        }
-
-        .navigation-menu li:hover {
-            background-color: #ecb0ffe4;
-        }
-    }
-} */
