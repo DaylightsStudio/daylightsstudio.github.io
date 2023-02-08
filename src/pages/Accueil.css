@@ -102,6 +102,7 @@
 
     .item {
 		width: 20vmax !important;
+        max-width: 600px;
     }
 }
 
