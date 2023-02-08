@@ -97,7 +97,7 @@ const TypeCarte = () => {
                                     Description:
                                 </div>
                                 <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["description"]}
+                                    {jsonData[nomCarte]["carte"]["attaques"]["basique"]["sous_titre"]}
                                 </div>
 
                                 <br/>
@@ -138,7 +138,7 @@ const TypeCarte = () => {
                                     Description:
                                 </div>
                                 <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["description"]}
+                                    {jsonData[nomCarte]["carte"]["attaques"]["speciale"]["sous_titre"]}
                                 </div>
                                
                                 <br/>
