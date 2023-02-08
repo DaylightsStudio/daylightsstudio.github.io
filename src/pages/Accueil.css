@@ -45,17 +45,14 @@
     background-color: #380049;
     border-radius: 10px;
     padding: 25px;
-	margin: 0 auto;
-	box-shadow: 0px 0px 25px #00000033;
+    margin: 0 auto;
+    box-shadow: 0px 0px 25px #00000033;
 }
 
 .editionTitre {
     height: 23%;
 }
 
-.editionPrix {
-    
-}
 
 .editionDescription {
     text-align: left;
@@ -67,9 +64,6 @@
     list-style: none;
 }
 
-.attributEditionInclus {
-
-}
 
 .attributEditionInclus::before {
     content: '✔️ ';
@@ -84,7 +78,7 @@
 }
 
 
-@media (prefers-color-scheme: light) {   
+@media (prefers-color-scheme: light) {
     .item {
         background-color: #fcf5ff;
         box-shadow: 0px 0px 25px #00000033;
@@ -95,13 +89,13 @@
 /* si la largeur d'écran est d'au moins 601px, ordinateur */
 @media screen and (min-width: 769px) {
     .flexContainer {
-		margin-top: 10vh;
-		width: 80vmax;
+        margin-top: 10vh;
+        width: 80vmax;
         grid-template-columns: auto auto auto;
-	}
+    }
 
     .item {
-		width: 20vmax !important;
+        width: 20vmax !important;
         max-width: 600px;
     }
 }
@@ -118,7 +112,7 @@
 
     .flexContainer {
         margin-top: 10vh;
-		/* width: 90%; */
+        /* width: 90%; */
         margin-left: 5%;
         margin-right: 5%;
         grid-template-columns: 172%;
