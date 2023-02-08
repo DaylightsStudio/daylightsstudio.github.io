@@ -75,8 +75,21 @@ body {
     padding-bottom: 100px;
 }
 
-.SectionInfos {
+.link-supplydrop-carte {
+    color: #FAEBFF;
+    font-weight: 500;
+}
 
+.link-supplydrop-carte:hover {
+    color: #b10de7;
+}
+
+.link-supplydrop-carte:visited:hover {
+    color: #b10de7;
+}
+
+.link-supplydrop-carte:visited {
+    color: #FAEBFF;
 }
 
 @media screen and (max-width: 768px) {
