@@ -56,7 +56,7 @@
     /* positions the icon to the right and center aligns it vertically */
     position: absolute;
     top: 50%;
-    left: 25px;
+    left: 10px;
     transform: translateY(-50%);
     display: none;
     color: #FAEBFF;
