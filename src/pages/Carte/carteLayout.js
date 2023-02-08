@@ -42,14 +42,80 @@ const TypeCarte = () => {
 
     let referenceBasique;
     let referenceSpeciale;
-
+    let deuxiemeDropdownSupplydrop;
 
 
 
     if (categorie === "supplydrop") {
+        if (jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["avantage"] !== "") {
+            deuxiemeDropdownSupplydrop = <AccordionItem>
+                <h2>
+                    <AccordionButton>
+                        <AccordionIcon />
+                        <Box as="span" flex='1' textAlign='left'>
+                            <div className='TypeAttaque'>
+                                Effet spécial
+                            </div>
+                        </Box>
+                    </AccordionButton>
+                </h2>
+                <AccordionPanel>
+                    <div className='InfoAttaque'>
+                        <div className='SousTitreAttaque'>
+                            Avantage spécifique:
+                        </div>
+                        <div className='ContenuSousTitreAttaque'>
+                            {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["avantage"]}
+                        </div>
+                        <div className='SousTitreAttaque'>
+                            Affecte:
+                        </div>
+                        <div className='ContenuSousTitreAttaque'>
+                            {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["cible"].map(cible =>
+                            (
+                                <Link className='link-supplydrop-carte' to={`/carte?n=${cible}`}>{jsonData[cible]["nom"]}<br></br></Link> 
+                            )
+                            )}
+                        </div>
+                    </div>
+                </AccordionPanel>
+            </AccordionItem>
+        }
+        
         return (
-            <div>
-                <p>test</p>
+            <div className=''>
+                <Accordion allowMultiple>
+                    <AccordionItem>
+                        <h2>
+                            <AccordionButton>
+                                <AccordionIcon />
+                                <Box as="span" flex='1' textAlign='left'>
+                                    <div className='TypeAttaque'>
+                                        Effet universel
+                                    </div>
+                                </Box>
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel>
+                            <div className='InfoAttaque'>
+                                <div className='SousTitreAttaque'>
+                                    Avantage pour tout le monde:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["universel"]}
+                                </div>
+                                <div className='SousTitreAttaque'>
+                                    Avantage spécifique:
+                                </div>
+                                <div className='ContenuSousTitreAttaque'>
+                                    {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["avantage"]}
+                                </div>
+                            </div>
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    {deuxiemeDropdownSupplydrop}
+                </Accordion>
             </div>
         );
     }
