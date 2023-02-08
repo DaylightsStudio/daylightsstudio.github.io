@@ -105,12 +105,6 @@ const TypeCarte = () => {
                                 <div className='ContenuSousTitreAttaque'>
                                     {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["universel"]}
                                 </div>
-                                <div className='SousTitreAttaque'>
-                                    Avantage spécifique:
-                                </div>
-                                <div className='ContenuSousTitreAttaque'>
-                                    {jsonData[nomCarte]["carte"]["bonus"]["avantage"]["specifique"]["avantage"]}
-                                </div>
                             </div>
                         </AccordionPanel>
                     </AccordionItem>
