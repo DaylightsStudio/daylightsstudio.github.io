@@ -38,9 +38,9 @@ def deplacerFichiers(dir):
             f.write("""
 import React from 'react';
 import TiltCardWidget from '../../components/TiltCardWidget/TiltCardWidget';
-import foreground from './assets/foreground.png';
-import middleground from './assets/middleground.png';
-import background from './assets/background.png';
+import foreground from './assets/foreground.webp';
+import middleground from './assets/middleground.webp';
+import background from './assets/background.webp';
 
 function """ + nomCarteCap + """() {
     return (
