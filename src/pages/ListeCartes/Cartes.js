@@ -1,65 +1,64 @@
-import Clef from '../../cartesThumbnails/clef.png'
-import Dcriss from '../../cartesThumbnails/dcriss_card.png'
-import Bob_ev from '../../cartesThumbnails/bob_ev.png'
-import Gtii from '../../cartesThumbnails/gtii.png'
-import Ribsy from '../../cartesThumbnails/ribsy_card.png'
-import Lag_monster from '../../cartesThumbnails/lag_monster.png'
-import Galette from '../../cartesThumbnails/galette.png'
-import Good from '../../cartesThumbnails/good.png'
-import Verse from '../../cartesThumbnails/verse_card.png'
-import Karen from '../../cartesThumbnails/karen_card.png'
-import Os from '../../cartesThumbnails/os_card.png'
-import Frenchfox from '../../cartesThumbnails/frenchfox.png'
-import Plane from '../../cartesThumbnails/plane_card.png'
-import Nightshadows from '../../cartesThumbnails/nightshadows.png'
-import Adaoh from '../../cartesThumbnails/adaoh.png'
-import Conflit from '../../cartesThumbnails/conflit_card.png'
-import Postal_lady from '../../cartesThumbnails/postal_lady_card.png'
-import Eckko_ev from '../../cartesThumbnails/eckko_ev_card.png'
-import Frenchfox_ev from '../../cartesThumbnails/frenchfox_ev.png'
-import Mystery_box from '../../cartesThumbnails/mystery_box.png'
-import Sushi_mate from '../../cartesThumbnails/sushi_mate.png'
-import Kayla from '../../cartesThumbnails/kayla.png'
-import Potter_ev from '../../cartesThumbnails/potter_ev.png'
-import Lil_pink from '../../cartesThumbnails/lil_pink.png'
-import Dunkie from '../../cartesThumbnails/dunkie_card.png'
-import Boulanger from '../../cartesThumbnails/boulanger.png'
-import Liqueur_anti_t from '../../cartesThumbnails/liqueur_anti_t.png'
-import Badtivia from '../../cartesThumbnails/yogourt.png'
-import Potter from '../../cartesThumbnails/potter.png'
-import Creme_crispe from '../../cartesThumbnails/creme_crispe.png'
-import Moma from '../../cartesThumbnails/moma.png'
-import Platii from '../../cartesThumbnails/platii.png'
-import Aska from '../../cartesThumbnails/aska_card.png'
-import Bad_ev from '../../cartesThumbnails/bad_ev.png'
-import Misterk from '../../cartesThumbnails/misterk_card.png'
-import Bob from '../../cartesThumbnails/bob.png'
-import Jukebox from '../../cartesThumbnails/jukebox_card.png'
-import Liqueur from '../../cartesThumbnails/liqueur.png'
-import Nightshadows_ev from '../../cartesThumbnails/nightshadows_ev.png'
-import Marine from '../../cartesThumbnails/marine.png'
-import Reptilien from '../../cartesThumbnails/reptilien.png'
-import Pogo_mayo from '../../cartesThumbnails/pogo_mayo.png'
-import Gaming_chair from '../../cartesThumbnails/gaming_chair.png'
-import Fakefoxx from '../../cartesThumbnails/fakefoxx_card.png'
-import Recruit from '../../cartesThumbnails/recrue.png'
-import Daylights from '../../cartesThumbnails/daylights.png'
-import Bat_titan from '../../cartesThumbnails/bat_card.png'
-import New_follower from '../../cartesThumbnails/new_follower_card.png'
-import Déconnecté from '../../cartesThumbnails/déconnecté.png'
-import Niche from '../../cartesThumbnails/niche.png'
-import Reverse from '../../cartesThumbnails/reverse_card.png'
-import Bad from '../../cartesThumbnails/bad.png'
-import Daylights_ev from '../../cartesThumbnails/daylights_ev.png'
-import Max_the_james_l from '../../cartesThumbnails/max_the_james_l.png'
-import Sous_marin from '../../cartesThumbnails/sous_marin.png'
-import Snef from '../../cartesThumbnails/snef.png'
-import Bad_casino from '../../cartesThumbnails/bad_casino.png'
-import Mr_pouf from '../../cartesThumbnails/mr_pouf.png'
-import Lucy from '../../cartesThumbnails/lucy.png'
-import Back from '../../cartesThumbnails/back.png'
-import Eckko from '../../cartesThumbnails/eckko_card.png'
-import Lucy_ev from '../../cartesThumbnails/lucy_ev.png'
+import Clef from '../../cartesThumbnails/clef.webp'
+import Dcriss from '../../cartesThumbnails/dcriss.webp'
+import Bob_ev from '../../cartesThumbnails/bob_ev.webp'
+import Gtii from '../../cartesThumbnails/gtii.webp'
+import Ribsy from '../../cartesThumbnails/ribsy.webp'
+import Lag_monster from '../../cartesThumbnails/lag_monster.webp'
+import Galette from '../../cartesThumbnails/galette.webp'
+import Good from '../../cartesThumbnails/good.webp'
+import Verse from '../../cartesThumbnails/verse.webp'
+import Karen from '../../cartesThumbnails/karen.webp'
+import Os from '../../cartesThumbnails/os.webp'
+import Frenchfox from '../../cartesThumbnails/frenchfox.webp'
+import Plane from '../../cartesThumbnails/plane.webp'
+import Nightshadows from '../../cartesThumbnails/nightshadows.webp'
+import Adaoh from '../../cartesThumbnails/adaoh.webp'
+import Conflit from '../../cartesThumbnails/conflit.webp'
+import Postal_lady from '../../cartesThumbnails/postal_lady.webp'
+import Eckko_ev from '../../cartesThumbnails/eckko_ev.webp'
+import Frenchfox_ev from '../../cartesThumbnails/frenchfox_ev.webp'
+import Mystery_box from '../../cartesThumbnails/mystery_box.webp'
+import Sushi_mate from '../../cartesThumbnails/sushi_mate.webp'
+import Kayla from '../../cartesThumbnails/kayla.webp'
+import Potter_ev from '../../cartesThumbnails/potter_ev.webp'
+import Lil_pink from '../../cartesThumbnails/lil_pink.webp'
+import Dunkie from '../../cartesThumbnails/dunkie.webp'
+import Boulanger from '../../cartesThumbnails/boulanger.webp'
+import Liqueur_anti_t from '../../cartesThumbnails/liqueur_anti_t.webp'
+import Badtivia from '../../cartesThumbnails/yogourt.webp'
+import Potter from '../../cartesThumbnails/potter.webp'
+import Creme_crispe from '../../cartesThumbnails/creme_crispe.webp'
+import Moma from '../../cartesThumbnails/moma.webp'
+import Platii from '../../cartesThumbnails/platii.webp'
+import Aska from '../../cartesThumbnails/aska.webp'
+import Bad_ev from '../../cartesThumbnails/bad_ev.webp'
+import Misterk from '../../cartesThumbnails/misterk.webp'
+import Bob from '../../cartesThumbnails/bob.webp'
+import Jukebox from '../../cartesThumbnails/jukebox.webp'
+import Liqueur from '../../cartesThumbnails/liqueur.webp'
+import Nightshadows_ev from '../../cartesThumbnails/nightshadows_ev.webp'
+import Marine from '../../cartesThumbnails/marine.webp'
+import Reptilien from '../../cartesThumbnails/reptilien.webp'
+import Pogo_mayo from '../../cartesThumbnails/pogo_mayo.webp'
+import Gaming_chair from '../../cartesThumbnails/gaming_chair.webp'
+import Fakefoxx from '../../cartesThumbnails/fakefoxx.webp'
+import Recruit from '../../cartesThumbnails/recrue.webp'
+import Daylights from '../../cartesThumbnails/daylights.webp'
+import Bat_titan from '../../cartesThumbnails/bat.webp'
+// import New_follower from '../../cartesThumbnails/new_follower.webp'
+import Déconnecté from '../../cartesThumbnails/déconnecté.webp'
+import Niche from '../../cartesThumbnails/niche.webp'
+import Reverse from '../../cartesThumbnails/reverse.webp'
+import Bad from '../../cartesThumbnails/bad.webp'
+import Daylights_ev from '../../cartesThumbnails/daylights_ev.webp'
+import Max_the_james_l from '../../cartesThumbnails/max_the_james_l.webp'
+import Sous_marin from '../../cartesThumbnails/sous_marin.webp'
+import Snef from '../../cartesThumbnails/snef.webp'
+import Bad_casino from '../../cartesThumbnails/bad_casino.webp'
+import Mr_pouf from '../../cartesThumbnails/mr_pouf.webp'
+import Lucy from '../../cartesThumbnails/lucy.webp'
+import Eckko from '../../cartesThumbnails/eckko.webp'
+import Lucy_ev from '../../cartesThumbnails/lucy_ev.webp'
 
 
 import React from "react";
@@ -424,11 +423,11 @@ function Cartes() {
                     </div>
 
 
-                    <div className="item">
+                    {/* <div className="item">
                         <img src={New_follower} alt="une carte"></img>
                         <h2 className="editionTitre">50 New Follower</h2>
                         <Link to={`/carte?n=new_follow`}><button>Afficher la carte</button></Link>
-                    </div>
+                    </div> */}
 
 
                     <div className="item">
@@ -859,11 +858,11 @@ function Cartes() {
                     </div>
 
 
-                    <div className="item">
+                    {/* <div className="item">
                         
                         <h2 className="editionTitre">50 New Follower</h2>
                         <Link to={`/carte?n=new_follow`}><button>Afficher la carte</button></Link>
-                    </div>
+                    </div> */}
 
 
                     <div className="item">

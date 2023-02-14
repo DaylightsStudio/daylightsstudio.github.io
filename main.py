@@ -70,13 +70,13 @@ def creerImgCartesThumbnails(dir):
             ancienEmplacement = str(f"./Deck final/{f}")
             # print(ancienEmplacement)
 
-            nouvelEmplacement = str(f"./src/cartesThumbnails/{nomCarte}.png")
+            nouvelEmplacement = str(f"./src/cartesThumbnails/{nomCarte}webp")
             # print(nouvelEmplacement)
 
             shutil.copy(ancienEmplacement, nouvelEmplacement)
             # print("\t" + ancienEmplacement + " -> " + nouvelEmplacement)
 
-            print(f"import {nomCarteCap} from '../../cartesThumbnails/{nomCarte}.png'")
+            print(f"import {nomCarteCap} from '../../cartesThumbnails/{nomCarte}.webp'")
 
             arrNomCartes.append(f)
 
