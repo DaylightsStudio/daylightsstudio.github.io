@@ -45,7 +45,7 @@ import Fakefoxx from '../../cartesThumbnails/fakefoxx.webp'
 import Recruit from '../../cartesThumbnails/recrue.webp'
 import Daylights from '../../cartesThumbnails/daylights.webp'
 import Bat_titan from '../../cartesThumbnails/bat.webp'
-// import New_follower from '../../cartesThumbnails/new_follower.webp'
+import New_follower from '../../cartesThumbnails/new_follower.webp'
 import Déconnecté from '../../cartesThumbnails/déconnecté.webp'
 import Niche from '../../cartesThumbnails/niche.webp'
 import Reverse from '../../cartesThumbnails/reverse.webp'
@@ -423,11 +423,11 @@ function Cartes() {
                     </div>
 
 
-                    {/* <div className="item">
+                    <div className="item">
                         <img src={New_follower} alt="une carte"></img>
                         <h2 className="editionTitre">50 New Follower</h2>
                         <Link to={`/carte?n=new_follow`}><button>Afficher la carte</button></Link>
-                    </div> */}
+                    </div>
 
 
                     <div className="item">
@@ -858,11 +858,11 @@ function Cartes() {
                     </div>
 
 
-                    {/* <div className="item">
+                    <div className="item">
                         
                         <h2 className="editionTitre">50 New Follower</h2>
                         <Link to={`/carte?n=new_follow`}><button>Afficher la carte</button></Link>
-                    </div> */}
+                    </div>
 
 
                     <div className="item">
