@@ -7,41 +7,48 @@ function Reglements() {
         <div>
             <h1>Règlements</h1>
 
-            <ul style={{textAlign:"left", width:"70%", lineHeight: "1.6"}}>
+            <ul style={{ textAlign: "left", width: "70%", lineHeight: "1.6" }}>
                 <li>
-                    Chaque joueur doit choisir deux cartes combattant (Titan ou anti-t) de leur choix. Placez un combattant visible sur le jeu et l'autre face caché sur le coté de la planche de jeu.
+                    Chaque joueur doit choisir deux cartes parmi les Titans et les Anti-T. Ces cartes seront les combattants de chaque joueur.
                 </li>
 
                 <li>
-                    Le tour débute en pigeant 8 cartes de votre deck (max. 40 cartes par deck) et en placer 3 sur la table.
+                    Placez une des cartes sur le jeu de sorte qu'elle soit visible. Placez l’autre carte sur le côté du jeu tout en cachant le combattant qui s’y trouve.
                 </li>
 
                 <li>
-                    Vous devez en tout temps avoir 5 cartes dans vos mains.
+                    La carte mise de côté remplace le premier combattant s’il est éliminé.
                 </li>
 
                 <li>
-                    À chaque tour, lancez votre jeton pour déterminer quel type d'attaque votre carte va effectuer:
+                    Au début de la partie, vous piochez 8 cartes de votre deck, de ces 8, vous en posez 3 qui seront vos cartes de support sur la table. (Un deck contient max. 40 cartes et uniquement des cartes Supply Drop et Friend)
+                </li>
+
+                <li>
+                    À chaque tour, lancez votre jeton pour déterminer quel type d'attaque votre combattant va effectuer:
                     <ul>
                         <li>
-                            Pile 🠚 attaque de base
+                            Pile -&gt; attaque de base.
                         </li>
                         <li>
-                            Face 🠚 Possibilité d'attaque spéciale
+                            Face -&gt; Possibilité d'attaque spéciale.
                         </li>
                     </ul>
                 </li>
                 <li>
-                    Pour chaque attaque, une carte de support de votre choix peux être utilisée (Friend ou Supply Drop). Si votre carte comporte plus d'une assistance, lancez votre jeton pour déterminer quel support elle effectuera.
+                    Pour chaque attaque, une carte de support de votre choix peut être utilisée (Friend ou Supply Drop).
                 </li>
                 <li>
                     Une fois le tour utilisée, la carte support est mise hors du jeu. Le joueur re-pige le nombre de cartes nécéssaire afin d'en avoir cinq en main.
                 </li>
                 <li>
-                    Un Titan, ou Anti-T, peut changer de forme seulement si la carte <Link to="/carte?n=platii">Plat II</Link> a été jouée de votre main. Le joueur qui change de forme ne peux attaquer le même tour.
+                    Une fois le tour joué, la carte support est placée hors du jeu. Vous devez la remplacer en utilisant une des 5 cartes de votre main. Ensuite, vous pigez une nouvelle carte pour compléter votre jeu.
                 </li>
                 <li>
-                    Le premier joueur à  K/O les deux cartes combattant de l'adversaire l'emporte.
+                    Une carte Titan ou Anti-T peut changer de forme seulement si vous avez joué la carte <Link to="/carte?n=platii">Plat II</Link>. Le joueur qui change de forme ne peut pas attaquer durant le même tour.
+                </li>
+                <li>
+                    Le premier joueur à éliminer les deux cartes de l'adversaire l'emporte.
                 </li>
             </ul>
         </div>
