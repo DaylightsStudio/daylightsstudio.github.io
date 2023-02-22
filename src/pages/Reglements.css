@@ -1,0 +1,22 @@
+.liste-reglements {
+    text-align: left;
+    line-height: 1.4;
+    margin: 0 auto;
+}
+
+.liste-reglements li {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .liste-reglements {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .liste-reglements { 
+        width: 80% !important;
+        font-size: 1.2em;
+    }
+}

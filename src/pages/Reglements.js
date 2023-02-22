@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import './Reglements.css'
 
 function Reglements() {
     document.title = "Règlements - Titans Card Game"
@@ -7,7 +8,7 @@ function Reglements() {
         <div>
             <h1>Règlements</h1>
 
-            <ul style={{ textAlign: "left", width: "70%", lineHeight: "1.6" }}>
+            <ul className="liste-reglements">
                 <li>
                     Chaque joueur doit choisir deux cartes parmi les Titans et les Anti-T. Ces cartes seront les combattants de chaque joueur.
                 </li>
