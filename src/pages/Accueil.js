@@ -22,14 +22,13 @@ function Accueil() {
                 <div className="flexContainer">
 
                     <div className="item">
-                        <h2 className="editionTitre">Deck complet</h2>
-                        <h3 className="editionPrix">58,00$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques excluant les holographiques</p>
+                        <h2 className="editionTitre">Collector 5X Legendary</h2>
+                        <h3 className="editionPrix">94.00$</h3>
+                        <p className="editionDescription">Comprend <b>5</b> Booster Pack Legendary</p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Jeu complet</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
+                            <li className="attributEditionInclus">2 cartes Frosted Garantie</li>
+                            <li className="attributEditionInclus">Badge Team Titans Or</li>
+                            <li className="attributEditionInclus">Frame de Carte</li>
                         </ul>
                     </div>
                     <div className="item">
