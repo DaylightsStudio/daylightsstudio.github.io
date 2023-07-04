@@ -49,6 +49,34 @@
     box-shadow: 0px 0px 25px #00000033;
 }
 
+.btn_item {
+    background: #FAEBFF;
+    color: #24002f;
+    margin: auto;
+    padding: 1px 2vmin;
+    border-radius: 10px;
+    width: 80%;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 2px solid #24002f;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a .btn_item {
+    text-decoration: none;
+}
+
+.btn_item:hover {
+    background: #eaa7ff;
+    color: #24002f;
+}
+
+a .btn_item:visited {
+    color: #24002f;
+}
+
+
 .editionTitre {
     height: 23%;
 }

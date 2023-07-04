@@ -4,13 +4,13 @@ import VideoAutoPlay from "../components/VideoAutoPlay/VideoAutoPlay";
 
 function Accueil() {
     document.title = "Accueil - Titans Card Game"
-    
+
     return (
         <div className="containerAccueil">
             <div>
                 <VideoAutoPlay />
                 <button className="btn">
-                    <a href="#comparerEditions">ACHETER</a>
+                    <a href="#comparerEditions">EN SAVOIR PLUS</a>
                 </button>
             </div>
 
@@ -30,6 +30,15 @@ function Accueil() {
                             <li className="attributEditionInclus">Badge Team Titans Or</li>
                             <li className="attributEditionInclus">Frame de Carte</li>
                         </ul>
+
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/a6bc95addc" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
+
                     </div>
                     <div className="item">
                         <h2 className="editionTitre">Deck complet holographique</h2>
