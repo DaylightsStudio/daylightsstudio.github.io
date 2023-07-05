@@ -110,7 +110,7 @@ function Accueil() {
                         </div>
                     </div>
                     <div className="item">
-                        <h2 className="editionTitre">Booster Pack</i></h2>
+                        <h2 className="editionTitre">Booster Pack</h2>
                         <h3 className="editionPrix">10$</h3>
                         <p className="editionDescription">Comprend <b>12</b> cartes</p>
                         <ul className="editionListeAttributs">
