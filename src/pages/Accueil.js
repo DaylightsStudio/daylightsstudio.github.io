@@ -18,11 +18,11 @@ function Accueil() {
 
                 <h1>Comparer les éditions</h1>
 
-                <h2>Decks complets</h2>
+                <h2>Edition de collection</h2>
                 <div className="flexContainer">
 
                     <div className="item">
-                        <h2 className="editionTitre">Collector 5X Legendary</h2>
+                        <h2 className="editionTitre">Collector Lucky 5X Legendary</h2>
                         <h3 className="editionPrix">94.00$</h3>
                         <p className="editionDescription">Comprend <b>5</b> Booster Pack Legendary</p>
                         <ul className="editionListeAttributs">
@@ -41,120 +41,88 @@ function Accueil() {
 
                     </div>
                     <div className="item">
-                        <h2 className="editionTitre">Deck complet holographique</h2>
-                        <h3 className="editionPrix">70,00$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant <b>6</b> cartes holographiques</p>
+                        <h2 className="editionTitre">Collector Lucky 3X Legendary</h2>
+                        <h3 className="editionPrix">68,00$</h3>
+                        <p className="editionDescription">Comprend <b>3</b> Booster Pack Legendary</p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Jeu complet</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
+                            <li className="attributEditionInclus">1 cartes Frosted Garantie</li>
+                            <li className="attributEditionInclus">Badge Team Titans Or</li>
+                            <li className="attributEditionInclus">Frame de Carte</li>
                         </ul>
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/96e2615a77" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
                     </div>
                     <div className="item">
-                        <h2 className="editionTitre">Collector Package</h2>
-                        <h3 className="editionPrix">92,00$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques avec la boite de rangement ainsi que la pièce <i>Bad Casino</i></p>
+                        <h2 className="editionTitre">Collector 3X Legendary</h2>
+                        <h3 className="editionPrix">52,00$</h3>
+                        <p className="editionDescription">Comprend <b>3</b> Booster Pack Legendary</p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Jeu complet</li>
-                            <li className="attributEditionInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionInclus">Pièce de jeu <i>Bad Casino</i></li>
+                            <li className="attributEditionInclus">Badge Team Titans Or</li>
                         </ul>
-                    </div>
-                    <div className="item">
-                        <h2 className="editionTitre">Holo Collector Package</h2>
-                        <h3 className="editionPrix">103,50$</h3>
-                        <p className="editionDescription">Toutes les <b>60</b> cartes uniques incluant <b>6</b> cartes holographiques, avec la boite de rangement ainsi que la pièce <i>Bad Casino</i></p>
-                        <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Jeu complet</li>
-                            <li className="attributEditionInclus">Boite de rangement</li>
-                            <li className="attributEditionInclus">Cartes holo</li>
-                            <li className="attributEditionInclus">Pièce de jeu <i>Bad Casino</i></li>
-                        </ul>
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/bc8e479caa" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <h2>Deck patiels</h2>
+                <h2>Booster Pack</h2>
 
                 <div className="flexContainer">
                     <div className="item">
-                        <h2 className="editionTitre">Solo Pick</h2>
-                        <h3 className="editionPrix">2,50$</h3>
-                        <p className="editionDescription"><b>Une</b> carte au choix parmis les Titan et les Friend Origin seulement</p>
+                        <h2 className="editionTitre">Legendary Booster Pack</h2>
+                        <h3 className="editionPrix">16$</h3>
+                        <p className="editionDescription">Comprend <b>16</b> cartes incluant <b>2</b> Holographique ou <b>1</b> Frosted (1 chance sur 5) </p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Carte au choix</li>
-                            <li className="attributEditionPasInclus">Cartes au hasard</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
+                            <li className="attributEditionInclus"><b>16</b> Cartes</li>
+                            <li className="attributEditionInclus">2 Holo ou 1 Frosted</li>
                         </ul>
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/d5bd7f8808" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
                     </div>
                     <div className="item">
-                        <h2 className="editionTitre">Streamer Booster Pack</h2>
-                        <h3 className="editionPrix">11,50$</h3>
-                        <p className="editionDescription"><b>10</b> cartes au hasard selon la thématique du streamer au choix (spécifier le streamer voulu lors de la transaction)</p>
+                        <h2 className="editionTitre">Holo Booster Pack</h2>
+                        <h3 className="editionPrix">12$</h3>
+                        <p className="editionDescription">Comprend <b>12</b> cartes incluant <b>1</b> Holographique</p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Carte au choix</li>
-                            <li className="attributEditionInclus">Cartes au hasard</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
+                            <li className="attributEditionInclus"><b>12</b> Cartes</li>
+                            <li className="attributEditionInclus">1 carte holographique</li>
                         </ul>
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/60b67a18f3" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
                     </div>
                     <div className="item">
-                        <h2 className="editionTitre">Pièce de jeu <i>Bad Casino</i></h2>
-                        <h3 className="editionPrix">11,50$</h3>
-                        <p className="editionDescription">L'incroyable pièce de jeu <i>Bad Casino</i></p>
+                        <h2 className="editionTitre">Booster Pack</i></h2>
+                        <h3 className="editionPrix">10$</h3>
+                        <p className="editionDescription">Comprend <b>12</b> cartes</p>
                         <ul className="editionListeAttributs">
-                            <li className="attributEditionPasInclus">Carte au choix</li>
-                            <li className="attributEditionPasInclus">Cartes au hasard</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
+                            <li className="attributEditionInclus">12 Cartes</li>
                         </ul>
-                    </div>
-                    <div className="item">
-                        <h2 className="editionTitre">Holo Streamer Booster Pack</h2>
-                        <h3 className="editionPrix">14,00$</h3>
-                        <p className="editionDescription"><b>10</b> cartes au hasard selon la thématique du streamer au choix incluant <b>une</b> holographique. (spécifier le streamer voulu lors de la transaction)</p>
-                        <ul className="editionListeAttributs">
-                            <li className="attributEditionInclus">Carte au choix</li>
-                            <li className="attributEditionInclus">Cartes au hasard</li>
-                            <li className="attributEditionInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <h2 className="editionTitre">Booster Pack</h2>
-                        <h3 className="editionPrix">14,00$</h3>
-                        <p className="editionDescription"><b>14</b> cartes au hasard</p>
-                        <ul className="editionListeAttributs">
-                            <li className="attributEditionPasInclus">Carte au choix</li>
-                            <li className="attributEditionInclus">Cartes au hasard</li>
-                            <li className="attributEditionInclus">Cartes holo</li>
-                            <li className="attributEditionPasInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <h2 className="editionTitre">Boite de rangement</h2>
-                        <h3 className="editionPrix">30,00$</h3>
-                        <p className="editionDescription">La magnifique boite de rangement qui peut contenir plus de <b>60</b> cartes</p>
-                        <ul className="editionListeAttributs">
-                            <li className="attributEditionPasInclus">Carte au choix</li>
-                            <li className="attributEditionPasInclus">Cartes au hasard</li>
-                            <li className="attributEditionPasInclus">Cartes holo</li>
-                            <li className="attributEditionInclus">Boite de rangement</li>
-                            <li className="attributEditionPasInclus">Pièce de jeu <i>Bad Casino</i></li>
-                            <li className="attributEditionPasInclus">Jeu complet</li>
-                        </ul>
+                        <div className="item_accueil_bouton">
+                            <a href="https://ko-fi.com/s/1c8047baba" target="_blank">
+                                <button className="btn_item">
+                                    ACHETER
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
